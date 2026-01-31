@@ -83,19 +83,20 @@ def draw_wrapped_text(
 
     return cy
 
+
 def generate_carousel(article, topic):
     WIDTH, HEIGHT = 1080, 1080
     margin_x = 80
     max_width = WIDTH - (2 * margin_x)
 
     title_font = get_font(68, bold=True)
-    subtitle_font = get_font(32, bold=False)
-    body_font = get_font(44, bold=False)
+    subtitle_font = get_font(32)
+    body_font = get_font(44)
     meta_font = get_font(30, bold=True)
 
     slide_paths = []
 
-    # -------- SLIDE 1 --------
+    # ---------- SLIDE 1 ----------
     bg = load_background(article.get("image"))
     img = apply_smart_gradient(bg)
     draw = ImageDraw.Draw(img)
@@ -135,7 +136,7 @@ def generate_carousel(article, topic):
     img.save(p1, quality=95)
     slide_paths.append(p1)
 
-    # -------- SLIDE 2 --------
+    # ---------- SLIDE 2 ----------
     img = Image.new("RGB", (WIDTH, HEIGHT), (18, 18, 18))
     draw = ImageDraw.Draw(img)
 
