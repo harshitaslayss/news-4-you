@@ -82,3 +82,94 @@ def draw_wrapped_text(
         cy += font.getbbox(l)[3] + line_spacing
 
     return cy
+
+def generate_carousel(article, topic):
+    WIDTH, HEIGHT = 1080, 1080
+    margin_x = 80
+    max_width = WIDTH - (2 * margin_x)
+
+    title_font = get_font(68, bold=True)
+    subtitle_font = get_font(32, bold=False)
+    body_font = get_font(44, bold=False)
+    meta_font = get_font(30, bold=True)
+
+    slide_paths = []
+
+    # -------- SLIDE 1 --------
+    bg = load_background(article.get("image"))
+    img = apply_smart_gradient(bg)
+    draw = ImageDraw.Draw(img)
+
+    draw_branding(draw, WIDTH, HEIGHT)
+
+    y = 420
+    draw.text((margin_x, y), topic.upper(), fill="#FFD700", font=meta_font)
+    y += 55
+
+    y = draw_wrapped_text(
+        draw,
+        article.get("title", ""),
+        title_font,
+        margin_x,
+        y,
+        max_width,
+        "white",
+        15
+    )
+
+    if y < 820:
+        y += 25
+        subtitle = (article.get("desc", "")[:110] + "...") if article.get("desc") else ""
+        draw_wrapped_text(
+            draw,
+            subtitle,
+            subtitle_font,
+            margin_x,
+            y,
+            max_width,
+            "#E0E0E0",
+            10
+        )
+
+    p1 = f"slide_1_{int(time.time())}.png"
+    img.save(p1, quality=95)
+    slide_paths.append(p1)
+
+    # -------- SLIDE 2 --------
+    img = Image.new("RGB", (WIDTH, HEIGHT), (18, 18, 18))
+    draw = ImageDraw.Draw(img)
+
+    draw_branding(draw, WIDTH, HEIGHT)
+    draw.text((margin_x, 80), topic.upper(), fill="#888888", font=meta_font)
+    draw.text(
+        (margin_x, HEIGHT - 130),
+        f"Source: {article.get('source', 'News')}",
+        fill="#666666",
+        font=meta_font
+    )
+
+    draw_wrapped_text(
+        draw,
+        article.get("desc", ""),
+        body_font,
+        margin_x,
+        0,
+        max_width,
+        "white",
+        22,
+        center_vertically=True,
+        canvas_height=HEIGHT
+    )
+
+    bar_h = 500
+    draw.rectangle(
+        (margin_x - 35, (HEIGHT - bar_h) / 2,
+         margin_x - 25, (HEIGHT + bar_h) / 2),
+        fill="#3aa0ff"
+    )
+
+    p2 = f"slide_2_{int(time.time())}.png"
+    img.save(p2, quality=95)
+    slide_paths.append(p2)
+
+    return slide_paths
