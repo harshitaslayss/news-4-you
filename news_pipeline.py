@@ -133,9 +133,9 @@ def normalize_topic(name, label):
     return name.title()
 
 
-def cluster_articles(articles, threshold=0.55):
+def cluster_articles(articles, threshold=0.32):
     texts = [
-        (a.get("title", "") + " " + a.get("desc", "")).lower()
+        (a.get("title", "") + " " + a.get("title", "") + " " + a.get("desc", "")).lower()
         for a in articles
     ]
 
@@ -151,7 +151,8 @@ def cluster_articles(articles, threshold=0.55):
         group = [i]
         used.add(i)
         for j in range(i + 1, len(articles)):
-            if j not in used and similarity_matrix[i][j] >= threshold:
+            entity_overlap = len(set(articles[i]["entities"]) & set(articles[j]["entities"]))
+            if j not in used and (similarity_matrix[i][j] >= threshold or entity_overlap >= 2):
                 group.append(j)
                 used.add(j)
         clusters.append(group)
@@ -230,7 +231,13 @@ def topic_allowed(db, topic, cooldown_hours=6):
     last_time = db["recent_topics"].get(topic)
     if not last_time:
         return True
-    return datetime.now() - datetime.fromisoformat(last_time) > timedelta(hours=cooldown_hours)
+    if last_time.tzinfo is None:
+        last_time = last_time.replace(tzinfo=timezone.utc)
+
+    return datetime.now(timezone.utc) - last_time > timedelta(hours=cooldown_hours)
+
+    # return datetime.now() - datetime.fromisoformat(last_time) > timedelta(hours=cooldown_hours)
+
 
 COOLDOWN_HOURS = 36
 
@@ -240,6 +247,8 @@ def clean_recent_topics(db):
 
     for topic, ts in db["recent_topics"].items():
         last_time = datetime.fromisoformat(ts)
+        if last_time.tzinfo is None:
+            last_time = last_time.replace(tzinfo=timezone.utc)
         if now - last_time < timedelta(hours=COOLDOWN_HOURS):
             new_recent[topic] = ts  # still cooling
         else:
@@ -261,7 +270,7 @@ def get_next_post(db):
 def mark_posted(db, item):
     db["queue"].remove(item)
     db["posted"].append(item)
-    db["recent_topics"][item["topic"]] = datetime.now().isoformat()
+    db["recent_topics"][item["topic"]] = datetime.now(timezone.utc).isoformat()
 
     # Keep last 50 posts only
     db["posted"] = db["posted"][-50:]
@@ -289,9 +298,14 @@ def get_next_article(query="technology india"):
     trends_for_queue = []
     for s in stories:
             best = max(s['articles'], key=score_article)
+            if s["entities"]:
+                topic_name = max(s["entities"], key=lambda e: sum(e in a["entities"] for a in s["articles"]))
+            else:
+                topic_name = "General"
             trends_for_queue.append({
                 "story_id": s["story_id"],
-                "topic": s["entities"][0] if s["entities"] else "General",
+                "topic": topic_name,
+                # "topic": s["entities"][0] if s["entities"] else "General",
                 "best_article": best,
                 "subtopics": [a['title'] for a in s['articles']]
             })
