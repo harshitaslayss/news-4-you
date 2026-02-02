@@ -169,43 +169,6 @@ def normalize_topic(name, label=None):
     # Fallback formatting
     return name.title()
 
-# def normalize_topic(name, label):
-#     """
-#     Cleans and standardizes entity names based on spaCy labels.
-#     """
-#     name = name.strip()
-
-#     acronym_map = {
-#         "US": "United States",
-#         "U.S.": "United States",
-#         "UK": "United Kingdom",
-#         "U.K.": "United Kingdom",
-#         "PMO": "PMO India",
-#         "BJP": "BJP"
-#     }
-
-#     if name.upper() in acronym_map:
-#         return acronym_map[name.upper()]
-
-#     aliases = {
-#         "narendra modi": "Narendra Modi",
-#         "pm modi": "Narendra Modi",
-#         "modi": "Narendra Modi",
-#         "amit shah": "Amit Shah",
-#         "joe biden": "Joe Biden",
-#         "biden": "Joe Biden"
-#     }
-
-#     lower_name = name.lower()
-#     if lower_name in aliases:
-#         return aliases[lower_name]
-
-#     if name.isupper() and len(name) <= 5:
-#         return name
-
-#     return name.title()
-
-
 def cluster_articles(articles, threshold=0.40):
     # texts = [
     #     (a.get("title", "") + " " + a.get("title", "") + " " + a.get("desc", "")).lower()
@@ -376,9 +339,6 @@ def get_next_article(query="technology india"):
 
         a["entities"] = list(set(entities))  # remove duplicates
 
-        # a["entities"] = [normalize_topic(e.text, e.label_) for e in doc.ents
-        #                 if e.label_ in ["ORG", "PERSON", "GPE"]]
-
     clusters, sim_matrix, tfidf_matrix = cluster_articles(raw)
 
     stories = [
@@ -398,7 +358,6 @@ def get_next_article(query="technology india"):
             trends_for_queue.append({
                 "story_id": s["story_id"],
                 "topic": topic_name,
-                # "topic": s["entities"][0] if s["entities"] else "General",
                 "best_article": best,
                 "subtopics": [a['title'] for a in s['articles']]
             })
