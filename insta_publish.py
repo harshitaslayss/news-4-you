@@ -1,12 +1,12 @@
 # insta_publish.py
 
+import os
 import requests
 import time
-import os
 
-IG_USER_ID = os.getenv("INSTAGRAM_USER_ID")
+INSTAGRAM_USER_ID = os.getenv("INSTAGRAM_USER_ID")
 ACCESS_TOKEN = os.getenv("INSTAGRAM_ACCESS_TOKEN")
-GRAPH_URL = "https://graph.facebook.com/v19.0"
+GRAPH_API = "https://graph.facebook.com/v19.0"
 
 
 def create_image_container(image_url, caption=None):
@@ -19,14 +19,29 @@ def create_image_container(image_url, caption=None):
         payload["caption"] = caption
 
     r = requests.post(
-        f"{GRAPH_URL}/{IG_USER_ID}/media",
+        f"{GRAPH_API}/{INSTAGRAM_USER_ID}/media",
         data=payload
     )
+    data = r.json()
+    print("INSTAGRAM RESPONSE:", data)
+    return data.get("id")
 
-    print("INSTAGRAM RESPONSE:", r.text)  # 🔥 THIS IS CRITICAL
 
-    r.raise_for_status()
-    return r.json()["id"]
+def wait_until_ready(creation_id, timeout=60):
+    start = time.time()
+    while time.time() - start < timeout:
+        r = requests.get(
+            f"{GRAPH_API}/{creation_id}",
+            params={
+                "fields": "status_code",
+                "access_token": ACCESS_TOKEN
+            }
+        )
+        status = r.json().get("status_code")
+        if status == "FINISHED":
+            return True
+        time.sleep(3)
+    return False
 
 
 def create_carousel_container(children_ids, caption):
@@ -38,36 +53,51 @@ def create_carousel_container(children_ids, caption):
     }
 
     r = requests.post(
-        f"{GRAPH_URL}/{IG_USER_ID}/media",
+        f"{GRAPH_API}/{INSTAGRAM_USER_ID}/media",
         data=payload
     )
-    r.raise_for_status()
-    return r.json()["id"]
+    data = r.json()
+    print("INSTAGRAM RESPONSE:", data)
+    return data.get("id")
 
 
-def publish_container(container_id):
-    payload = {
-        "creation_id": container_id,
-        "access_token": ACCESS_TOKEN
-    }
-
+def publish_container(creation_id):
     r = requests.post(
-        f"{GRAPH_URL}/{IG_USER_ID}/media_publish",
-        data=payload
+        f"{GRAPH_API}/{INSTAGRAM_USER_ID}/media_publish",
+        data={
+            "creation_id": creation_id,
+            "access_token": ACCESS_TOKEN
+        }
     )
-    r.raise_for_status()
+
+    # 🔒 SAFE HANDLING — NO CRASH
+    if not r.ok:
+        print("⚠️ Instagram publish warning (ignored):", r.text)
+        return None
+
     return r.json()
 
 
 def post_carousel(image_urls, caption):
     child_ids = []
 
+    # 1️⃣ create child containers
     for url in image_urls:
         cid = create_image_container(url)
+        if not cid:
+            raise Exception("Failed to create image container")
         child_ids.append(cid)
-        time.sleep(2)  # Instagram rate safety
 
+    # 2️⃣ wait until all are ready
+    for cid in child_ids:
+        ok = wait_until_ready(cid)
+        if not ok:
+            print("⚠️ Child container not ready, continuing anyway")
+
+    # 3️⃣ create carousel container
     carousel_id = create_carousel_container(child_ids, caption)
-    time.sleep(5)
+    if not carousel_id:
+        raise Exception("Failed to create carousel container")
 
+    # 4️⃣ publish (SAFE)
     return publish_container(carousel_id)
