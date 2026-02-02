@@ -57,20 +57,6 @@
             "added_time": "2026-02-02T12:20:27.326352+00:00"
         },
         {
-            "story_id": "7ee3353c6eae49b55e4999db298a06f7",
-            "topic": "NASA",
-            "subtopics": [
-                "Meet Vandi Verma: Indian-origin NASA scientist behind the first-ever AI-planned rover drive on Mars"
-            ],
-            "title": "Meet Vandi Verma: Indian-origin NASA scientist behind the first-ever AI-planned rover drive on Mars",
-            "desc": "Science News: Vandi Verma has emerged as one of the key figures behind a landmark moment in planetary exploration. On December 8 and 10, 2025, NASA\u2019s Perseverance s.",
-            "url": "https://timesofindia.indiatimes.com/science/meet-vandi-verma-indian-origin-nasa-scientist-behind-the-first-ever-ai-planned-rover-drive-on-mars/articleshow/127842512.cms",
-            "image": "https://static.toiimg.com/thumb/msid-127842534,width-1280,height-720,imgsize-978256,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "Times of India",
-            "score": 4,
-            "added_time": "2026-02-02T12:20:27.326358+00:00"
-        },
-        {
             "story_id": "b476ee8ccc00d0e7843beaf2e861b28c",
             "topic": "India News",
             "subtopics": [
@@ -125,6 +111,34 @@
             "source": "India.com",
             "score": 1,
             "added_time": "2026-02-02T12:20:27.326391+00:00"
+        },
+        {
+            "story_id": "7876cc7457a83ea7ba699af89cf5bed5",
+            "topic": "Singapore",
+            "subtopics": [
+                "Singapore to set up new national space agency on Apr 1"
+            ],
+            "title": "Singapore to set up new national space agency on Apr 1",
+            "desc": "The agency will let Singapore maximise space technology applications for national and regional needs, says Minister-in-charge of Energy and Science and Technology Tan See Leng.",
+            "url": "https://www.channelnewsasia.com/singapore/national-space-agency-singapore-technology-legislation-5899941",
+            "image": "https://dam.mediacorp.sg/image/upload/s--9hhADuya--/c_crop,h_900,w_1600,x_0,y_0/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/02/02/wwz_4793.jpg?itok=3q0Tgqme",
+            "source": "CNA",
+            "score": 3,
+            "added_time": "2026-02-02T14:47:50.698993+00:00"
+        },
+        {
+            "story_id": "f0d706ad03052022f204462533ec38ac",
+            "topic": "Nirmala Sitharaman'S",
+            "subtopics": [
+                "Did Union Budget not focus on poll-bound states enough? Nirmala Sitharaman's clarification"
+            ],
+            "title": "Did Union Budget not focus on poll-bound states enough? Nirmala Sitharaman's clarification",
+            "desc": "Nirmala Sitharaman, in a press briefing, said the government has focused on both election and non-election states in the Union Budget.| India News",
+            "url": "https://www.hindustantimes.com/india-news/did-union-budget-not-focus-on-poll-bound-states-enough-nirmala-sitharamans-clarification-101769943979328.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/01/550x309/PTI02-01-2026-000373B-0_1769944120725_1769944134460.jpg",
+            "source": "Hindustan Times",
+            "score": 3,
+            "added_time": "2026-02-02T14:47:50.699019+00:00"
         }
     ],
     "posted": [
@@ -155,10 +169,25 @@
             "source": "Times of India",
             "score": 4,
             "added_time": "2026-02-02T12:20:27.326345+00:00"
+        },
+        {
+            "story_id": "7ee3353c6eae49b55e4999db298a06f7",
+            "topic": "NASA",
+            "subtopics": [
+                "Meet Vandi Verma: Indian-origin NASA scientist behind the first-ever AI-planned rover drive on Mars"
+            ],
+            "title": "Meet Vandi Verma: Indian-origin NASA scientist behind the first-ever AI-planned rover drive on Mars",
+            "desc": "Science News: Vandi Verma has emerged as one of the key figures behind a landmark moment in planetary exploration. On December 8 and 10, 2025, NASA\u2019s Perseverance s.",
+            "url": "https://timesofindia.indiatimes.com/science/meet-vandi-verma-indian-origin-nasa-scientist-behind-the-first-ever-ai-planned-rover-drive-on-mars/articleshow/127842512.cms",
+            "image": "https://static.toiimg.com/thumb/msid-127842534,width-1280,height-720,imgsize-978256,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 4,
+            "added_time": "2026-02-02T12:20:27.326358+00:00"
         }
     ],
     "recent_topics": {
         "Budget India Business News: Prices": "2026-02-02T12:20:27.326405+00:00",
-        "India Business News:": "2026-02-02T13:11:56.935074+00:00"
+        "India Business News:": "2026-02-02T13:11:56.935074+00:00",
+        "NASA": "2026-02-02T14:47:50.699033+00:00"
     }
 }
