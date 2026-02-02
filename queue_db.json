@@ -57,20 +57,6 @@
             "added_time": "2026-02-02T12:20:27.326352+00:00"
         },
         {
-            "story_id": "c43ef5a7e77342343600ed810be2081c",
-            "topic": "Nirmala Sitharaman",
-            "subtopics": [
-                "Nirmala Sitharaman speech LIVE: FM responds to Rahul Gandhi\u2019s \u2018course correction,\u2019 says \u2018economy strong\u2019"
-            ],
-            "title": "Nirmala Sitharaman speech LIVE: FM responds to Rahul Gandhi\u2019s \u2018course correction,\u2019 says \u2018economy strong\u2019",
-            "desc": "Nirmala Sitharaman speech LIVE: Union finance minister Nirmala Sitharaman explained the Union Budget 2026 in a post-budget press conference, saying the government is focused on creating employment and tech-driven development.| India News",
-            "url": "https://www.hindustantimes.com/india-news/union-budget-2026-full-speech-live-india-finance-minister-nirmala-sitharaman-budget-announcements-full-list-highlights-101769910624196.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/01/550x309/nirmala_budget_1769943460020_1769943477099.png",
-            "source": "Hindustan Times",
-            "score": 4,
-            "added_time": "2026-02-02T12:20:27.326374+00:00"
-        },
-        {
             "story_id": "c91b86c31c27704f9d5b93adf4d1eaaa",
             "topic": "India",
             "subtopics": [
@@ -139,6 +125,62 @@
             "source": "SCIRP Open Access",
             "score": 3,
             "added_time": "2026-02-02T15:41:40.873467+00:00"
+        },
+        {
+            "story_id": "fbb562bdb98a9cd02a94e63b7b07bef5",
+            "topic": "India",
+            "subtopics": [
+                "India courts Big Tech with long\u2011term tax breaks as it doubles down on AI ambitions"
+            ],
+            "title": "India courts Big Tech with long\u2011term tax breaks as it doubles down on AI ambitions",
+            "desc": "India woos global cloud service companies with tax holiday for 20 years.",
+            "url": "https://www.cnbc.com/2026/02/02/india-tax-breaks-hyperscalers-ai-bet.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108259927-1769949310081-gettyimages-2258754659-20260201_dli-ay-mn_budget-21b.jpeg?v=1769949536&w=1920&h=1080",
+            "source": "CNBC",
+            "score": 2,
+            "added_time": "2026-02-02T23:34:33.103620+00:00"
+        },
+        {
+            "story_id": "9440dae363d22b0871ddcc96baa1065f",
+            "topic": "Ip",
+            "subtopics": [
+                "'Sholay' Studio Sippy Films Repositions as Character IP Company"
+            ],
+            "title": "'Sholay' Studio Sippy Films Repositions as Character IP Company",
+            "desc": "Sippy Films, the Indian production house behind 'Sholay,' is restructuring as a character IP-led studio with backing from Kuberans.",
+            "url": "https://variety.com/2026/film/news/sholay-studio-sippy-films-character-ip-company-1236649380/",
+            "image": "https://variety.com/wp-content/uploads/2025/06/Sholay.jpg?w=1000&h=563&crop=1",
+            "source": "Variety",
+            "score": 3,
+            "added_time": "2026-02-02T23:34:33.103640+00:00"
+        },
+        {
+            "story_id": "6cc2ae852c29570040d081f607996784",
+            "topic": "China",
+            "subtopics": [
+                "Strategies for Enhancing the Competitiveness of L Seed Company from an Innovation Perspective"
+            ],
+            "title": "Strategies for Enhancing the Competitiveness of L Seed Company from an Innovation Perspective",
+            "desc": "Innovation has become a key driver for seed enterprises to build core competitiveness. Taking L Seed Company as a case study, this paper constructs a three-dimensional analytical framework\u2014\u201ctechnological innovation-variety innovation-model innovation\u201d\u2014based on innovation theory. It delves into core issues within the enterprise regarding innovation resource allocation, innovation outcome transformation, and innovation collaboration mechanisms. The study proposes targeted and feasible strategies for enhancing competitiveness, offering practical pathways for China\u2019s seed industry to achieve innovation-driven high-quality development.",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=149325",
+            "image": "https://file.scirp.org/image/jss2015012714222187.jpg",
+            "source": "SCIRP Open Access",
+            "score": 3,
+            "added_time": "2026-02-02T23:34:33.103649+00:00"
+        },
+        {
+            "story_id": "05e46305f6747450926d03e997f8d531",
+            "topic": "Ibam",
+            "subtopics": [
+                "Limitations of Classical Models and the Need for New Continuous Analytical Approaches"
+            ],
+            "title": "Limitations of Classical Models and the Need for New Continuous Analytical Approaches",
+            "desc": "Earth-to-Air Energy Exchangers (EAEEs) represent a promising passive solution for air preconditioning in buildings, exploiting the ground\u2019s thermal inertia. However, conventional analytical models rely on simplifying assumptions: dry air, homogeneous soil, neglected vertical section, and ignored internal condensation. Although these assumptions are necessary for an analytical formulation, they limit the models\u2019 ability to faithfully represent real system behavior, particularly in tropical and semi-arid climates. Numerical approaches (CFD, finite element methods) offer increased physical realism but remain computationally expensive and difficult to apply in parametric studies or practical sizing. In this context, this article provides a critical analysis of existing models and discusses the need for alternative analytical approaches that reconcile physical realism with engineering practicality. The Initial Basis Analysis Method (IBAM) is introduced as a continuous analytical framework capable of solving the coupled energy and mass transport equations analytically, while incorporating thin-film condensation, the vertical section, atmospheric fluctuations, and thermal and hygrometric soil variability. Rather than presenting a new experimental validation campaign, the manuscript relies on comparisons with experimental results and prior work to discuss the validity domain and practical applicability of the proposed approach. This contribution aims to clarify the assumptions, contributions, and limitations of the IBAM method, and to provide a useful analytical framework for the modeling and design of earth-to-air energy exchange systems.",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=149312",
+            "image": "https://file.scirp.org/image/ampc2016062411150636.jpg",
+            "source": "SCIRP Open Access",
+            "score": 3,
+            "added_time": "2026-02-02T23:34:33.103657+00:00"
         }
     ],
     "posted": [
@@ -225,6 +267,20 @@
             "source": "The Indian Express",
             "score": 7,
             "added_time": "2026-02-02T16:49:42.853119+00:00"
+        },
+        {
+            "story_id": "c43ef5a7e77342343600ed810be2081c",
+            "topic": "Nirmala Sitharaman",
+            "subtopics": [
+                "Nirmala Sitharaman speech LIVE: FM responds to Rahul Gandhi\u2019s \u2018course correction,\u2019 says \u2018economy strong\u2019"
+            ],
+            "title": "Nirmala Sitharaman speech LIVE: FM responds to Rahul Gandhi\u2019s \u2018course correction,\u2019 says \u2018economy strong\u2019",
+            "desc": "Nirmala Sitharaman speech LIVE: Union finance minister Nirmala Sitharaman explained the Union Budget 2026 in a post-budget press conference, saying the government is focused on creating employment and tech-driven development.| India News",
+            "url": "https://www.hindustantimes.com/india-news/union-budget-2026-full-speech-live-india-finance-minister-nirmala-sitharaman-budget-announcements-full-list-highlights-101769910624196.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/01/550x309/nirmala_budget_1769943460020_1769943477099.png",
+            "source": "Hindustan Times",
+            "score": 4,
+            "added_time": "2026-02-02T12:20:27.326374+00:00"
         }
     ],
     "recent_topics": {
@@ -233,6 +289,7 @@
         "NASA": "2026-02-02T14:47:50.699033+00:00",
         "India News": "2026-02-02T15:41:40.873503+00:00",
         "India": "2026-02-02T16:49:42.853134+00:00",
-        "The Union Budget 2026": "2026-02-02T17:42:46.523435+00:00"
+        "The Union Budget 2026": "2026-02-02T17:42:46.523435+00:00",
+        "Nirmala Sitharaman": "2026-02-02T23:34:33.103675+00:00"
     }
 }
