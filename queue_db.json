@@ -43,20 +43,6 @@
             "added_time": "2026-02-02T12:20:27.326336+00:00"
         },
         {
-            "story_id": "3deaf1bc68d062bc0363697eab15b223",
-            "topic": "India Business News:",
-            "subtopics": [
-                "Union Budget 2026\u201327: Which ministry got highest allocation? A portfolio"
-            ],
-            "title": "Union Budget 2026\u201327: Which ministry got highest allocation? A portfolio",
-            "desc": "India Business News: The Union Budget 2026\u201327 proposes a grand total expenditure of Rs 53.47 lakh crore, comprising Rs 41.25 lakh crore in revenue expenditure and Rs 12.22.",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/union-budget-202627-which-ministry-got-highest-allocation-a-portfolio-wise-breakdown/articleshow/127842305.cms",
-            "image": "https://static.toiimg.com/thumb/msid-127843090,width-1280,height-720,imgsize-945467,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "Times of India",
-            "score": 4,
-            "added_time": "2026-02-02T12:20:27.326345+00:00"
-        },
-        {
             "story_id": "796c811f2818c5a9b097a9e95157dee1",
             "topic": "Apple",
             "subtopics": [
@@ -155,9 +141,24 @@
             "source": "Times of India",
             "score": 4,
             "added_time": "2026-02-02T12:20:27.326295+00:00"
+        },
+        {
+            "story_id": "3deaf1bc68d062bc0363697eab15b223",
+            "topic": "India Business News:",
+            "subtopics": [
+                "Union Budget 2026\u201327: Which ministry got highest allocation? A portfolio"
+            ],
+            "title": "Union Budget 2026\u201327: Which ministry got highest allocation? A portfolio",
+            "desc": "India Business News: The Union Budget 2026\u201327 proposes a grand total expenditure of Rs 53.47 lakh crore, comprising Rs 41.25 lakh crore in revenue expenditure and Rs 12.22.",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/union-budget-202627-which-ministry-got-highest-allocation-a-portfolio-wise-breakdown/articleshow/127842305.cms",
+            "image": "https://static.toiimg.com/thumb/msid-127843090,width-1280,height-720,imgsize-945467,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 4,
+            "added_time": "2026-02-02T12:20:27.326345+00:00"
         }
     ],
     "recent_topics": {
-        "Budget India Business News: Prices": "2026-02-02T12:20:27.326405+00:00"
+        "Budget India Business News: Prices": "2026-02-02T12:20:27.326405+00:00",
+        "India Business News:": "2026-02-02T13:11:56.935074+00:00"
     }
 }
