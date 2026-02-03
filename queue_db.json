@@ -43,20 +43,6 @@
             "added_time": "2026-02-02T23:34:33.103620+00:00"
         },
         {
-            "story_id": "9440dae363d22b0871ddcc96baa1065f",
-            "topic": "Ip",
-            "subtopics": [
-                "'Sholay' Studio Sippy Films Repositions as Character IP Company"
-            ],
-            "title": "'Sholay' Studio Sippy Films Repositions as Character IP Company",
-            "desc": "Sippy Films, the Indian production house behind 'Sholay,' is restructuring as a character IP-led studio with backing from Kuberans.",
-            "url": "https://variety.com/2026/film/news/sholay-studio-sippy-films-character-ip-company-1236649380/",
-            "image": "https://variety.com/wp-content/uploads/2025/06/Sholay.jpg?w=1000&h=563&crop=1",
-            "source": "Variety",
-            "score": 3,
-            "added_time": "2026-02-02T23:34:33.103640+00:00"
-        },
-        {
             "story_id": "6cc2ae852c29570040d081f607996784",
             "topic": "China",
             "subtopics": [
@@ -410,6 +396,20 @@
             "source": "SCIRP Open Access",
             "score": 3,
             "added_time": "2026-02-02T15:41:40.873467+00:00"
+        },
+        {
+            "story_id": "9440dae363d22b0871ddcc96baa1065f",
+            "topic": "Ip",
+            "subtopics": [
+                "'Sholay' Studio Sippy Films Repositions as Character IP Company"
+            ],
+            "title": "'Sholay' Studio Sippy Films Repositions as Character IP Company",
+            "desc": "Sippy Films, the Indian production house behind 'Sholay,' is restructuring as a character IP-led studio with backing from Kuberans.",
+            "url": "https://variety.com/2026/film/news/sholay-studio-sippy-films-character-ip-company-1236649380/",
+            "image": "https://variety.com/wp-content/uploads/2025/06/Sholay.jpg?w=1000&h=563&crop=1",
+            "source": "Variety",
+            "score": 3,
+            "added_time": "2026-02-02T23:34:33.103640+00:00"
         }
     ],
     "recent_topics": {
@@ -426,6 +426,7 @@
         "Apple": "2026-02-03T06:59:38.124757+00:00",
         "Singapore": "2026-02-03T07:50:20.014458+00:00",
         "Nirmala Sitharaman'S": "2026-02-03T09:51:28.720056+00:00",
-        "Uzbekistan": "2026-02-03T12:33:54.005611+00:00"
+        "Uzbekistan": "2026-02-03T12:33:54.005611+00:00",
+        "Ip": "2026-02-03T13:13:09.139109+00:00"
     }
 }
