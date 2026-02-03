@@ -26,6 +26,21 @@ mstack_key = os.getenv("MEDIASTACK_KEY")
 
 nlp = spacy.load("en_core_web_sm")
 
+#---------summarize text -----------------
+def summarize_text(text, max_sentences=2):
+    if not text or len(text) <= 200:
+        return text
+    
+    doc = nlp(text)
+    sentences = [sent.text.strip() for sent in doc.sents]
+    
+    summary = " ".join(sentences[:max_sentences])
+    
+    if len(summary) > 200:
+        summary = summary[:200] + "..."
+        
+    return summary
+
 # ---------------- DB ----------------
 def load_db():
     if not os.path.exists(DB_FILE):
@@ -251,6 +266,8 @@ def add_trends_to_queue(db, trends):
         if not topic_allowed(db, topic_name):
             continue
 
+        art["desc"] = summarize_text(art.get("desc", ""))
+
         db['queue'].append({
             "story_id": t["story_id"],
             "topic": topic_name,
@@ -323,19 +340,7 @@ def mark_posted(db, item):
     db["posted"] = db["posted"][-50:]
 
 # ---------------- MAIN ENTRY ----------------
-def summarize_text(text, max_sentences=2):
-    if not text or len(text) <= 200:
-        return text
-    
-    doc = nlp(text)
-    sentences = [sent.text.strip() for sent in doc.sents]
-    
-    summary = " ".join(sentences[:max_sentences])
-    
-    if len(summary) > 200:
-        summary = summary[:201] + "..."
-        
-    return summary
+
 
 def get_next_article(query="technology india"):
     db = load_db()
