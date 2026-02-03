@@ -29,20 +29,6 @@
             "added_time": "2026-02-02T12:20:27.326391+00:00"
         },
         {
-            "story_id": "d593c82c2e139e323d0fda5b1d162766",
-            "topic": "Uzbekistan",
-            "subtopics": [
-                "Market Strategy and Competitive Advantage in Uzbekistan\u2019s Renewable Energy Sector"
-            ],
-            "title": "Market Strategy and Competitive Advantage in Uzbekistan\u2019s Renewable Energy Sector",
-            "desc": "This study examines how international renewable energy firms design and execute non-market strategies to achieve competitive advantage in Uzbekistan\u2019s state-led energy transition. Through a qualitative multiple-case study analysis of leading developers operating under Uzbekistan\u2019s distinctive \u201cUzbek Model\u201d of reverse auctions and centralized procurement, the research identifies three core strategic domains: proactive institutional creation, pragmatic mitigation of institutional voids, and the management of paradoxical relationships with both the state and competitors. The findings introduce and develop the concept of orchestration strategy a firm-level dynamic capability to simultaneously compete within a state-defined arena while collaborating to build its institutional and operational foundations. The study contributes to non-market strategy and institutional theory by bridging macro-transition pathways with micro-level strategic action, and offers practical insights for firms and policymakers navigating similar state-orchestrated green energy transitions.",
-            "url": "https://www.scirp.org/journal/paperinformation?paperid=149298",
-            "image": "https://file.scirp.org/image/ojapps2016042115203396.jpg",
-            "source": "SCIRP Open Access",
-            "score": 3,
-            "added_time": "2026-02-02T15:41:40.873467+00:00"
-        },
-        {
             "story_id": "fbb562bdb98a9cd02a94e63b7b07bef5",
             "topic": "India",
             "subtopics": [
@@ -181,6 +167,20 @@
             "source": "The Age",
             "score": 2,
             "added_time": "2026-02-03T12:22:29.329283+00:00"
+        },
+        {
+            "story_id": "b4fd067fdf3de06eae8d3bb43e4b5793",
+            "topic": "General",
+            "subtopics": [
+                "Changing the \u2018soap molecule\u2019 surfactin\u2019s tail length changes how it fights pollution, shows study"
+            ],
+            "title": "Changing the \u2018soap molecule\u2019 surfactin\u2019s tail length changes how it fights pollution, shows study",
+            "desc": "Computer simulations reveal that increasing the tail length of the biosurfactant surfactin creates more stable, spherical clusters but unexpectedly makes the molecule less efficient at covering water s...",
+            "url": "https://researchmatters.in/news/changing-soap-molecule-surfactins-tail-length-changes-how-it-fights-pollution-shows-study",
+            "image": "https://researchmatters.in/sites/researchmatters/files/February_Aishwarya.jpg",
+            "source": "Research Matters",
+            "score": 3,
+            "added_time": "2026-02-03T12:33:54.005577+00:00"
         }
     ],
     "posted": [
@@ -396,6 +396,20 @@
             "source": "Hindustan Times",
             "score": 3,
             "added_time": "2026-02-02T14:47:50.699019+00:00"
+        },
+        {
+            "story_id": "d593c82c2e139e323d0fda5b1d162766",
+            "topic": "Uzbekistan",
+            "subtopics": [
+                "Market Strategy and Competitive Advantage in Uzbekistan\u2019s Renewable Energy Sector"
+            ],
+            "title": "Market Strategy and Competitive Advantage in Uzbekistan\u2019s Renewable Energy Sector",
+            "desc": "This study examines how international renewable energy firms design and execute non-market strategies to achieve competitive advantage in Uzbekistan\u2019s state-led energy transition. Through a qualitative multiple-case study analysis of leading developers operating under Uzbekistan\u2019s distinctive \u201cUzbek Model\u201d of reverse auctions and centralized procurement, the research identifies three core strategic domains: proactive institutional creation, pragmatic mitigation of institutional voids, and the management of paradoxical relationships with both the state and competitors. The findings introduce and develop the concept of orchestration strategy a firm-level dynamic capability to simultaneously compete within a state-defined arena while collaborating to build its institutional and operational foundations. The study contributes to non-market strategy and institutional theory by bridging macro-transition pathways with micro-level strategic action, and offers practical insights for firms and policymakers navigating similar state-orchestrated green energy transitions.",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=149298",
+            "image": "https://file.scirp.org/image/ojapps2016042115203396.jpg",
+            "source": "SCIRP Open Access",
+            "score": 3,
+            "added_time": "2026-02-02T15:41:40.873467+00:00"
         }
     ],
     "recent_topics": {
@@ -411,6 +425,7 @@
         "Karnataka": "2026-02-03T05:55:21.625671+00:00",
         "Apple": "2026-02-03T06:59:38.124757+00:00",
         "Singapore": "2026-02-03T07:50:20.014458+00:00",
-        "Nirmala Sitharaman'S": "2026-02-03T09:51:28.720056+00:00"
+        "Nirmala Sitharaman'S": "2026-02-03T09:51:28.720056+00:00",
+        "Uzbekistan": "2026-02-03T12:33:54.005611+00:00"
     }
 }
