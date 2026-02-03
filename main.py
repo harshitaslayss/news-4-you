@@ -1,7 +1,9 @@
-from news_pipeline import get_next_article
+
 from carousel_renderer import generate_carousel
 from cloudinary_upload import upload_image
 from insta_publish import post_carousel
+from news_pipeline import get_next_article, load_db, save_db, mark_posted
+
 
 
 def main():
@@ -35,8 +37,17 @@ Source: {article.get('source')}
 #news #technology #india
 """
 
-    post_carousel(public_urls, caption)
-    print("📤 Successfully posted to Instagram")
+    success = post_carousel(public_urls, caption)
+
+    if success:
+        print("📤 Successfully posted to Instagram")
+
+        db = load_db()
+        mark_posted(db, article)
+        save_db(db)
+    else:
+        print("❌ Instagram post failed. Article kept in queue.")
+
 
 
 if __name__ == "__main__":
