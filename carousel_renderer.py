@@ -65,6 +65,22 @@ def calculate_text_height(draw, text, font, max_width, line_spacing):
     height = sum(font.getbbox(l)[3] for l in lines) + (len(lines) - 1) * line_spacing
     return height, lines
 
+def split_text_into_slides(text, max_chars=220):
+    words = text.split()
+    slides = []
+    current = ""
+
+    for w in words:
+        if len(current) + len(w) + 1 <= max_chars:
+            current += " " + w
+        else:
+            slides.append(current.strip())
+            current = w
+
+    if current:
+        slides.append(current.strip())
+
+    return slides
 
 def draw_wrapped_text(
     draw, text, font, x, y, max_width,
