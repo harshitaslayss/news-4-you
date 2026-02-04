@@ -239,6 +239,80 @@
             "source": "TV BRICS",
             "score": 3,
             "added_time": "2026-02-04T08:27:31.679894+00:00"
+        },
+        {
+            "story_id": "acbd16a4b9f344f3787a518ddd23f588",
+            "topic": "India",
+            "subtopics": [
+                "ChrysCapital acquires minority stake in Bengaluru-based Nash Industries",
+                "India\u2019s U.S. and EU trade deals: Who will gain",
+                "Jaishankar meets Bessent, Rubio in DC as India-US trade ties gain momentum"
+            ],
+            "title": "ChrysCapital acquires minority stake in Bengaluru-based Nash Industries",
+            "desc": "Leveraging the new US-India trade deal and EU FTA, Nash Industries aims to use ChrysCapital\u2019s backing to transition from a domestic leader to a multi-geographical powerhouse.",
+            "url": "https://www.livemint.com/companies/news/chryscapital-acquires-minority-stake-in-bengaluru-based-nash-industries-11770119207642.html",
+            "image": "https://www.livemint.com/lm-img/img/2026/02/03/1600x900/logo/2-0-1411322937-iStock-1060489592-0_1679755387573_1770129878363.jpg",
+            "source": "Mint",
+            "score": 3,
+            "added_time": "2026-02-04T12:32:14.239599+00:00"
+        },
+        {
+            "story_id": "adcb18df25208625504d7735629e6c68",
+            "topic": "Leonardo",
+            "subtopics": [
+                "Adani arm ties up with Italian firm to build copters in India",
+                "Adani arm ties up with Italian firm to build copters in India"
+            ],
+            "title": "Adani arm ties up with Italian firm to build copters in India",
+            "desc": "India News: NEW DELHI: Just days after the Indo-EU trade and defence deal, Italian defence major Leonardo, which offers helicopter products and services globally,.",
+            "url": "https://timesofindia.indiatimes.com/india/adani-arm-ties-up-with-italian-firm-to-build-copters-in-india/articleshow/127894826.cms",
+            "image": "https://static.toiimg.com/thumb/msid-127894835,width-1280,height-720,imgsize-51100,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 3,
+            "added_time": "2026-02-04T12:32:14.239621+00:00"
+        },
+        {
+            "story_id": "90c4c721cd03d37fcee089df6bd8fd6b",
+            "topic": "United States",
+            "subtopics": [
+                "Pakistan\u2019s burgeoning arms industry is a strategic opportunity for the US",
+                "Pakistan\u2019s burgeoning arms industry is a strategic opportunity for the US"
+            ],
+            "title": "Pakistan\u2019s burgeoning arms industry is a strategic opportunity for the US",
+            "desc": "A defense-industrial partnership could benefit the Pentagon while mitigating Chinese influence.",
+            "url": "https://www.defenseone.com/ideas/2026/02/pakistans-burgeoning-arms-industry-strategic-opportunity-us/411168/",
+            "image": "https://cdn.defenseone.com/media/img/cd/2026/02/03/Military_officials_g_2500/open-graph.jpg",
+            "source": "Defense One",
+            "score": 2,
+            "added_time": "2026-02-04T12:32:14.239631+00:00"
+        },
+        {
+            "story_id": "39176640046021072886c366b4462000",
+            "topic": "India",
+            "subtopics": [
+                "India's Varaha bags $20M to scale carbon removal from the Global South"
+            ],
+            "title": "India's Varaha bags $20M to scale carbon removal from the Global South",
+            "desc": "Varaha's fresh funding is part of a $45 million Series B round led by WestBridge Capital.",
+            "url": "https://techcrunch.com/2026/02/03/indias-varaha-bags-20m-to-scale-carbon-removal-from-the-global-south/",
+            "image": "https://techcrunch.com/wp-content/uploads/2026/02/varaha-farm-work.jpg?resize=1200,800",
+            "source": "TechCrunch",
+            "score": 2,
+            "added_time": "2026-02-04T12:32:14.239648+00:00"
+        },
+        {
+            "story_id": "586aaad743f824f1cb77ca64f677afdf",
+            "topic": "The Pakistan Super League 11",
+            "subtopics": [
+                "PCB withholds PSL 11 broadcast rights in India"
+            ],
+            "title": "PCB withholds PSL 11 broadcast rights in India",
+            "desc": "The Pakistan Cricket Board has sold the international broadcasting rights for the Pakistan Super League 11, while withholding media rights for the Indian market.Preparations for PSL 11 are progressing steadily, with the...",
+            "url": "https://www.geo.tv/latest/648835-pcb-withholds-psl-11-broadcast-rights-in-india",
+            "image": "https://www.geo.tv/assets/uploads/updates/2026-02-03/l_648835_092232_updates.jpg",
+            "source": "Geo News",
+            "score": 3,
+            "added_time": "2026-02-04T12:32:14.239654+00:00"
         }
     ],
     "posted": [
@@ -610,11 +684,24 @@
             "source": "Hindustan Times",
             "score": 4,
             "added_time": "2026-02-04T01:00:22.127253+00:00"
+        },
+        {
+            "story_id": "cf5c8f5de91862b2ca83a23bb4a94bf3",
+            "topic": "Amr",
+            "subtopics": [
+                "Indian scientists make affordable dipstick test to track AMR in sewage"
+            ],
+            "title": "Indian scientists make affordable dipstick test to track AMR in sewage",
+            "desc": "Indian scientists develop an affordable 550-rupee dipstick test to monitor antimicrobial resistance in sewage across various states.",
+            "url": "https://www.thehindu.com/sci-tech/science/affordable-dipstick-assay-antimicrobial-resistance-sewage-thsti-faridabad/article70586798.ece",
+            "image": "https://th-i.thgim.com/public/sci-tech/science/ajown6/article70586763.ece/alternates/LANDSCAPE_1200/Fig.%201_%20Dipstick%20Assay1.jpeg",
+            "source": "The Hindu",
+            "score": 6,
+            "added_time": "2026-02-04T12:32:14.239639+00:00"
         }
     ],
     "recent_topics": {
         "India": "2026-02-04T01:00:22.127308+00:00",
-        "Nirmala Sitharaman": "2026-02-02T23:34:33.103675+00:00",
         "Technology & Science, Times": "2026-02-03T04:36:19.329485+00:00",
         "Etaf": "2026-02-03T04:51:21.135375+00:00",
         "Karnataka": "2026-02-03T05:55:21.625671+00:00",
@@ -629,6 +716,7 @@
         "Meta": "2026-02-03T20:23:32.987400+00:00",
         "The Interface: Integrating Electronics": "2026-02-04T05:04:25.944929+00:00",
         "Nii": "2026-02-04T05:23:14.273833+00:00",
-        "New Delhi'S": "2026-02-04T08:27:31.679946+00:00"
+        "New Delhi'S": "2026-02-04T08:27:31.679946+00:00",
+        "Amr": "2026-02-04T12:32:14.239675+00:00"
     }
 }
