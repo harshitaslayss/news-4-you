@@ -4,9 +4,13 @@ from io import BytesIO
 import time
 
 
+# --------------------------------------------------
+# FONT LOADER (tries bold / regular safely)
+# --------------------------------------------------
 def get_font(size, bold=False):
     font_paths = [
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold else
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
         "arialbd.ttf" if bold else "arial.ttf"
     ]
     for path in font_paths:
@@ -17,6 +21,9 @@ def get_font(size, bold=False):
     return ImageFont.load_default()
 
 
+# --------------------------------------------------
+# LOAD IMAGE FROM URL OR FALLBACK
+# --------------------------------------------------
 def load_background(image_url, width=1080, height=1080):
     try:
         r = requests.get(image_url, timeout=10)
@@ -26,37 +33,44 @@ def load_background(image_url, width=1080, height=1080):
         return Image.new("RGB", (width, height), (18, 18, 18))
 
 
+# --------------------------------------------------
+# SOFT GRADIENT (OPTIONAL, VERY SUBTLE)
+# --------------------------------------------------
 def apply_smart_gradient(img):
     width, height = img.size
     overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
 
-    # Start gradient at 55% height
-    start_y = start_y = int(height * 0.55)
+    # gradient starts from middle-lower area
+    start_y = int(height * 0.55)
 
     for y in range(start_y, height):
-        alpha = int(255 * ((y - start_y) / (height - start_y)) ** 1.1)
+        alpha = int(220 * ((y - start_y) / (height - start_y)) ** 1.1)
         draw.line([(0, y), (width, y)], fill=(0, 0, 0, alpha))
 
     return Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
 
 
-
+# --------------------------------------------------
+# WATERMARK AT BOTTOM CENTER
+# --------------------------------------------------
 def draw_branding(draw, width, height):
     text = "NEWS4YOU2026"
     font = get_font(26, bold=True)
     bbox = draw.textbbox((0, 0), text, font=font)
     tw = bbox[2] - bbox[0]
 
-    # TOP CENTER instead of bottom
     draw.text(
-        ((width - tw) / 2, 30),
+        ((width - tw) / 2, height - 60),
         text,
         fill=(180, 180, 180),
         font=font
     )
 
 
+# --------------------------------------------------
+# TEXT MEASUREMENT HELPERS
+# --------------------------------------------------
 def calculate_text_height(draw, text, font, max_width, line_spacing):
     words = text.split()
     lines, line = [], ""
@@ -75,157 +89,154 @@ def calculate_text_height(draw, text, font, max_width, line_spacing):
     height = sum(font.getbbox(l)[3] for l in lines) + (len(lines) - 1) * line_spacing
     return height, lines
 
-def split_text_into_slides(text, max_chars=220):
-    words = text.split()
-    slides = []
-    current = ""
 
-    for w in words:
-        if len(current) + len(w) + 1 <= max_chars:
-            current += " " + w
-        else:
-            slides.append(current.strip())
-            current = w
-
-    if current:
-        slides.append(current.strip())
-
-    return slides
-
-def draw_wrapped_text(
-    draw, text, font, x, y, max_width,
-    fill="white", line_spacing=8,
-    center_vertically=False, canvas_height=1080
-):
-    total_h, lines = calculate_text_height(draw, text, font, max_width, line_spacing)
-
-    if center_vertically:
-        y = (canvas_height - total_h) / 2
-
+def draw_wrapped_text(draw, text, font, x, y, max_width, fill, line_spacing):
+    _, lines = calculate_text_height(draw, text, font, max_width, line_spacing)
     cy = y
     for l in lines:
         draw.text((x, cy), l, fill=fill, font=font)
         cy += font.getbbox(l)[3] + line_spacing
-
     return cy
 
-def fit_text_in_box(
-    draw,
-    text,
-    font_size_start,
-    font_size_min,
-    bold,
-    max_width,
-    max_height,
-    line_spacing
-):
-    font_size = font_size_start
 
-    while font_size >= font_size_min:
-        font = get_font(font_size, bold=bold)
-        total_h, lines = calculate_text_height(
-            draw, text, font, max_width, line_spacing
-        )
+# --------------------------------------------------
+# DYNAMIC FONT SCALING FOR TITLE
+# --------------------------------------------------
+def fit_text_in_box(draw, text, start_size, min_size, bold,
+                    max_width, max_height, line_spacing):
+    size = start_size
+    while size >= min_size:
+        font = get_font(size, bold=bold)
+        h, lines = calculate_text_height(draw, text, font, max_width, line_spacing)
+        if h <= max_height:
+            return font, lines, h
+        size -= 2
 
-        if total_h <= max_height:
-            return font, lines, total_h
+    font = get_font(min_size, bold=bold)
+    h, lines = calculate_text_height(draw, text, font, max_width, line_spacing)
+    return font, lines, h
 
-        font_size -= 2  # smooth scaling
 
-    # fallback (smallest readable)
-    font = get_font(font_size_min, bold=bold)
-    total_h, lines = calculate_text_height(
-        draw, text, font, max_width, line_spacing
+# --------------------------------------------------
+# ROUNDED BACKGROUND CARD FOR TEXT
+# --------------------------------------------------
+def draw_text_background(base_img, x, y, w, h, radius=30, opacity=200):
+    card = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(card)
+
+    d.rounded_rectangle(
+        (0, 0, w, h),
+        radius=radius,
+        fill=(0, 0, 0, opacity)
     )
-    return font, lines, total_h
+
+    base_img.paste(card, (x, y), card)
 
 
-
+# --------------------------------------------------
+# MAIN CAROUSEL GENERATOR
+# --------------------------------------------------
 def generate_carousel(article, topic):
     WIDTH, HEIGHT = 1080, 1080
     margin_x = 80
     max_width = WIDTH - (2 * margin_x)
 
-    title_font = get_font(68, bold=True)
-    subtitle_font = get_font(32, bold=False)
-    body_font = get_font(44, bold=False)
+    subtitle_font = get_font(32)
+    body_font = get_font(44)
     meta_font = get_font(30, bold=True)
 
     slide_paths = []
 
-    # ---------- SLIDE 1 ----------
-
-       
+    # ================= SLIDE 1 =================
     bg = load_background(article.get("image"))
     img = apply_smart_gradient(bg)
     draw = ImageDraw.Draw(img)
 
     draw_branding(draw, WIDTH, HEIGHT)
 
-    # Layout constants
-    TEXT_START_Y = int(HEIGHT * 0.58)
+    # Text block positioning
+    TEXT_BLOCK_Y = int(HEIGHT * 0.56)
+    TEXT_BLOCK_X = margin_x - 20
+    TEXT_BLOCK_WIDTH = WIDTH - (2 * TEXT_BLOCK_X)
 
-    TEXT_MARGIN_X = margin_x
-    TEXT_MAX_WIDTH = max_width
+    # Dynamic title
+    TITLE_MAX_HEIGHT = 260
+    title_font, title_lines, title_height = fit_text_in_box(
+        draw,
+        article.get("title", ""),
+        start_size=68,
+        min_size=42,
+        bold=True,
+        max_width=max_width,
+        max_height=TITLE_MAX_HEIGHT,
+        line_spacing=14
+    )
+
+    # Estimate subtitle height
+    subtitle_exists = bool(article.get("desc"))
+    subtitle_height = subtitle_font.size * 2 if subtitle_exists else 0
+
+    # Calculate total card height
+    CARD_PADDING = 30
+    CARD_HEIGHT = (
+        30 +               # topic
+        title_height +
+        subtitle_height +
+        CARD_PADDING * 2
+    )
+
+    # Draw background card
+    draw_text_background(
+        img,
+        TEXT_BLOCK_X,
+        TEXT_BLOCK_Y,
+        TEXT_BLOCK_WIDTH,
+        CARD_HEIGHT
+    )
+
+    # Draw text on top of card
+    y = TEXT_BLOCK_Y + CARD_PADDING
 
     # Topic
     draw.text(
-        (TEXT_MARGIN_X, TEXT_START_Y),
+        (margin_x, y),
         topic.upper(),
         fill="#FFD700",
         font=meta_font
     )
+    y += 45
 
-    y = TEXT_START_Y + 55
-
-    # ---------- TITLE (Dynamic Scaling) ----------
-    TITLE_BOX_HEIGHT = int(HEIGHT * 0.25) - 140
-
-    title_font, title_lines, title_height = fit_text_in_box(
-        draw=draw,
-        text=article.get("title", ""),
-        font_size_start=68,
-        font_size_min=42,
-        bold=True,
-        max_width=TEXT_MAX_WIDTH,
-        max_height=TITLE_BOX_HEIGHT,
-        line_spacing=14
-    )
-
-    cy = y
+    # Title
     for line in title_lines:
-        draw.text((TEXT_MARGIN_X, cy), line, fill="white", font=title_font)
-        cy += title_font.getbbox(line)[3] + 14
+        draw.text((margin_x, y), line, fill="white", font=title_font)
+        y += title_font.getbbox(line)[3] + 14
 
-    y = cy
-
-    # ---------- Subtitle ----------
-    if y < HEIGHT - 120:
-        subtitle = (article.get("desc", "")[:90] + "...") if article.get("desc") else ""
+    # Subtitle
+    if subtitle_exists and title_font.size > 42:
         draw_wrapped_text(
             draw,
-            subtitle,
+            article.get("desc")[:90] + "...",
             subtitle_font,
-            TEXT_MARGIN_X,
-            y + 18,
-            TEXT_MAX_WIDTH,
+            margin_x,
+            y + 12,
+            max_width,
             "#E0E0E0",
             10
         )
 
+    # Save slide 1
     p1 = f"slide_1_{int(time.time())}.png"
     img.save(p1, quality=95)
     slide_paths.append(p1)
 
-
-    # ---------- SLIDE 2 ----------
+    # ================= SLIDE 2 =================
     img = Image.new("RGB", (WIDTH, HEIGHT), (18, 18, 18))
     draw = ImageDraw.Draw(img)
-    line_spacing = 22
-    description_text = (article.get("desc", "")[:200] + "...") if article.get("desc") else ""
 
     draw_branding(draw, WIDTH, HEIGHT)
+
     draw.text((margin_x, 80), topic.upper(), fill="#888888", font=meta_font)
+
     draw.text(
         (margin_x, HEIGHT - 130),
         f"Source: {article.get('source', 'News')}",
@@ -235,21 +246,20 @@ def generate_carousel(article, topic):
 
     draw_wrapped_text(
         draw,
-        description_text,
+        article.get("desc", "")[:200] + "...",
         body_font,
         margin_x,
         0,
         max_width,
         "white",
-        22,
-        center_vertically=True,
-        canvas_height=HEIGHT
+        22
     )
 
+    # Accent bar
     bar_h = 500
     draw.rectangle(
-        (margin_x - 35, (HEIGHT - bar_h) / 2,
-         margin_x - 25, (HEIGHT + bar_h) / 2),
+        (margin_x - 35, (HEIGHT - bar_h) // 2,
+         margin_x - 25, (HEIGHT + bar_h) // 2),
         fill="#3aa0ff"
     )
 
