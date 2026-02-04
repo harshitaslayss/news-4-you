@@ -43,20 +43,6 @@
             "added_time": "2026-02-02T23:34:33.103620+00:00"
         },
         {
-            "story_id": "b99ba9ca638155a1682139131d5aba61",
-            "topic": "Dixon",
-            "subtopics": [
-                "Budget boosts long-term outlook for Dixon, Kaynes Tech, other EMS stocks, say brokerages"
-            ],
-            "title": "Budget boosts long-term outlook for Dixon, Kaynes Tech, other EMS stocks, say brokerages",
-            "desc": "Finance Minister Nirmala Sitharaman announced a sharp increase in the allocation for the Electronics Component Manufacturing Scheme (ECMS) to Rs 40,000 crore.",
-            "url": "https://www.moneycontrol.com/news/business/markets/budget-boosts-long-term-outlook-for-dixon-kaynes-tech-other-ems-stocks-say-brokerages-13806099.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260202111043_EMS-stocks.jpg",
-            "source": "Moneycontrol",
-            "score": 3,
-            "added_time": "2026-02-03T02:37:49.791358+00:00"
-        },
-        {
             "story_id": "fe43ccbeb4f5838f3fbbfd383928825a",
             "topic": "Soul",
             "subtopics": [
@@ -797,11 +783,24 @@
             "source": "The Reporters' Collective",
             "score": 4,
             "added_time": "2026-02-04T16:32:29.488959+00:00"
+        },
+        {
+            "story_id": "b99ba9ca638155a1682139131d5aba61",
+            "topic": "Dixon",
+            "subtopics": [
+                "Budget boosts long-term outlook for Dixon, Kaynes Tech, other EMS stocks, say brokerages"
+            ],
+            "title": "Budget boosts long-term outlook for Dixon, Kaynes Tech, other EMS stocks, say brokerages",
+            "desc": "Finance Minister Nirmala Sitharaman announced a sharp increase in the allocation for the Electronics Component Manufacturing Scheme (ECMS) to Rs 40,000 crore.",
+            "url": "https://www.moneycontrol.com/news/business/markets/budget-boosts-long-term-outlook-for-dixon-kaynes-tech-other-ems-stocks-say-brokerages-13806099.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260202111043_EMS-stocks.jpg",
+            "source": "Moneycontrol",
+            "score": 3,
+            "added_time": "2026-02-03T02:37:49.791358+00:00"
         }
     ],
     "recent_topics": {
         "India": "2026-02-04T01:00:22.127308+00:00",
-        "Karnataka": "2026-02-03T05:55:21.625671+00:00",
         "Apple": "2026-02-03T06:59:38.124757+00:00",
         "Singapore": "2026-02-03T07:50:20.014458+00:00",
         "Nirmala Sitharaman'S": "2026-02-03T09:51:28.720056+00:00",
@@ -817,6 +816,7 @@
         "Amr": "2026-02-04T12:32:14.239675+00:00",
         "Salman Khan": "2026-02-04T16:32:29.489003+00:00",
         "United States": "2026-02-04T17:39:06.936003+00:00",
-        "World": "2026-02-04T17:50:22.948335+00:00"
+        "World": "2026-02-04T17:50:22.948335+00:00",
+        "Dixon": "2026-02-04T17:56:05.032385+00:00"
     }
 }
