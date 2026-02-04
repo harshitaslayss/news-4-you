@@ -157,20 +157,6 @@
             "added_time": "2026-02-03T20:23:32.987347+00:00"
         },
         {
-            "story_id": "0233ede946105c6984c2185ea71ee297",
-            "topic": "The Interface: Integrating Electronics",
-            "subtopics": [
-                "Engineering the Interface: Integrating Electronics into Biocompatible Materials for Next-Generation Medical Devices"
-            ],
-            "title": "Engineering the Interface: Integrating Electronics into Biocompatible Materials for Next-Generation Medical Devices",
-            "desc": "The Global Bioelectronics Market size was estimated at USD 10.10 billion in 2025 and expected to reach USD 11.27 billion in 2026, at a CAGR of 12.31% to reach USD 22.78 billion by 2032",
-            "url": "https://www.eletimes.ai/engineering-the-interface-integrating-electronics-into-biocompatible-materials-for-next-generation-medical-devices",
-            "image": "https://www.eletimes.ai/wp-content/uploads/2026/02/Medtech.png",
-            "source": "ELE Times",
-            "score": 4,
-            "added_time": "2026-02-03T20:23:32.987363+00:00"
-        },
-        {
             "story_id": "487151a6afe08fa84d38151222adc6b4",
             "topic": "Future Secured",
             "subtopics": [
@@ -253,6 +239,20 @@
             "source": "Punch Newspapers",
             "score": 3,
             "added_time": "2026-02-04T01:00:22.127263+00:00"
+        },
+        {
+            "story_id": "5b8a1608316ff307f39e79271a6d3b5f",
+            "topic": "Hydroponic",
+            "subtopics": [
+                "Cape Town project tests what hydroponic farming can do in urban spaces"
+            ],
+            "title": "Cape Town project tests what hydroponic farming can do in urban spaces",
+            "desc": "Hydroponic farming is a good way to grow fresh fruit and vegetables in South African cities where high levels of unemployment and poverty make these unaffordable.",
+            "url": "https://theconversation.com/cape-town-project-tests-what-hydroponic-farming-can-do-in-urban-spaces-252958",
+            "image": "https://images.theconversation.com/files/660738/original/file-20250409-56-rbglzi.jpg?ixlib=rb-4.1.0&rect=0%2C1385%2C4571%2C2285&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "The Conversation",
+            "score": 3,
+            "added_time": "2026-02-04T05:04:25.944872+00:00"
         }
     ],
     "posted": [
@@ -582,12 +582,23 @@
             "source": "EE Times",
             "score": 4,
             "added_time": "2026-02-03T14:50:52.455929+00:00"
+        },
+        {
+            "story_id": "0233ede946105c6984c2185ea71ee297",
+            "topic": "The Interface: Integrating Electronics",
+            "subtopics": [
+                "Engineering the Interface: Integrating Electronics into Biocompatible Materials for Next-Generation Medical Devices"
+            ],
+            "title": "Engineering the Interface: Integrating Electronics into Biocompatible Materials for Next-Generation Medical Devices",
+            "desc": "The Global Bioelectronics Market size was estimated at USD 10.10 billion in 2025 and expected to reach USD 11.27 billion in 2026, at a CAGR of 12.31% to reach USD 22.78 billion by 2032",
+            "url": "https://www.eletimes.ai/engineering-the-interface-integrating-electronics-into-biocompatible-materials-for-next-generation-medical-devices",
+            "image": "https://www.eletimes.ai/wp-content/uploads/2026/02/Medtech.png",
+            "source": "ELE Times",
+            "score": 4,
+            "added_time": "2026-02-03T20:23:32.987363+00:00"
         }
     ],
     "recent_topics": {
-        "India Business News:": "2026-02-02T13:11:56.935074+00:00",
-        "NASA": "2026-02-02T14:47:50.699033+00:00",
-        "India News": "2026-02-02T15:41:40.873503+00:00",
         "India": "2026-02-04T01:00:22.127308+00:00",
         "The Union Budget 2026": "2026-02-02T17:42:46.523435+00:00",
         "Nirmala Sitharaman": "2026-02-02T23:34:33.103675+00:00",
@@ -602,6 +613,7 @@
         "China": "2026-02-03T15:55:39.237290+00:00",
         "Ibam": "2026-02-03T16:37:17.784644+00:00",
         "Esg": "2026-02-03T17:09:35.944799+00:00",
-        "Meta": "2026-02-03T20:23:32.987400+00:00"
+        "Meta": "2026-02-03T20:23:32.987400+00:00",
+        "The Interface: Integrating Electronics": "2026-02-04T05:04:25.944929+00:00"
     }
 }
