@@ -31,11 +31,11 @@ def apply_smart_gradient(img):
     overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
 
-    # Start gradient at 75% height
-    start_y = int(height * 0.75)
+    # Start gradient at 55% height
+    start_y = start_y = int(height * 0.55)
 
     for y in range(start_y, height):
-        alpha = int(240 * ((y - start_y) / (height - start_y)) ** 1.3)
+        alpha = int(255 * ((y - start_y) / (height - start_y)) ** 1.1)
         draw.line([(0, y), (width, y)], fill=(0, 0, 0, alpha))
 
     return Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
@@ -163,7 +163,8 @@ def generate_carousel(article, topic):
     draw_branding(draw, WIDTH, HEIGHT)
 
     # Layout constants
-    TEXT_START_Y = int(HEIGHT * 0.75) + 40
+    TEXT_START_Y = int(HEIGHT * 0.58)
+
     TEXT_MARGIN_X = margin_x
     TEXT_MAX_WIDTH = max_width
 
