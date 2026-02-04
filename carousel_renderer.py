@@ -28,7 +28,26 @@ def load_background(image_url, width=1080, height=1080):
     try:
         r = requests.get(image_url, timeout=10)
         img = Image.open(BytesIO(r.content)).convert("RGB")
-        return img.resize((width, height))
+        img_ratio = img.width / img.height
+        target_ratio = width / height
+        
+        if img_ratio > target_ratio:
+            # image is wider → crop sides
+            new_height = height
+            new_width = int(height * img_ratio)
+        else:
+            # image is taller → crop top/bottom
+            new_width = width
+            new_height = int(width / img_ratio)
+        
+        img = img.resize((new_width, new_height), Image.LANCZOS)
+
+        
+        left = (new_width - width) // 2
+        top = (new_height - height) // 2
+        
+        return img.crop((left, top, left + width, top + height))
+
     except:
         return Image.new("RGB", (width, height), (18, 18, 18))
 
@@ -132,6 +151,21 @@ def draw_text_background(base_img, x, y, w, h, radius=30, opacity=200):
 
     base_img.paste(card, (x, y), card)
 
+#splitting into slides
+
+def split_text_into_slides(text, max_chars=350): # Increased to 350 for Slide 2 capacity
+    words = text.split()
+    slides = []
+    current = ""
+    for w in words:
+        if len(current) + len(w) + 1 <= max_chars:
+            current += " " + w
+        else:
+            slides.append(current.strip())
+            current = w
+    if current:
+        slides.append(current.strip())
+    return slides
 
 # --------------------------------------------------
 # MAIN CAROUSEL GENERATOR
@@ -147,17 +181,42 @@ def generate_carousel(article, topic):
 
     slide_paths = []
 
+    IMAGE_RATIO = 0.60
+    IMAGE_HEIGHT = int(HEIGHT * IMAGE_RATIO)
+    TEXT_HEIGHT = HEIGHT - IMAGE_HEIGHT
+
+
     # ================= SLIDE 1 =================
-    bg = load_background(article.get("image"))
-    img = apply_smart_gradient(bg)
+    # Create base canvas
+    img = Image.new("RGB", (WIDTH, HEIGHT), (0, 0, 0))
+    
+    # Load image ONLY for top 60%
+    bg = load_background(article.get("image"), WIDTH, IMAGE_HEIGHT)
+    
+    # Paste image at top
+    img.paste(bg, (0, 0))
+    
+    # Draw solid black background for bottom 40%
     draw = ImageDraw.Draw(img)
+    draw.rectangle(
+        (0, IMAGE_HEIGHT, WIDTH, HEIGHT),
+        fill=(0, 0, 0)
+    )
+
+    draw.rectangle(
+    (0, IMAGE_HEIGHT - 4, WIDTH, IMAGE_HEIGHT),
+    fill=(25, 25, 25)
+    )
+
 
     draw_branding(draw, WIDTH, HEIGHT)
 
     # Text block positioning
-    TEXT_BLOCK_Y = int(HEIGHT * 0.56)
-    TEXT_BLOCK_X = margin_x - 20
+    TEXT_BLOCK_Y = IMAGE_HEIGHT + 30
+
+    TEXT_BLOCK_X = margin_x
     TEXT_BLOCK_WIDTH = WIDTH - (2 * TEXT_BLOCK_X)
+
 
     # Dynamic title
     TITLE_MAX_HEIGHT = 260
@@ -172,9 +231,18 @@ def generate_carousel(article, topic):
         line_spacing=14
     )
 
-    # Estimate subtitle height
+    # Measure REAL subtitle height
     subtitle_exists = bool(article.get("desc"))
-    subtitle_height = subtitle_font.size * 2 if subtitle_exists else 0
+    subtitle_height = 0
+    
+    if subtitle_exists and title_font.size > 42:
+        subtitle_height, _ = calculate_text_height(
+            draw,
+            article.get("desc")[:90] + "...",
+            subtitle_font,
+            max_width,
+            10
+        )
 
     # Calculate total card height
     CARD_PADDING = 30
@@ -184,6 +252,12 @@ def generate_carousel(article, topic):
         subtitle_height +
         CARD_PADDING * 2
     )
+
+    # Prevent card from overlapping watermark
+    BOTTOM_BUFFER = 90
+    MAX_Y = HEIGHT - CARD_HEIGHT - BOTTOM_BUFFER
+    TEXT_BLOCK_Y = min(TEXT_BLOCK_Y, MAX_Y)
+
 
     # Draw background card
     draw_text_background(
@@ -229,42 +303,46 @@ def generate_carousel(article, topic):
     img.save(p1, quality=95)
     slide_paths.append(p1)
 
-    # ================= SLIDE 2 =================
-    img = Image.new("RGB", (WIDTH, HEIGHT), (18, 18, 18))
-    draw = ImageDraw.Draw(img)
+# ---------- SLIDE 2 ----------
+# Split the description into chunks that fit Slide 2
+    raw_desc = article.get("desc", "").strip()
+    if not raw_desc:
+        return slide_paths
+    description_chunks = split_text_into_slides(raw_desc, max_chars=400)
 
-    draw_branding(draw, WIDTH, HEIGHT)
 
-    draw.text((margin_x, 80), topic.upper(), fill="#888888", font=meta_font)
+    for i, chunk in enumerate(description_chunks):
+        img = Image.new("RGB", (WIDTH, HEIGHT), (18, 18, 18))
+        draw = ImageDraw.Draw(img)
+        draw_branding(draw, WIDTH, HEIGHT)
+        # Header Info
+        page_indicator = f" ({i+1}/{len(description_chunks)})" if len(description_chunks) > 1 else ""
+        draw.text((margin_x, 80), topic.upper() + page_indicator, fill="#888888", font=meta_font)
 
-    draw.text(
-        (margin_x, HEIGHT - 130),
-        f"Source: {article.get('source', 'News')}",
-        fill="#666666",
-        font=meta_font
-    )
+        # Footer Source (only on last slide)
+        if i == len(description_chunks) - 1:
+            draw.text(
+                (margin_x, HEIGHT - 130), 
+                f"Source: {article.get('source', 'News')}",
+                fill="#666666", font=meta_font
+                )
+        # Draw the chunk of text centered vertically
+        total_h, _ = calculate_text_height(draw, chunk, body_font, max_width, 22)
+        start_y = (HEIGHT - total_h) // 2
+        
+        draw_wrapped_text(draw, chunk, body_font, margin_x, start_y, max_width, "white", 22)
 
-    draw_wrapped_text(
-        draw,
-        article.get("desc", "")[:200] + "...",
-        body_font,
-        margin_x,
-        0,
-        max_width,
-        "white",
-        22
-    )
+        # Accent bar
+        bar_h = 500
+        draw.rectangle((margin_x - 35, (HEIGHT - bar_h) // 2, margin_x - 25, (HEIGHT + bar_h) // 2), fill="#3aa0ff")
 
-    # Accent bar
-    bar_h = 500
-    draw.rectangle(
-        (margin_x - 35, (HEIGHT - bar_h) // 2,
-         margin_x - 25, (HEIGHT + bar_h) // 2),
-        fill="#3aa0ff"
-    )
-
-    p2 = f"slide_2_{int(time.time())}.png"
-    img.save(p2, quality=95)
-    slide_paths.append(p2)
+        p_chunk = f"slide_desc_{i}_{int(time.time())}.png"
+        img.save(p_chunk, quality=95)
+        slide_paths.append(p_chunk)
+        time.sleep(0.1) # Prevent same filename
 
     return slide_paths
+
+  
+
+    
