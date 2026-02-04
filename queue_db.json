@@ -369,6 +369,20 @@
             "source": "Hindustan Times",
             "score": 3,
             "added_time": "2026-02-04T16:32:29.488978+00:00"
+        },
+        {
+            "story_id": "0bb396ace9adc6133cf0e485e9a7404e",
+            "topic": "United States",
+            "subtopics": [
+                "Asian software stocks plunge after U.S. peers decline on fears over AI-led disruption"
+            ],
+            "title": "Asian software stocks plunge after U.S. peers decline on fears over AI-led disruption",
+            "desc": "Wall Street's fears around artificial intelligence-driven disruption affecting software companies have made their way into Asia.",
+            "url": "https://www.cnbc.com/2026/02/04/software-stocks-plunge-us-ai-disruption.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108246307-1767025794257-gettyimages-2236521867-syn08393.jpeg?v=1767025847&w=1920&h=1080",
+            "source": "CNBC",
+            "score": 3,
+            "added_time": "2026-02-04T17:39:06.935975+00:00"
         }
     ],
     "posted": [
@@ -768,12 +782,25 @@
             "source": "Times of India",
             "score": 4,
             "added_time": "2026-02-04T16:32:29.488950+00:00"
+        },
+        {
+            "story_id": "05d555add01dc8bb1458ad0aa2545156",
+            "topic": "United States",
+            "subtopics": [
+                "India committed to no longer purchasing Russian oil, $500 billion of investments into U.S.: White House",
+                "ChrysCapital acquires minority stake in Bengaluru-based Nash Industries"
+            ],
+            "title": "India committed to no longer purchasing Russian oil, $500 billion of investments into U.S.: White House",
+            "desc": "India pledges to stop buying Russian oil and invest $500 billion in U.S. sectors under a new trade agreement.",
+            "url": "https://www.thehindu.com/news/international/india-committed-to-no-longer-purchasing-russian-oil-500-billion-of-investments-into-us-white-house/article70590252.ece",
+            "image": "https://th-i.thgim.com/public/incoming/sud1w2/article70590264.ece/alternates/LANDSCAPE_1200/Trump_26314.jpg",
+            "source": "The Hindu",
+            "score": 6,
+            "added_time": "2026-02-04T17:39:06.935954+00:00"
         }
     ],
     "recent_topics": {
         "India": "2026-02-04T01:00:22.127308+00:00",
-        "Technology & Science, Times": "2026-02-03T04:36:19.329485+00:00",
-        "Etaf": "2026-02-03T04:51:21.135375+00:00",
         "Karnataka": "2026-02-03T05:55:21.625671+00:00",
         "Apple": "2026-02-03T06:59:38.124757+00:00",
         "Singapore": "2026-02-03T07:50:20.014458+00:00",
@@ -788,6 +815,7 @@
         "Nii": "2026-02-04T05:23:14.273833+00:00",
         "New Delhi'S": "2026-02-04T08:27:31.679946+00:00",
         "Amr": "2026-02-04T12:32:14.239675+00:00",
-        "Salman Khan": "2026-02-04T16:32:29.489003+00:00"
+        "Salman Khan": "2026-02-04T16:32:29.489003+00:00",
+        "United States": "2026-02-04T17:39:06.936003+00:00"
     }
 }
