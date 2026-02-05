@@ -535,6 +535,78 @@
             "source": "Google News Business IN",
             "score": 1,
             "added_time": "2026-02-05T16:32:50.366761+00:00"
+        },
+        {
+            "story_id": "8c25b38e42a8d3bfa143da1f97358900",
+            "topic": "India",
+            "subtopics": [
+                "Vivo V70 and Vivo V70 Elite to launch in India on February 19: Camera and key features revealed",
+                "Tecno Pova Curve 2 5G launching in India on February 13: Design and key features revealed"
+            ],
+            "title": "Vivo V70 and Vivo V70 Elite to launch in India on February 19: Camera and key features revealed",
+            "desc": "Vivo V70 and Vivo V70 Elite camera-centric smartphones are launching in India on February 19. Here\u2019s everything we know so far.\u00a0| Technology News",
+            "url": "https://www.hindustantimes.com/technology/vivo-v70-and-vivo-v70-elite-to-launch-in-india-on-february-19-camera-and-key-features-revealed-101770278805546.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/05/550x309/Vivo_V70_Elite_1770279211237_1770279211386.jpg",
+            "source": "Hindustan Times",
+            "score": 4,
+            "added_time": "2026-02-05T20:20:51.274635+00:00"
+        },
+        {
+            "story_id": "215d9d771356ab3b32f3b24290815741",
+            "topic": "Milan",
+            "subtopics": [
+                "Vance heads overseas for the Winter Olympics. Then he'll stop in Armenia, Azerbaijan",
+                "Vance is in Milan for the Winter Olympics"
+            ],
+            "title": "Vance heads overseas for the Winter Olympics. Then he'll stop in Armenia, Azerbaijan",
+            "desc": "Vice President JD Vance is in Milan leading President Donald Trump\u2019s delegation to the 2026 Winter Olympics",
+            "url": "https://abcnews.go.com/Sports/wireStory/vance-heads-overseas-winter-olympics-hell-stop-armenia-129872694",
+            "image": "https://i.abcnewsfe.com/a/3c910610-9669-4539-b74d-586a5f3a74d1/wirestory_c3bd416df3afa3e64a5c29d9c438e8e5_16x9.jpg?w=1600",
+            "source": "ABC News",
+            "score": 2,
+            "added_time": "2026-02-05T20:20:51.274654+00:00"
+        },
+        {
+            "story_id": "6959823438488a9218f69d30a3e051f1",
+            "topic": "Malaysia",
+            "subtopics": [
+                "Global investors betting on 'rising star' Malaysia as foreign cash piles in"
+            ],
+            "title": "Global investors betting on 'rising star' Malaysia as foreign cash piles in",
+            "desc": "Malaysian assets are drawing global investors as a soft US dollar and rising geopolitical tensions spur diversification and the country's stability and growth are seen as an attractive alternative to stuttering regional rivals.",
+            "url": "https://theedgemalaysia.com/node/791879",
+            "image": "https://assets.theedgemarkets.com/20240805 bursa SY_20240806091800_theedgemalaysia_10.jpg",
+            "source": "The Edge Malaysia",
+            "score": 3,
+            "added_time": "2026-02-05T20:20:51.274663+00:00"
+        },
+        {
+            "story_id": "56d419413fd764659bbeafa9803fe267",
+            "topic": "Infosys",
+            "subtopics": [
+                "AI disrupts Indian IT: Why TCS & Infosys face pain while niche players surge"
+            ],
+            "title": "AI disrupts Indian IT: Why TCS & Infosys face pain while niche players surge",
+            "desc": "India's top IT companies are not leading the AI revolution. Market expert Sudip Bandyopadhyay warns of restructuring and margin pressure for giants like TCS and Infosys. Newer, specialized IT firms are succeeding by focusing on high-growth areas like travel and electric vehicles. Investors should look to these niche players for future growth opportunities.",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/ai-disrupts-indian-it-why-tcs-infosys-face-pain-while-niche-players-surge/articleshow/127927743.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/msid-127927779,width-1200,height-630,imgsize-21126,overlay-etmarkets/articleshow.jpg",
+            "source": "The Economic Times",
+            "score": 4,
+            "added_time": "2026-02-05T20:20:51.274670+00:00"
+        },
+        {
+            "story_id": "c3cd9a8f2e47c240a5ba2fa14faffce6",
+            "topic": "H5N1",
+            "subtopics": [
+                "New nasal vaccine shows strong protection against H5N1 bird flu"
+            ],
+            "title": "New nasal vaccine shows strong protection against H5N1 bird flu",
+            "desc": "As bird flu continues to circulate in animals and spill over into humans, researchers are racing to stop it before it adapts to spread widely between people. A new nasal spray vaccine showed strong protection against H5N1 in animal tests, outperforming traditional flu shots. Because it targets the nose and lungs, it may prevent infection at the earliest stage.",
+            "url": "https://www.sciencedaily.com/releases/2026/02/260204114343.htm",
+            "image": "https://www.sciencedaily.com/images/1920/intranasal-or-nasal-spray-vaccine.webp",
+            "source": "ScienceDaily",
+            "score": 3,
+            "added_time": "2026-02-05T20:20:51.274688+00:00"
         }
     ],
     "posted": [
@@ -1120,12 +1192,24 @@
             "source": "NDTV Profit",
             "score": 6,
             "added_time": "2026-02-05T16:32:50.366696+00:00"
+        },
+        {
+            "story_id": "bd88ca5c109c4fe8be749cc5dd33a127",
+            "topic": "Ai",
+            "subtopics": [
+                "\"Ship Has Sailed...\": Ramesh Damani Sees Ominous Signs For Indian IT Amid Anthropic Buzz"
+            ],
+            "title": "\"Ship Has Sailed...\": Ramesh Damani Sees Ominous Signs For Indian IT Amid Anthropic Buzz",
+            "desc": "Talking about the road ahead for Indian IT in the midst of this AI-led productivity shift, Ramesh Damani said that while business will continue, the \"next 10-20 years will be led by a different set of leaders than what we saw in the post-1992 era.\"",
+            "url": "https://www.ndtvprofit.com/markets/ramesh-damanis-warning-to-indian-it-firms-like-infosys-wipro-tcs-as-anthropics-ai-disrupts-it-10950027",
+            "image": "https://c.ndtvimg.com/2026-02/uk3cljbk_ramesh-damani_625x300_05_February_26.jpg?im=FitAndFill,algorithm=dnn,width=1080,height=607",
+            "source": "NDTV Profit",
+            "score": 7,
+            "added_time": "2026-02-05T20:20:51.274681+00:00"
         }
     ],
     "recent_topics": {
         "India": "2026-02-05T01:02:18.135603+00:00",
-        "The Interface: Integrating Electronics": "2026-02-04T05:04:25.944929+00:00",
-        "Nii": "2026-02-04T05:23:14.273833+00:00",
         "New Delhi'S": "2026-02-04T08:27:31.679946+00:00",
         "Amr": "2026-02-04T12:32:14.239675+00:00",
         "Salman Khan": "2026-02-04T16:32:29.489003+00:00",
@@ -1138,7 +1222,7 @@
         "Rsv": "2026-02-04T18:54:25.755780+00:00",
         "Iihm": "2026-02-04T19:01:39.744417+00:00",
         "Future Secured": "2026-02-04T20:21:25.714081+00:00",
-        "Ai": "2026-02-05T05:12:17.027294+00:00",
+        "Ai": "2026-02-05T20:20:51.274746+00:00",
         "Bse": "2026-02-05T08:29:32.452836+00:00"
     }
 }
