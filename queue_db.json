@@ -341,20 +341,6 @@
             "added_time": "2026-02-05T01:02:18.135553+00:00"
         },
         {
-            "story_id": "888b3efb535675fabfc150b4a721f81b",
-            "topic": "Bse",
-            "subtopics": [
-                "Fractal Analytics IPO GMP rises to 21% as AI solutions provider announces price band"
-            ],
-            "title": "Fractal Analytics IPO GMP rises to 21% as AI solutions provider announces price band",
-            "desc": "Fractal Analytics IPO shares are scheduled to be listed on February 16 on both NSE and BSE.",
-            "url": "https://www.moneycontrol.com/news/business/ipo/fractal-analytics-ipo-gmp-rises-to-21-as-ai-solutions-provider-announces-price-band-13810550.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260204100622_Fractal-Analytics.jpg",
-            "source": "Moneycontrol",
-            "score": 4,
-            "added_time": "2026-02-05T01:02:18.135560+00:00"
-        },
-        {
             "story_id": "c5fd81feaf6cdcce623343abeefc7c82",
             "topic": "Upsc",
             "subtopics": [
@@ -437,6 +423,34 @@
             "source": "Biometric Update",
             "score": 3,
             "added_time": "2026-02-05T05:12:17.027270+00:00"
+        },
+        {
+            "story_id": "30e0691aba1e11cfd7c207060071946f",
+            "topic": "Apa Psycarticles",
+            "subtopics": [
+                "Effect of Digital Health Interventions on College Students\u2019 Lifestyle Behaviors: Systematic Review"
+            ],
+            "title": "Effect of Digital Health Interventions on College Students\u2019 Lifestyle Behaviors: Systematic Review",
+            "desc": "Background: College students undergo a critical transition from adolescence to adulthood, during which lifestyle behaviors such as physical activity, sedentary behavior, diet, and sleep are key determinants of long-term health. Digital health interventions (DHIs) are increasingly recognized as a promising strategy for improving these behaviors among college students.\nObjective: This systematic review aims to evaluate the effectiveness and applicability of DHIs targeting lifestyle behaviors among college students by analyzing intervention objectives, modalities, functionalities, outcomes, and other key characteristics.\nMethods: In accordance with the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) 2020 guidelines, multiple scientific databases, including Scopus, Web of Science, PubMed, MEDLINE, PsycINFO, SPORTDiscus, ProQuest Central, APA PsycArticles, ERIC, and Academic Search Premier, were searched for studies published between January 2010 and December 2025 (initial search: August 5, 2025; updated search: December 27, 2025). The inclusion criteria were original empirical studies on DHIs targeting lifestyle behaviors (physical activity, sedentary behavior, diet, and sleep) among college students, published in English. Studies focusing on nondigital interventions, lacking sufficient methodological details, or not reporting lifestyle behavior\u2013related outcomes were excluded. Quality assessment was conducted in 2 stages: all studies were first evaluated using the Mixed Methods Appraisal Tool (2018 version), followed by Risk of Bias 2 for randomized controlled trials and Joanna Briggs Institute critical appraisal tools for nonrandomized studies. A narrative synthesis was used to present and synthesize the findings.\nResults: A total of 2998 records were retrieved, of which 46 publications met the inclusion criteria. These included 30 (65%) studies related to physical activity, 26 (57%) studies to diet, 10 (22%) studies related to sedentary behavior, and 6 (13%) studies related to sleep. This review enabled an examination of the effects of DHIs on college students\u2019 lifestyle behaviors. DHIs primarily used mobile apps, web-based platforms, and mobile communication technologies, with core functionalities such as education, guidance, monitoring, and prompting. DHIs were more effective in improving physical activity and diet; however, evidence for reducing sedentary behavior and improving sleep remained limited. Of the 46 studies, 31 (67%) reported positive effects, with larger sample sizes and intervention durations of 8-16 weeks being associated with more favorable outcomes.\nConclusions: This review focuses on college students, addressing a gap in the literature that often centers on general adult populations. Unlike previous reviews that focus on a single behavior, this study integrates multiple lifestyle behaviors and evaluates DHIs across diverse modalities and functionalities. These contributions help refine future DHIs for college students and inform health promotion strategies in higher education. Although DHIs show potential for improving lifestyle behaviors, evidence of their long-term effectiveness remains limited. Future interventions should prioritize multibehavior integration, interactivity, and population-differentiated design to enhance precision, sustainability, and equity. This study has several limitations, including issues related to sample representativeness, intervention refinement, and methodological rigor.\nTrial Registration: PROSPERO CRD420251119078; https://www.crd.york.ac.uk/PROSPERO/view/CRD420251119078",
+            "url": "https://www.jmir.org/2026/1/e82192",
+            "image": "https://asset.jmir.pub/assets/0395c79956e31f6349483453220de421.png",
+            "source": "Journal of Medical Internet Research",
+            "score": 4,
+            "added_time": "2026-02-05T08:29:32.452790+00:00"
+        },
+        {
+            "story_id": "c5fbeda9f055efdd62fb8a469ee22e0b",
+            "topic": "Ethiopia",
+            "subtopics": [
+                "Ethio telecom, Djibouti Telecom, and Sudatel Group Sign Tripartite Agreement for the Horizon Fiber Initiative"
+            ],
+            "title": "Ethio telecom, Djibouti Telecom, and Sudatel Group Sign Tripartite Agreement for the Horizon Fiber Initiative",
+            "desc": "We are Africa's Pioneer telecom provider, offering reliable connectivity, advanced technology, and financial services to simplify life as we drive Ethiopia's digital transformation and empower communities with innovative solutions.",
+            "url": "https://www.ethiotelecom.et/ethio-telecom-djibouti-telecom-and-sudatel-group-sign/",
+            "image": "https://www.ethiotelecom.et/wp-content/uploads/2026/02/Djibouti-Ethio-telecom.jpeg",
+            "source": "Ethio telecom",
+            "score": 3,
+            "added_time": "2026-02-05T08:29:32.452813+00:00"
         }
     ],
     "posted": [
@@ -994,11 +1008,24 @@
             "source": "Times of India",
             "score": 4,
             "added_time": "2026-02-05T01:02:18.135545+00:00"
+        },
+        {
+            "story_id": "888b3efb535675fabfc150b4a721f81b",
+            "topic": "Bse",
+            "subtopics": [
+                "Fractal Analytics IPO GMP rises to 21% as AI solutions provider announces price band"
+            ],
+            "title": "Fractal Analytics IPO GMP rises to 21% as AI solutions provider announces price band",
+            "desc": "Fractal Analytics IPO shares are scheduled to be listed on February 16 on both NSE and BSE.",
+            "url": "https://www.moneycontrol.com/news/business/ipo/fractal-analytics-ipo-gmp-rises-to-21-as-ai-solutions-provider-announces-price-band-13810550.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260204100622_Fractal-Analytics.jpg",
+            "source": "Moneycontrol",
+            "score": 4,
+            "added_time": "2026-02-05T01:02:18.135560+00:00"
         }
     ],
     "recent_topics": {
         "India": "2026-02-05T01:02:18.135603+00:00",
-        "Meta": "2026-02-03T20:23:32.987400+00:00",
         "The Interface: Integrating Electronics": "2026-02-04T05:04:25.944929+00:00",
         "Nii": "2026-02-04T05:23:14.273833+00:00",
         "New Delhi'S": "2026-02-04T08:27:31.679946+00:00",
@@ -1013,6 +1040,7 @@
         "Rsv": "2026-02-04T18:54:25.755780+00:00",
         "Iihm": "2026-02-04T19:01:39.744417+00:00",
         "Future Secured": "2026-02-04T20:21:25.714081+00:00",
-        "Ai": "2026-02-05T05:12:17.027294+00:00"
+        "Ai": "2026-02-05T05:12:17.027294+00:00",
+        "Bse": "2026-02-05T08:29:32.452836+00:00"
     }
 }
