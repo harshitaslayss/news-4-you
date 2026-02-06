@@ -635,6 +635,90 @@
             "source": "Hindustan Times",
             "score": 4,
             "added_time": "2026-02-06T01:00:22.865285+00:00"
+        },
+        {
+            "story_id": "4d18107d4d0f7d9f9a9464fa6693e02a",
+            "topic": "Donald Trump",
+            "subtopics": [
+                "Vance says the Olympics are 'one of the few things' that unite Americans"
+            ],
+            "title": "Vance says the Olympics are 'one of the few things' that unite Americans",
+            "desc": "Vice President JD Vance is leading President Donald Trump's delegation to the 2026 Winter Olympics and later stopping in Armenia and Azerbaijan in a show of support for a peace agreement brokered by the White House last year.",
+            "url": "https://www.pbs.org/newshour/world/vance-says-the-olympics-are-one-of-the-few-things-that-unite-americans",
+            "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/02/2026-02-05T105302Z_1785051919_RC2MFJANHJW3_RTRMADP_3_OLYMPICS-2026-USA-VANCE-ARRIVAL-1024x683.jpg",
+            "source": "PBS",
+            "score": 3,
+            "added_time": "2026-02-06T12:31:17.163674+00:00"
+        },
+        {
+            "story_id": "0c57def43b00539e9543fd9c8064091d",
+            "topic": "India",
+            "subtopics": [
+                "India resets startup definition to include deep tech companies, cooperative societies"
+            ],
+            "title": "India resets startup definition to include deep tech companies, cooperative societies",
+            "desc": "India has revised its startup framework, increasing turnover limits, extending eligibility for deep-tech firms, and including cooperative societies in the Startup India programme. Startups can now be recognised up to 10 years, while deep-tech firms have a 20-year window. The changes aim to support innovation, R&D, and long-term growth.",
+            "url": "https://economictimes.indiatimes.com/tech/startups/govt-expands-definition-of-startup-turnover-limit-doubled-to-rs-200-crore/articleshow/127943157.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-15070,resizemode-75,msid-127943157/tech/startups/govt-expands-definition-of-startup-turnover-limit-doubled-to-rs-200-crore.jpg",
+            "source": "The Economic Times",
+            "score": 3,
+            "added_time": "2026-02-06T12:31:17.163711+00:00"
+        },
+        {
+            "story_id": "28f4572035c769cba001e55d1869e315",
+            "topic": "Amazon",
+            "subtopics": [
+                "AWS India layoffs deepen as Amazon targets 30,000 job cuts"
+            ],
+            "title": "AWS India layoffs deepen as Amazon targets 30,000 job cuts",
+            "desc": "AWS India faces significant layoffs as Amazon aims to cut 30,000 jobs globally, impacting 400 Bedrock employees.",
+            "url": "https://www.thehindubusinessline.com/news/aws-india-layoffs-deepen-as-amazon-targets-30000-job-cuts/article70596395.ece",
+            "image": "https://bl-i.thgim.com/public/incoming/6dz73e/article70596472.ece/alternates/LANDSCAPE_1200/2026-01-15T070019Z_1570997051_RC2J7HAFD7Q9_RTRMADP_3_AMAZON-EUROPE-CLOUD.JPG",
+            "source": "BusinessLine",
+            "score": 2,
+            "added_time": "2026-02-06T12:31:17.163719+00:00"
+        },
+        {
+            "story_id": "93be7ff3b12d204b27bed204a7e912ec",
+            "topic": "India",
+            "subtopics": [
+                "SaaSpocalypse hits when plumbers are outearning Indian techies"
+            ],
+            "title": "SaaSpocalypse hits when plumbers are outearning Indian techies",
+            "desc": "India's entry-level tech jobs face a stark reality as home service workers reportedly now earn more. A recent AI release has intensified fears of widespread job displacement, with experts predicting significant disruption to white-collar roles within months. While some industry leaders foresee a transformation of work, others warn of unprecedented automation impacting numerous sectors.",
+            "url": "https://economictimes.indiatimes.com/jobs/hr-policies-trends/saaspocalypse-hits-when-plumbers-are-outearning-indian-techies/articleshow/127930946.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/msid-127934081,width-1200,height-630,imgsize-51180,overlay-etcareers/articleshow.jpg",
+            "source": "The Economic Times",
+            "score": 3,
+            "added_time": "2026-02-06T12:31:17.163729+00:00"
+        },
+        {
+            "story_id": "3c95994d36d0da45895be357b86899bc",
+            "topic": "Ai",
+            "subtopics": [
+                "Israeli-founded 'SpaceX of weather' raises $175m to send next-gen satellites into orbit"
+            ],
+            "title": "Israeli-founded 'SpaceX of weather' raises $175m to send next-gen satellites into orbit",
+            "desc": "Tomorrow.io is the developer of an AI weather satellite network to help forecast fast-evolving extreme weather events, as well as improve emergency preparedness and disaster response",
+            "url": "https://www.timesofisrael.com/israeli-founded-spacex-of-weather-raises-175m-to-send-next-gen-satellites-into-orbit/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2022/09/AP22271434061284-e1664367680651.jpg",
+            "source": "The Times of Israel",
+            "score": 3,
+            "added_time": "2026-02-06T12:31:17.163739+00:00"
+        },
+        {
+            "story_id": "43e0aff6e6be9f66223d4170daee6261",
+            "topic": "United States",
+            "subtopics": [
+                "India-U.S. trade deal: Likely to finalise and sign joint statement in \u2018four to five days\u2019, Piyush Goyal says"
+            ],
+            "title": "India-U.S. trade deal: Likely to finalise and sign joint statement in \u2018four to five days\u2019, Piyush Goyal says",
+            "desc": "India and the U.S. are set to finalize a trade deal within days, reducing tariffs on Indian goods to 18%.",
+            "url": "https://www.thehindu.com/business/india-us-trade-deal-piyush-goyal-tariffs-joint-statement-legal-agreement/article70594904.ece",
+            "image": "https://th-i.thgim.com/public/incoming/vrpuaq/article70594910.ece/alternates/LANDSCAPE_1200/PTI02_03_2026_000374B.jpg",
+            "source": "thehindu.com",
+            "score": 3,
+            "added_time": "2026-02-06T12:31:17.163749+00:00"
         }
     ],
     "posted": [
@@ -1248,22 +1332,28 @@
             "source": "BBC",
             "score": 5,
             "added_time": "2026-02-05T16:32:50.366718+00:00"
+        },
+        {
+            "story_id": "63a3daa85994d99f3ca4a663adab7d46",
+            "topic": "Mann Ki Baat",
+            "subtopics": [
+                "Pariksha Pe Charcha: The charcha that eased pariksha"
+            ],
+            "title": "Pariksha Pe Charcha: The charcha that eased pariksha",
+            "desc": "Pariksha Pe Charcha is surging ahead like never before, and after Mann Ki Baat, it has offered a unique style of communication module...",
+            "url": "https://www.newindianexpress.com/education/2026/Feb/05/pariksha-pe-charcha-the-charcha-that-eased-pariksha",
+            "image": "https://media.newindianexpress.com/newindianexpress%2F2026-01-27%2Fqemumn9y%2F202601273652467.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+            "source": "The New Indian Express",
+            "score": 7,
+            "added_time": "2026-02-06T12:31:17.163696+00:00"
         }
     ],
     "recent_topics": {
         "India": "2026-02-05T01:02:18.135603+00:00",
-        "Salman Khan": "2026-02-04T16:32:29.489003+00:00",
-        "United States": "2026-02-04T17:39:06.936003+00:00",
-        "World": "2026-02-04T17:50:22.948335+00:00",
-        "Dixon": "2026-02-04T17:56:05.032385+00:00",
-        "Soul": "2026-02-04T18:04:35.450926+00:00",
         "General": "2026-02-05T16:32:50.366788+00:00",
-        "Narendra Modi": "2026-02-04T18:48:51.453795+00:00",
-        "Rsv": "2026-02-04T18:54:25.755780+00:00",
-        "Iihm": "2026-02-04T19:01:39.744417+00:00",
-        "Future Secured": "2026-02-04T20:21:25.714081+00:00",
         "Ai": "2026-02-05T20:20:51.274746+00:00",
         "Bse": "2026-02-05T08:29:32.452836+00:00",
-        "Australia": "2026-02-06T01:00:22.865315+00:00"
+        "Australia": "2026-02-06T01:00:22.865315+00:00",
+        "Mann Ki Baat": "2026-02-06T12:31:17.163777+00:00"
     }
 }
