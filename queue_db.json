@@ -719,6 +719,106 @@
             "source": "thehindu.com",
             "score": 3,
             "added_time": "2026-02-06T12:31:17.163749+00:00"
+        },
+        {
+            "story_id": "fe5274803848b908d7521a27218283b6",
+            "topic": "India",
+            "subtopics": [
+                "MediaTek Unveils Dimensity 9500s and Dimensity 8500 to Propel Performance, Gaming and Efficiency in Flagship and Premium Smartphones at MediaTek Tech Day",
+                "Google, Amazon, Meta, Microsoft spending more on AI in 2026 than India will spend on entire country",
+                "Oppo, Poco to launch smartphones powered by Dimensity 9500s flagship chipset: MediaTek"
+            ],
+            "title": "Oppo, Poco to launch smartphones powered by Dimensity 9500s flagship chipset: MediaTek",
+            "desc": "Oppo and Poco are poised to launch new smartphones featuring MediaTek's flagship Dimensity 9500s chipset, promising exceptional performance and power efficiency for high-end mobile experiences.",
+            "url": "https://telecom.economictimes.indiatimes.com/news/devices/oppo-and-poco-set-to-unveil-smartphones-with-mediateks-dimensity-9500s-chipset/127983673",
+            "image": "https://etimg.etb2bimg.com/thumb/msid-127983673,imgsize-94590,width-1200,height=627,overlay-ettelecom,resizemode-75/devices/oppo-and-poco-set-to-unveil-smartphones-with-mediateks-dimensity-9500s-chipset.jpg",
+            "source": "ET Telecom",
+            "score": 4,
+            "added_time": "2026-02-07T01:00:08.141575+00:00"
+        },
+        {
+            "story_id": "cb26acf3549891b48d551d56c5f445e6",
+            "topic": "Bitcoin",
+            "subtopics": [
+                "Bitcoin crash stuns markets. Decoding biggest crypto slump since Trump election"
+            ],
+            "title": "Bitcoin crash stuns markets. Decoding biggest crypto slump since Trump election",
+            "desc": "Bitcoin has witnessed one of its sharpest corrections in recent years, wiping out more than $2 trillion from the global cryptocurrency market in a single day. The fall is the steepest since Donald Trump\u2019s election. It comes amid rising global risk aversion, weakness in technology and AI stocks, and sustained institutional selling pressure.",
+            "url": "https://www.indiatoday.in/business/story/bitcoin-crash-wipes-2-trillion-what-triggered-biggest-crypto-slump-since-trumps-election-2864179-2026-02-06",
+            "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202602/bitcoin-063408101-16x9_0.jpeg?VersionId=VbZ3A59vJyngme.KBWouaM4QR7O8CzAx",
+            "source": "indiatoday.in",
+            "score": 3,
+            "added_time": "2026-02-07T01:00:08.141599+00:00"
+        },
+        {
+            "story_id": "a879f50ae39421bc4b77b3c1e5f419d8",
+            "topic": "Apple",
+            "subtopics": [
+                "Apple may launch iPhone 17e this month; report reveals key changes"
+            ],
+            "title": "Apple may launch iPhone 17e this month; report reveals key changes",
+            "desc": "Apple may soon introduce its next affordable iPhone, with reports pointing to a February launch and several changes planned for the new model.| Technology News",
+            "url": "https://www.hindustantimes.com/technology/apple-may-launch-iphone-17e-this-month-report-reveals-key-changes-101770366931598.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/06/550x309/iPhone_17e_1770367511063_1770367511194.png",
+            "source": "Hindustan Times",
+            "score": 3,
+            "added_time": "2026-02-07T01:00:08.141616+00:00"
+        },
+        {
+            "story_id": "0bffdf3f4f7dd363d2804756e1215cb8",
+            "topic": "Bitcoin",
+            "subtopics": [
+                "Bitcoin falls 8% and Asian shares mostly slip after Wall Street is hit by tech stock losses"
+            ],
+            "title": "Bitcoin falls 8% and Asian shares mostly slip after Wall Street is hit by tech stock losses",
+            "desc": "Asian shares are mostly lower after Wall Street extended losses driven by technology stocks",
+            "url": "https://abcnews.go.com/Business/wireStory/bitcoin-falls-8-asian-shares-slip-after-wall-129907971",
+            "image": "https://i.abcnewsfe.com/a/e0b238bf-dd5a-4b81-86ee-48da273e8c56/wirestory_199d4d65b7596d7c34f3a5d9a77c2326_16x9.jpg?w=1600",
+            "source": "ABC News",
+            "score": 2,
+            "added_time": "2026-02-07T01:00:08.141623+00:00"
+        },
+        {
+            "story_id": "71bf3c2ec05e87c6adbccfa1c74d9c83",
+            "topic": "India & Asia Pacific",
+            "subtopics": [
+                "Stellantis Reports Q4 2025 Estimated Consolidated Shipments of 1.5 Million Units, +9% y-o-y"
+            ],
+            "title": "Stellantis Reports Q4 2025 Estimated Consolidated Shipments of 1.5 Million Units, +9% y-o-y",
+            "desc": "North America Shipments Up 43%, with South America, Middle East & Africa and China and India & Asia Pacific Also Reporting Growth",
+            "url": "https://www.stellantis.com/en/news/press-releases/2026/february/stellantis-reports-q4-2025-estimated-consolidated-shipments-of-1-5-million-units-9-percent-y-o-y",
+            "image": "https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/share-icons/share-icons-v1.png",
+            "source": "Stellantis.com",
+            "score": 3,
+            "added_time": "2026-02-07T01:00:08.141630+00:00"
+        },
+        {
+            "story_id": "4bb0353344ccc7a9546c8cc1962e1822",
+            "topic": "The 'Sahyog Portal'",
+            "subtopics": [
+                "Kunal Kamra Moves Bombay High Court Challenging 'Sahyog Portal' & 2025 Amendment To IT Rules Allowing Blocking Of Social Media Content"
+            ],
+            "title": "Kunal Kamra Moves Bombay High Court Challenging 'Sahyog Portal' & 2025 Amendment To IT Rules Allowing Blocking Of Social Media Content",
+            "desc": "Satirist Kunal Kamra has approached the Bombay High Court challenging the constitutional validity of the 'Sahyog Portal' and the 2025 amendment to Rule 3(1)(d) of the Information Technology...",
+            "url": "https://www.livelaw.in/high-court/bombay-high-court/kunal-kamra-moves-bombay-high-court-challenging-sahyog-portal-2025-amendment-to-it-rules-allowing-blocking-of-social-media-content-522136",
+            "image": "https://www.livelaw.in/h-upload/2025/04/25/597214-kunal-kamra-bombay-hc.jpg",
+            "source": "Live Law",
+            "score": 3,
+            "added_time": "2026-02-07T01:00:08.141637+00:00"
+        },
+        {
+            "story_id": "70966edf9454e550b1113b705afe5dcd",
+            "topic": "General",
+            "subtopics": [
+                "What went right this week: the good news that matters"
+            ],
+            "title": "What went right this week: the good news that matters",
+            "desc": "A third of cancer cases are \u2018avoidable\u2019, Africa powers ahead on solar, and the push for global tax justice gathers pace, plus more good news",
+            "url": "https://www.positive.news/society/good-news-stories-from-week-6-of-2026/",
+            "image": "https://positivenews.kinsta.cloud/wp-content/uploads/2026/02/shutterstock_2725443743.jpeg",
+            "source": "Positive News",
+            "score": 4,
+            "added_time": "2026-02-07T01:00:08.141651+00:00"
         }
     ],
     "posted": [
@@ -1346,14 +1446,27 @@
             "source": "The New Indian Express",
             "score": 7,
             "added_time": "2026-02-06T12:31:17.163696+00:00"
+        },
+        {
+            "story_id": "2772a0ffe15d48156718f3eb0fbe6a8d",
+            "topic": "Ev",
+            "subtopics": [
+                "Mahindra Announces Rs 15,000 Cr for New Plant - For NU_IQ Platform, ICE, EV, Future Tech"
+            ],
+            "title": "Mahindra Announces Rs 15,000 Cr for New Plant - For NU_IQ Platform, ICE, EV, Future Tech",
+            "desc": "Mahindra Group has announced plans to establish its largest integrated automobile and tractor manufacturing facility in Maharashtra, marking a major expansion of its manufacturing footprint in India",
+            "url": "https://www.rushlane.com/mahindra-announces-rs-15000-cr-for-new-plant-for-nu_iq-platform-12539590.html",
+            "image": "https://www.rushlane.com/wp-content/uploads/2025/08/Mahindra-Vision-S-Interiors-17.jpeg",
+            "source": "RushLane",
+            "score": 5,
+            "added_time": "2026-02-07T01:00:08.141609+00:00"
         }
     ],
     "recent_topics": {
-        "India": "2026-02-05T01:02:18.135603+00:00",
         "General": "2026-02-05T16:32:50.366788+00:00",
         "Ai": "2026-02-05T20:20:51.274746+00:00",
-        "Bse": "2026-02-05T08:29:32.452836+00:00",
         "Australia": "2026-02-06T01:00:22.865315+00:00",
-        "Mann Ki Baat": "2026-02-06T12:31:17.163777+00:00"
+        "Mann Ki Baat": "2026-02-06T12:31:17.163777+00:00",
+        "Ev": "2026-02-07T01:00:08.141684+00:00"
     }
 }
