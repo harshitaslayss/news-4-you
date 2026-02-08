@@ -191,7 +191,7 @@ def normalize_topic(name, label=None):
     # Fallback formatting
     return name.title()
 
-# Article Clustering into Stories
+### Article Clustering into Stories
 
 # 1. Initialize Model
 model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -226,6 +226,7 @@ def convert_noise_to_clusters(labels):
             new_labels[i] = max_label
     return new_labels
 
+# 4. Use HDBSCAN method
 def cluster_hdbscan_emb(articles):
     embeddings = get_weighted_embeddings(articles)
 
@@ -272,6 +273,12 @@ def cluster_hdbscan_emb(articles):
 #         clusters.append(group)
 
 #     return clusters, similarity_matrix, tfidf_matrix
+
+
+# story id is added in queue db and used to filter out stories with same id
+# Best article to represent that story is selected via 
+# scoring system constituing if-then rules, refer score function
+
 
 def generate_story_id(entities, title):
     base = " ".join(sorted(entities)) + title[:60]
