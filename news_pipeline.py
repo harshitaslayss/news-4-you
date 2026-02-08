@@ -438,6 +438,10 @@ def get_next_article(query="technology india"):
     clean_recent_topics(db)
     clean_old_queue_items(db)
     raw = fetch_master_news(query)
+
+    if not raw:
+        return {"article": None, "clusters": [], "raw_articles": []}
+
     
     for a in raw:
         doc = nlp(a["title"] + " " + a["desc"])
