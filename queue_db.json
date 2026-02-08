@@ -1031,35 +1031,21 @@
             "added_time": "2026-02-08T16:17:12.881547+00:00"
         },
         {
-            "story_id": "b4ab38b72a8f6e29e3193e9ddc8feaf8",
-            "topic": "Sujata Bajaj\u2019S",
+            "story_id": "44dca2fd9f189800668f2944854f39ac",
+            "topic": "Titan",
             "subtopics": [
-                "Light Years on Canvas"
+                "Titan sharpens premium watch strategy with chess prodigy Gukesh-led \u2018Titan of the Year\u2019 push"
             ],
-            "title": "Light Years on Canvas",
-            "desc": "Artist Sujata Bajaj\u2019s new exhibition emerges as an emotional encounter with the cosmos",
-            "url": "https://www.newindianexpress.com/magazine/2026/Feb/08/light-years-on-canvas",
-            "image": "https://media.newindianexpress.com/newindianexpress%2F2026-02-05%2F0w087nof%2FIN-HER-STUDIO-AT-PARIS-030526.JPG?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-            "source": "The New Indian Express",
-            "score": 5,
-            "added_time": "2026-02-08T16:17:12.881553+00:00"
+            "title": "Titan sharpens premium watch strategy with chess prodigy Gukesh-led \u2018Titan of the Year\u2019 push",
+            "desc": "The Tata Group company institutionalises Titan of the Year as a long-term brand platform, using limited-edition mechanical watches to push deeper into high-value segments.",
+            "url": "https://www.fortuneindia.com/business-news/titan-sharpens-premium-watch-strategy-with-chess-prodigy-gukesh-led-titan-of-the-year-push/130201",
+            "image": "https://media.fortuneindia.com/fortune-india/2026-02-08/dhemotsz/Titan-hero-image.jpg?w=1200&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+            "source": "Fortune India",
+            "score": 3,
+            "added_time": "2026-02-08T18:35:14.894057+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "3deaf1bc68d062bc0363697eab15b223",
-            "topic": "India Business News:",
-            "subtopics": [
-                "Union Budget 2026\u201327: Which ministry got highest allocation? A portfolio"
-            ],
-            "title": "Union Budget 2026\u201327: Which ministry got highest allocation? A portfolio",
-            "desc": "India Business News: The Union Budget 2026\u201327 proposes a grand total expenditure of Rs 53.47 lakh crore, comprising Rs 41.25 lakh crore in revenue expenditure and Rs 12.22.",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/union-budget-202627-which-ministry-got-highest-allocation-a-portfolio-wise-breakdown/articleshow/127842305.cms",
-            "image": "https://static.toiimg.com/thumb/msid-127843090,width-1280,height-720,imgsize-945467,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "Times of India",
-            "score": 4,
-            "added_time": "2026-02-02T12:20:27.326345+00:00"
-        },
         {
             "story_id": "7ee3353c6eae49b55e4999db298a06f7",
             "topic": "NASA",
@@ -1756,6 +1742,20 @@
             "source": "BBC",
             "score": 6,
             "added_time": "2026-02-08T16:17:12.881540+00:00"
+        },
+        {
+            "story_id": "b4ab38b72a8f6e29e3193e9ddc8feaf8",
+            "topic": "Sujata Bajaj\u2019S",
+            "subtopics": [
+                "Light Years on Canvas"
+            ],
+            "title": "Light Years on Canvas",
+            "desc": "Artist Sujata Bajaj\u2019s new exhibition emerges as an emotional encounter with the cosmos",
+            "url": "https://www.newindianexpress.com/magazine/2026/Feb/08/light-years-on-canvas",
+            "image": "https://media.newindianexpress.com/newindianexpress%2F2026-02-05%2F0w087nof%2FIN-HER-STUDIO-AT-PARIS-030526.JPG?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+            "source": "The New Indian Express",
+            "score": 5,
+            "added_time": "2026-02-08T16:17:12.881553+00:00"
         }
     ],
     "recent_topics": {
@@ -1764,6 +1764,7 @@
         "Blackrock Blackrock": "2026-02-08T08:09:25.633531+00:00",
         "Mukesh Ambani": "2026-02-08T08:19:24.020486+00:00",
         "Kumar Sanu": "2026-02-08T12:22:57.956059+00:00",
-        "General": "2026-02-08T16:17:12.881591+00:00"
+        "General": "2026-02-08T16:17:12.881591+00:00",
+        "Sujata Bajaj\u2019S": "2026-02-08T18:35:14.894120+00:00"
     }
 }
