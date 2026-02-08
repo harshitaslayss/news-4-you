@@ -18,13 +18,18 @@ def create_image_container(image_url, caption=None):
     if caption:
         payload["caption"] = caption
 
-    r = requests.post(
-        f"{GRAPH_API}/{INSTAGRAM_USER_ID}/media",
-        data=payload
-    )
-    data = r.json()
-    print("INSTAGRAM RESPONSE:", data)
-    return data.get("id")
+    # Try 3 times because of the 'is_transient' nature of Code 2
+    for attempt in range(3):
+        r = requests.post(f"{GRAPH_API}/{INSTAGRAM_USER_ID}/media", data=payload)
+        data = r.json()
+        
+        if "id" in data:
+            return data["id"]
+        
+        print(f"⚠️ Attempt {attempt+1} failed for {image_url}: {data}")
+        time.sleep(5) # Wait for the hosting service to fully propagate the image
+        
+    return None
 
 
 def wait_until_ready(creation_id, timeout=120):
