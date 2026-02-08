@@ -18,7 +18,6 @@ from nltk.stem import WordNetLemmatizer
 from rapidfuzz import process, fuzz
 from sentence_transformers import SentenceTransformer
 import numpy as np
-from sentence_transformers import SentenceTransformer
 import hdbscan
 from collections import defaultdict
 
@@ -247,32 +246,32 @@ def cluster_hdbscan_emb(articles):
     
     return list(clusters_dict.values())
 
-def cluster_articles(articles, threshold=0.40):
-    texts = []
-    for a in articles:
-        entity_blob = " ".join(a.get("entities", []))
-        combined = f"{a.get('title','')} {a.get('desc','')} {entity_blob} {entity_blob}"
-        texts.append(combined.lower())
+# def cluster_articles(articles, threshold=0.40):
+#     texts = []
+#     for a in articles:
+#         entity_blob = " ".join(a.get("entities", []))
+#         combined = f"{a.get('title','')} {a.get('desc','')} {entity_blob} {entity_blob}"
+#         texts.append(combined.lower())
 
-    vectorizer = TfidfVectorizer(stop_words="english")
-    tfidf_matrix = vectorizer.fit_transform(texts)
+#     vectorizer = TfidfVectorizer(stop_words="english")
+#     tfidf_matrix = vectorizer.fit_transform(texts)
 
-    similarity_matrix = cosine_similarity(tfidf_matrix)
+#     similarity_matrix = cosine_similarity(tfidf_matrix)
 
-    clusters, used = [], set()
-    for i in range(len(articles)):
-        if i in used:
-            continue
-        group = [i]
-        used.add(i)
-        for j in range(i + 1, len(articles)):
-            entity_overlap = len(set(articles[i]["entities"]) & set(articles[j]["entities"]))
-            if j not in used and (similarity_matrix[i][j] >= threshold or entity_overlap >= 2):
-                group.append(j)
-                used.add(j)
-        clusters.append(group)
+#     clusters, used = [], set()
+#     for i in range(len(articles)):
+#         if i in used:
+#             continue
+#         group = [i]
+#         used.add(i)
+#         for j in range(i + 1, len(articles)):
+#             entity_overlap = len(set(articles[i]["entities"]) & set(articles[j]["entities"]))
+#             if j not in used and (similarity_matrix[i][j] >= threshold or entity_overlap >= 2):
+#                 group.append(j)
+#                 used.add(j)
+#         clusters.append(group)
 
-    return clusters, similarity_matrix, tfidf_matrix
+#     return clusters, similarity_matrix, tfidf_matrix
 
 def generate_story_id(entities, title):
     base = " ".join(sorted(entities)) + title[:60]
