@@ -439,20 +439,6 @@
             "added_time": "2026-02-05T08:29:32.452813+00:00"
         },
         {
-            "story_id": "8fa67ca6e1dfebe4f5d110034397072a",
-            "topic": "Blackrock Blackrock",
-            "subtopics": [
-                "India must boost capital markets so Indians grow with economy: Larry Fink, chief executive, BlackRock"
-            ],
-            "title": "India must boost capital markets so Indians grow with economy: Larry Fink, chief executive, BlackRock",
-            "desc": "BlackRock CEO Larry Fink urges India to prioritize domestic capital markets over foreign inflows for sustained economic participation. He highlights India's advanced financial infrastructure, from digital payments to asset tokenization, as a strong foundation for growth. Fink also downplayed AI bubble concerns, emphasizing underinvestment risks, especially in the US, amidst China's progress.",
-            "url": "https://economictimes.indiatimes.com/news/economy/finance/india-must-boost-capital-markets-so-indians-grow-with-economy-larry-fink-chief-executive-blackrock/articleshow/127918099.cms?from=mdr",
-            "image": "https://img.etimg.com/thumb/msid-127918143,width-1200,height-630,imgsize-21904,overlay-economictimes/articleshow.jpg",
-            "source": "The Economic Times",
-            "score": 4,
-            "added_time": "2026-02-05T16:32:50.366728+00:00"
-        },
-        {
             "story_id": "ac934c7ff97f10881f3091ff9cf04421",
             "topic": "U.S. Rome",
             "subtopics": [
@@ -1672,11 +1658,26 @@
             "source": "Journal of Medical Internet Research",
             "score": 4,
             "added_time": "2026-02-05T08:29:32.452790+00:00"
+        },
+        {
+            "story_id": "8fa67ca6e1dfebe4f5d110034397072a",
+            "topic": "Blackrock Blackrock",
+            "subtopics": [
+                "India must boost capital markets so Indians grow with economy: Larry Fink, chief executive, BlackRock"
+            ],
+            "title": "India must boost capital markets so Indians grow with economy: Larry Fink, chief executive, BlackRock",
+            "desc": "BlackRock CEO Larry Fink urges India to prioritize domestic capital markets over foreign inflows for sustained economic participation. He highlights India's advanced financial infrastructure, from digital payments to asset tokenization, as a strong foundation for growth. Fink also downplayed AI bubble concerns, emphasizing underinvestment risks, especially in the US, amidst China's progress.",
+            "url": "https://economictimes.indiatimes.com/news/economy/finance/india-must-boost-capital-markets-so-indians-grow-with-economy-larry-fink-chief-executive-blackrock/articleshow/127918099.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/msid-127918143,width-1200,height-630,imgsize-21904,overlay-economictimes/articleshow.jpg",
+            "source": "The Economic Times",
+            "score": 4,
+            "added_time": "2026-02-05T16:32:50.366728+00:00"
         }
     ],
     "recent_topics": {
         "Ev": "2026-02-07T01:00:08.141684+00:00",
         "Mediatek": "2026-02-07T08:17:42.380649+00:00",
-        "Apa Psycarticles": "2026-02-08T07:57:45.882679+00:00"
+        "Apa Psycarticles": "2026-02-08T07:57:45.882679+00:00",
+        "Blackrock Blackrock": "2026-02-08T08:09:25.633531+00:00"
     }
 }
