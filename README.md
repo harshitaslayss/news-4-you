@@ -54,3 +54,50 @@ Check out our instagram handle [@news4you2026](https://www.instagram.com/news4yo
 
 ---
 
+
+## ⚙️ Setup (Run This Yourself)
+
+### 1️⃣ Install Dependencies (requirements.txt is provided)
+
+```bash
+pip install spacy sentence-transformers hdbscan rapidfuzz nltk pillow cloudinary requests scikit-learn
+python -m spacy download en_core_web_sm
+```
+
+---
+
+### 2️⃣ Add API Keys
+
+Create a **.env** file or set environment variables:
+
+```bash
+NEWSAPI_KEY=your_key
+GNEWS_KEY=your_key
+MEDIASTACK_KEY=your_key
+
+CLOUDINARY_CLOUD_NAME=xxx
+CLOUDINARY_API_KEY=xxx
+CLOUDINARY_API_SECRET=xxx
+
+INSTAGRAM_USER_ID=xxx
+INSTAGRAM_ACCESS_TOKEN=xxx
+```
+
+---
+
+### 3️⃣ Run the Bot
+
+```bash
+python main.py
+```
+
+Pipeline will:
+
+✔ Fetch news
+✔ Cluster stories
+✔ Pick top article
+✔ Generate slides
+✔ Upload images
+✔ Post to Instagram
+
+---
