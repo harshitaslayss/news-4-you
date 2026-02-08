@@ -346,7 +346,7 @@ def generate_carousel(article, topic):
         # This function handles the actual wrapping within the slide
         draw_wrapped_text(
             draw, chunk, body_font, margin_x, 0, max_width, 
-            "white", 22, center_vertically=True, canvas_height=HEIGHT
+            "white", 22,True, canvas_height=HEIGHT
         )
 
         # Accent Bar
