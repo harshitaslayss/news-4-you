@@ -383,6 +383,29 @@ def clean_recent_topics(db):
 
 QUEUE_TTL_HOURS = 24   # Auto-delete queue items older than this
 
+def clean_old_queue_items(db):
+    now = datetime.now(timezone.utc)
+    new_queue = []
+
+    for item in db["queue"]:
+        try:
+            added_time = datetime.fromisoformat(item["added_time"])
+            if added_time.tzinfo is None:
+                added_time = added_time.replace(tzinfo=timezone.utc)
+
+            age_hours = (now - added_time).total_seconds() / 3600
+
+            if age_hours <= QUEUE_TTL_HOURS:
+                new_queue.append(item)
+            else:
+                print(f"🗑️ Removing stale queue item: {item['title'][:60]}")
+
+        except Exception as e:
+            print("⚠️ Invalid timestamp, removing:", item.get("title"))
+    
+    db["queue"] = new_queue
+
+
 def get_next_post(db):
     if not db["queue"]:
         return None
@@ -408,6 +431,7 @@ def mark_posted(db, item):
 def get_next_article(query="technology india"):
     db = load_db()
     clean_recent_topics(db)
+    clean_old_queue_items(db)
     raw = fetch_master_news(query)
     
     for a in raw:
