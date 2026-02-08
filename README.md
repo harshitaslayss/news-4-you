@@ -38,3 +38,19 @@ Check out our instagram handle [@news4you2026](https://www.instagram.com/news4yo
 8. **Publishes automatically to Instagram**
 
 ---
+
+
+## 🧠 Core AI Techniques
+
+| Feature              | Method Used                       |
+| -------------------- | --------------------------------- |
+| Text Understanding   | **spaCy NER**                     |
+| Entity Normalization | Fuzzy match + WordNet             |
+| Semantic Embeddings  | **SentenceTransformers (MiniLM)** |
+| Story Clustering     | **HDBSCAN**                       |
+| Story De-duplication | Entity hashing                    |
+| Article Ranking      | Rule-based scoring                |
+| Visual Generation    | PIL dynamic layout engine         |
+
+---
+
