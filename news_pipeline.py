@@ -194,6 +194,28 @@ def normalize_topic(name, label=None):
 
 # Article Clustering into Stories
 
+# 1. Initialize Model
+model = SentenceTransformer("all-MiniLM-L6-v2")
+
+# 2. Embedding Logic
+def get_weighted_embeddings(articles, entity_weight=0.8):
+    texts, entity_texts = [], []
+
+    for a in articles:
+        # Combine Title + Desc
+        texts.append((a["title"] + " " + a["desc"]).lower())
+        # Use entities to add their weight to embeddings
+        entity_texts.append(" ".join(a.get("entities", [])).lower())
+
+    text_emb = model.encode(texts, normalize_embeddings=True)
+    entity_emb = model.encode(entity_texts, normalize_embeddings=True)
+
+    # Weighted combination + Re-normalization
+    final_emb = text_emb + entity_weight * entity_emb
+    final_emb = final_emb / np.linalg.norm(final_emb, axis=1, keepdims=True)
+    return final_emb
+
+
 def cluster_articles(articles, threshold=0.40):
     texts = []
     for a in articles:
