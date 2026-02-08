@@ -321,7 +321,7 @@ def generate_carousel(article, topic):
 
     # Save slide 1
     p1 = f"slide_1_{int(time.time())}.png"
-    img.save(p1, quality=95)
+    img.save(p1, quality=95, optimize= True)
     slide_paths.append(p1)
 
 # ================= SLIDE 2+ (DESCRIPTION PAGES) =================
@@ -373,7 +373,7 @@ def generate_carousel(article, topic):
             draw.text((WIDTH - 150, HEIGHT - 150), "→", fill="#3aa0ff", font=arrow_font)
 
         p_name = f"slide_content_{i}_{int(time.time())}.png"
-        img.save(p_name, quality=95)
+        img.save(p_name, quality=95, optimize=True)
         slide_paths.append(p_name)
         time.sleep(0.1) # Unique timestamps
 
