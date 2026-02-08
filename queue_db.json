@@ -453,20 +453,6 @@
             "added_time": "2026-02-05T16:32:50.366735+00:00"
         },
         {
-            "story_id": "ec6b6b475ff57a66e0c8325ecc798ac5",
-            "topic": "Mukesh Ambani",
-            "subtopics": [
-                "100 Reliances, $30 trillion: That's Mukesh Ambani\u2019s India bull case"
-            ],
-            "title": "100 Reliances, $30 trillion: That's Mukesh Ambani\u2019s India bull case",
-            "desc": "Reliance Chairman Mukesh Ambani envisions India capturing $30 trillion in new value over three decades, driven by technology and entrepreneurship. He highlighted the nation's path to energy self-reliance and the crucial role of channeling household savings into productive investments to foster wealth creation.",
-            "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/100-reliances-30-trillion-thats-mukesh-ambanis-india-bull-case/articleshow/127913915.cms?from=mdr",
-            "image": "https://img.etimg.com/thumb/msid-127913934,width-1200,height-630,imgsize-22538,overlay-economictimes/articleshow.jpg",
-            "source": "The Economic Times",
-            "score": 4,
-            "added_time": "2026-02-05T16:32:50.366745+00:00"
-        },
-        {
             "story_id": "3c2e2d894b406b04c15acae6a30e4e17",
             "topic": "Kumar Sanu",
             "subtopics": [
@@ -1672,12 +1658,27 @@
             "source": "The Economic Times",
             "score": 4,
             "added_time": "2026-02-05T16:32:50.366728+00:00"
+        },
+        {
+            "story_id": "ec6b6b475ff57a66e0c8325ecc798ac5",
+            "topic": "Mukesh Ambani",
+            "subtopics": [
+                "100 Reliances, $30 trillion: That's Mukesh Ambani\u2019s India bull case"
+            ],
+            "title": "100 Reliances, $30 trillion: That's Mukesh Ambani\u2019s India bull case",
+            "desc": "Reliance Chairman Mukesh Ambani envisions India capturing $30 trillion in new value over three decades, driven by technology and entrepreneurship. He highlighted the nation's path to energy self-reliance and the crucial role of channeling household savings into productive investments to foster wealth creation.",
+            "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/100-reliances-30-trillion-thats-mukesh-ambanis-india-bull-case/articleshow/127913915.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/msid-127913934,width-1200,height-630,imgsize-22538,overlay-economictimes/articleshow.jpg",
+            "source": "The Economic Times",
+            "score": 4,
+            "added_time": "2026-02-05T16:32:50.366745+00:00"
         }
     ],
     "recent_topics": {
         "Ev": "2026-02-07T01:00:08.141684+00:00",
         "Mediatek": "2026-02-07T08:17:42.380649+00:00",
         "Apa Psycarticles": "2026-02-08T07:57:45.882679+00:00",
-        "Blackrock Blackrock": "2026-02-08T08:09:25.633531+00:00"
+        "Blackrock Blackrock": "2026-02-08T08:09:25.633531+00:00",
+        "Mukesh Ambani": "2026-02-08T08:19:24.020486+00:00"
     }
 }
