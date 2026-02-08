@@ -412,7 +412,8 @@ def get_next_article(query="technology india"):
 
         a["entities"] = list(set(entities))  # remove duplicates
 
-    clusters, sim_matrix, tfidf_matrix = cluster_articles(raw)
+    # clusters, sim_matrix, tfidf_matrix = cluster_articles(raw)
+    clusters = cluster_hdbscan_emb(raw)
 
     stories = [
         build_story_from_cluster(cluster, raw)
@@ -447,7 +448,7 @@ def get_next_article(query="technology india"):
     return {
         "article": chosen,
         "clusters": clusters,
-        "similarity_matrix": sim_matrix,
-        "tfidf_matrix": tfidf_matrix,
+        # "similarity_matrix": sim_matrix,
+        # "tfidf_matrix": tfidf_matrix,
         "raw_articles": raw
     }
