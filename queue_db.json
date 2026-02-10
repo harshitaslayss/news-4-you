@@ -1,20 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "b4d7f119c7bf2558c46ae22e1565874a",
-            "topic": "Deeptech",
-            "subtopics": [
-                "India can no longer rely on IT service exports; need to move focus to deeptech, hardware: Nithin Kamath"
-            ],
-            "title": "India can no longer rely on IT service exports; need to move focus to deeptech, hardware: Nithin Kamath",
-            "desc": "The Zerodha founder said the shift is essential to build long-term economic resilience and reduce dependence on global outsourcing cycles. He said that there is adequate talent in India, but it is hobbled by an \"ecosystem gap.\"",
-            "url": "https://economictimes.indiatimes.com/tech/technology/india-can-no-longer-rely-on-it-service-exports-need-to-move-focus-to-deeptech-hardware-nithin-kamath/articleshow/128120292.cms?from=mdr",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-18740,resizemode-75,msid-128120292/tech/technology/india-can-no-longer-rely-on-it-service-exports-need-to-move-focus-to-deeptech-hardware-nithin-kamath.jpg",
-            "source": "The Economic Times",
-            "score": 4,
-            "added_time": "2026-02-10T06:54:29.553801+00:00"
-        },
-        {
             "story_id": "f1b51d0c3a5d5bc78434de4e7c48f14e",
             "topic": "Bcci",
             "subtopics": [
@@ -128,20 +114,6 @@
         }
     ],
     "posted": [
-        {
-            "story_id": "b476ee8ccc00d0e7843beaf2e861b28c",
-            "topic": "India News",
-            "subtopics": [
-                "Budget 2026: Coconut, chocolate, cashew, other items get special attention. All you need to know"
-            ],
-            "title": "Budget 2026: Coconut, chocolate, cashew, other items get special attention. All you need to know",
-            "desc": "To help farmers earn more from their land, the Budget 2026-27 has prioritised diversification towards high-value crops.| India News",
-            "url": "https://www.hindustantimes.com/india-news/budget-2026-coconut-chocolate-cashew-other-items-get-special-attention-all-you-need-to-know-101769943408124.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/01/550x309/nirmalaaaaakka_1769942691063_1769942709154_1769943526661.png",
-            "source": "Hindustan Times",
-            "score": 4,
-            "added_time": "2026-02-02T12:20:27.326365+00:00"
-        },
         {
             "story_id": "53da2fa05da4d38ef87c2e65b4a2dbd1",
             "topic": "India",
@@ -838,9 +810,24 @@
             "source": "BBC",
             "score": 6,
             "added_time": "2026-02-10T06:54:29.553872+00:00"
+        },
+        {
+            "story_id": "b4d7f119c7bf2558c46ae22e1565874a",
+            "topic": "Deeptech",
+            "subtopics": [
+                "India can no longer rely on IT service exports; need to move focus to deeptech, hardware: Nithin Kamath"
+            ],
+            "title": "India can no longer rely on IT service exports; need to move focus to deeptech, hardware: Nithin Kamath",
+            "desc": "The Zerodha founder said the shift is essential to build long-term economic resilience and reduce dependence on global outsourcing cycles. He said that there is adequate talent in India, but it is hobbled by an \"ecosystem gap.\"",
+            "url": "https://economictimes.indiatimes.com/tech/technology/india-can-no-longer-rely-on-it-service-exports-need-to-move-focus-to-deeptech-hardware-nithin-kamath/articleshow/128120292.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-18740,resizemode-75,msid-128120292/tech/technology/india-can-no-longer-rely-on-it-service-exports-need-to-move-focus-to-deeptech-hardware-nithin-kamath.jpg",
+            "source": "The Economic Times",
+            "score": 4,
+            "added_time": "2026-02-10T06:54:29.553801+00:00"
         }
     ],
     "recent_topics": {
-        "India": "2026-02-10T06:54:29.553896+00:00"
+        "India": "2026-02-10T06:54:29.553896+00:00",
+        "Deeptech": "2026-02-10T07:04:43.483789+00:00"
     }
 }
