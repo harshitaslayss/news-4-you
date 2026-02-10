@@ -29,6 +29,7 @@ Have some questions?: rose.harshita.priya.pearl@gmail.com
    * Source credibility
    * Content richness
    * Headline signals
+   * Title Summarization
 5. **Applies timestamp filter logic**
    * Allows topic cooldown to stop spam
    * Clears older posts 
@@ -53,6 +54,7 @@ Have some questions?: rose.harshita.priya.pearl@gmail.com
 | Story Clustering     | **HDBSCAN**                       |
 | Story De-duplication | Entity hashing                    |
 | Article Ranking      | Rule-based scoring                |
+| Title Summarization  | **t5-small** transformer          |
 | Visual Generation    | PIL dynamic layout engine         |
 
 ---
@@ -63,7 +65,7 @@ Have some questions?: rose.harshita.priya.pearl@gmail.com
 ### 1️⃣ Install Dependencies (requirements.txt is provided)
 
 ```bash
-pip install spacy sentence-transformers hdbscan rapidfuzz nltk pillow cloudinary requests scikit-learn torch numpy
+pip install spacy sentence-transformers hdbscan rapidfuzz nltk pillow cloudinary requests scikit-learn torch numpy transformers datasets
 python -m spacy download en_core_web_sm
 ```
 
@@ -136,7 +138,7 @@ Then publishes a **carousel post** automatically.
 
 * Topic cooldown prevents spam posts
 * Duplicate story detection
-* Auto font scaling
+* Auto font scaling + summarization techniques
 * Works even if some APIs fail
 * Entity normalization
 * Entity Weighted similarity scouting
