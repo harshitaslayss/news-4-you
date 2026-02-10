@@ -15,20 +15,6 @@
             "added_time": "2026-02-10T06:54:29.553822+00:00"
         },
         {
-            "story_id": "0d282a002f746ec5ce53b6377c74105d",
-            "topic": "Sustainable Development Goals",
-            "subtopics": [
-                "The roles of women in cookstove intervention studies"
-            ],
-            "title": "The roles of women in cookstove intervention studies",
-            "desc": "Clean cooking fuel interventions can substantially advance Sustainable Development Goals related to health, poverty, gender equality and (possibly) climate change. Here we systematically review gender roles within cookstove randomized control trials (RCTs) with respect to (1) health and exposure; (2) time, labour, finance and behaviour; (3) climate; and (4) the research activities. We focus on RCTs because public health scholarship considers RCTs, despite limitations, to provide the highest-quality evidence to guide policy and widescale programming. Across our 123 included studies, women are frequently targeted but then not acknowledged in time, labour, finances and even health outcomes. Acknowledgement of gender norms is scarce. Using WHO gender-responsiveness categories, we find that 37% of studies were gender-unequal or gender-unaware. Women are often monitored only as proxies for their unborn children, our category of gender-unaware but sex-aware (26%). Twenty-nine percent are gender-sensitive, with only 6% gender-specific and two gender-transformative studies. We present recommendations for the field to shift to more gender-sensitive research designs, without which the field risks leaning into existing inequalities and basing future interventions on spuriously gender-neutral premises. This systematic review explores the gender dimensions of cookstove randomized control trials in low- and middle-income countries, published between 2000 and 2024, and highlights the importance of shifting towards more gender-sensitive research designs.",
-            "url": "https://www.nature.com/articles/s41893-026-01769-z?error=cookies_not_supported&code=c9398b55-df36-418d-939e-8521e97dab9e",
-            "image": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41893-026-01769-z/MediaObjects/41893_2026_1769_Fig1_HTML.png",
-            "source": "Nature",
-            "score": 3,
-            "added_time": "2026-02-10T06:54:29.553859+00:00"
-        },
-        {
             "story_id": "8ffa872b2f1ae7267f656f40f4422d00",
             "topic": "India",
             "subtopics": [
@@ -72,20 +58,6 @@
         }
     ],
     "posted": [
-        {
-            "story_id": "11f4bd36f6d3fc386b38701a77555e1c",
-            "topic": "Etaf",
-            "subtopics": [
-                "Ethiopia Projects Regional Air Supremacy at Black Lion Expo 2026"
-            ],
-            "title": "Ethiopia Projects Regional Air Supremacy at Black Lion Expo 2026",
-            "desc": "The Black Lion Air Show and Aviation Expo 2026, held between January 23 and 27 in Bishoftu, marked a transformative milestone for the Ethiopian Air Force (EtAF). This event served as the official celebration of the 90th anniversary of the EtAF, transitioning the organization from its historical roots into a technologically advanced, modern aerial force.\u2026",
-            "url": "https://www.military.africa/2026/02/ethiopia-projects-regional-air-supremacy-at-black-lion-expo-2026/",
-            "image": "https://www.military.africa/wp-content/uploads/2026/02/Ethiopia-Aviation-Expo-and-Black-Lion-Air-Show-2026-6-scaled.jpg",
-            "source": "Military Africa",
-            "score": 3,
-            "added_time": "2026-02-02T12:20:27.326321+00:00"
-        },
         {
             "story_id": "908b892a78268c25a1114245b49e13c2",
             "topic": "Karnataka",
@@ -782,6 +754,20 @@
             "source": "openPR.com",
             "score": 3,
             "added_time": "2026-02-10T06:54:29.553852+00:00"
+        },
+        {
+            "story_id": "0d282a002f746ec5ce53b6377c74105d",
+            "topic": "Sustainable Development Goals",
+            "subtopics": [
+                "The roles of women in cookstove intervention studies"
+            ],
+            "title": "The roles of women in cookstove intervention studies",
+            "desc": "Clean cooking fuel interventions can substantially advance Sustainable Development Goals related to health, poverty, gender equality and (possibly) climate change. Here we systematically review gender roles within cookstove randomized control trials (RCTs) with respect to (1) health and exposure; (2) time, labour, finance and behaviour; (3) climate; and (4) the research activities. We focus on RCTs because public health scholarship considers RCTs, despite limitations, to provide the highest-quality evidence to guide policy and widescale programming. Across our 123 included studies, women are frequently targeted but then not acknowledged in time, labour, finances and even health outcomes. Acknowledgement of gender norms is scarce. Using WHO gender-responsiveness categories, we find that 37% of studies were gender-unequal or gender-unaware. Women are often monitored only as proxies for their unborn children, our category of gender-unaware but sex-aware (26%). Twenty-nine percent are gender-sensitive, with only 6% gender-specific and two gender-transformative studies. We present recommendations for the field to shift to more gender-sensitive research designs, without which the field risks leaning into existing inequalities and basing future interventions on spuriously gender-neutral premises. This systematic review explores the gender dimensions of cookstove randomized control trials in low- and middle-income countries, published between 2000 and 2024, and highlights the importance of shifting towards more gender-sensitive research designs.",
+            "url": "https://www.nature.com/articles/s41893-026-01769-z?error=cookies_not_supported&code=c9398b55-df36-418d-939e-8521e97dab9e",
+            "image": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41893-026-01769-z/MediaObjects/41893_2026_1769_Fig1_HTML.png",
+            "source": "Nature",
+            "score": 3,
+            "added_time": "2026-02-10T06:54:29.553859+00:00"
         }
     ],
     "recent_topics": {
@@ -791,6 +777,7 @@
         "Toi": "2026-02-10T10:54:22.816628+00:00",
         "Pwc": "2026-02-10T11:05:52.628898+00:00",
         "Roberts": "2026-02-10T11:40:05.197683+00:00",
-        "Hpv": "2026-02-10T12:02:06.111948+00:00"
+        "Hpv": "2026-02-10T12:02:06.111948+00:00",
+        "Sustainable Development Goals": "2026-02-10T12:46:09.798995+00:00"
     }
 }
