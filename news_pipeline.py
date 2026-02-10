@@ -32,6 +32,22 @@ tokenizer = T5Tokenizer.from_pretrained(model_name)
 model = T5ForConditionalGeneration.from_pretrained(model_name)
 
 #----SUMMARIZATION---------------
+"""
+    Generates a concise, abstractive summary of news text using a 
+    Transformer-based Seq2Seq model. Optimized for Instagram carousel slides.
+    """
+
+    # 1. ENCODING & TOKENIZATION
+    # Convert raw text into numerical tensors. 
+    # 'summarize: ' is the specific task prefix required by T5 models.
+    # 'max_length=1024' ensures we stay within the model's positional embedding limits.
+    # 2. MODEL INFERENCE (GENERATION)
+    # length_penalty=2.0: Higher value encourages longer, more descriptive summaries 
+    # (better for filling 1080x1080 carousel slides than short snippets).
+    # num_beams=4: Uses Beam Search to evaluate the top 4 word sequences for better grammar.
+    # 3. DECODING
+    # Converts token IDs back to human-readable text.
+    # skip_special_tokens=True: Removes T5-specific markers like </s> and <pad>.
 def summarize(text):
     inputs = tokenizer.encode("summarize: " + text, return_tensors="pt", max_length=1024, truncation=True)
     summary_ids = model.generate(inputs, max_length=150, min_length=40, length_penalty=2.0, num_beams=4, early_stopping=True)
