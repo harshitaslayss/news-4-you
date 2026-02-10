@@ -1,8 +1,9 @@
-requests
-Pillow
+sentence-transformers
+torch
 spacy
-scikit-learn
-numpy
-cloudinary
 nltk
+scikit-learn
 rapidfuzz
+hdbscan
+numpy
+requests
