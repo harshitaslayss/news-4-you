@@ -29,7 +29,7 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 
 model_name = 't5-small'
 tokenizer = T5Tokenizer.from_pretrained(model_name)
-model = T5ForConditionalGeneration.from_pretrained(model_name)
+model_summary = T5ForConditionalGeneration.from_pretrained(model_name)
 
 #----SUMMARIZATION---------------
 """
@@ -49,8 +49,11 @@ model = T5ForConditionalGeneration.from_pretrained(model_name)
     # Converts token IDs back to human-readable text.
     # skip_special_tokens=True: Removes T5-specific markers like </s> and <pad>.
 def summarize(text):
+    if len(text) < 70:
+        return text
+    
     inputs = tokenizer.encode("summarize: " + text, return_tensors="pt", max_length=1024, truncation=True)
-    summary_ids = model.generate(inputs, max_length=150, min_length=40, length_penalty=2.0, num_beams=4, early_stopping=True)
+    summary_ids = model_summary.generate(inputs, max_length=15, length_penalty=2.0, num_beams=4, early_stopping=True)
     return tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
 # --------------------------------------------------
