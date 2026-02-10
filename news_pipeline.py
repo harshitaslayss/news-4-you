@@ -53,7 +53,7 @@ def summarize(text):
         return text
     
     inputs = tokenizer.encode("summarize: " + text, return_tensors="pt", max_length=1024, truncation=True)
-    summary_ids = model_summary.generate(inputs, max_length=15, length_penalty=2.0, num_beams=4, early_stopping=True)
+    summary_ids = model_summary.generate(inputs, max_new_tokens=25, length_penalty=0.6, num_beams=5, early_stopping=False, no_repeat_ngram_size=2)
     return tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
 # --------------------------------------------------
