@@ -7,3 +7,4 @@ rapidfuzz
 hdbscan
 numpy
 requests
+Pillow
