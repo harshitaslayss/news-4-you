@@ -57,7 +57,7 @@ nlp = spacy.load("en_core_web_sm")
 # --------------------------------------------------
 # ---------------- DB ----------------
 def load_db():
-     """
+    """
     Loads the article database from disk.
     Database structure:
     - queue: Articles waiting to be posted
@@ -81,7 +81,7 @@ def load_db():
 
 
 def save_db(db):
-     """
+    """
     Persists the database to disk as JSON.
     
     Args:
@@ -117,7 +117,7 @@ def score_article(article):
     if article.get("image"): score += 2
     if len(article.get("desc","")) > 120: score += 1
 
-     # Bonus for trusted news sources
+    # Bonus for trusted news sources
     trusted = ["reuters","bbc","the hindu","indian express","ndtv"]
     if any(t in article.get("source","").lower() for t in trusted):
         score += 3
@@ -229,7 +229,7 @@ ACRONYMS = {
 }
 
 def resolve_entity(name):
-     """
+    """
     Attempts to match a name to a known entity using fuzzy string matching.
     Helps normalize variations like "N. Modi" -> "Narendra Modi"
     
@@ -354,7 +354,7 @@ def get_weighted_embeddings(articles, entity_weight=0.8):
 
 # 3. Utility: Convert Noise (-1) to individual clusters
 def convert_noise_to_clusters(labels):
-     """
+    """
     HDBSCAN labels outliers as -1 (noise). This converts each noise point
     to its own unique cluster so we don't lose articles.
     
@@ -449,7 +449,7 @@ def cluster_hdbscan_emb(articles):
 
 
 def generate_story_id(entities, title):
-     """
+    """
     Creates a unique hash ID for a story based on its main entities and title.
     Same story from different sources will have the same ID.
     
@@ -521,7 +521,7 @@ def add_trends_to_queue(db, trends):
     existing_urls = {x['url'] for x in db['queue']} | {x['url'] for x in db['posted']}
 
     for t in trends:
-       # Skip if we've already queued/posted this story
+        # Skip if we've already queued/posted this story
         if t["story_id"] in existing_story_ids:
             continue
 
@@ -770,19 +770,25 @@ def get_next_article(query="technology india"):
     # --------------------------------------------------
     trends_for_queue = []
     for s in stories:
-             # Pick best article from cluster based on quality score
-            best = max(s['articles'], key=score_article)
-             # Determine main topic: entity mentioned most across all articles in cluster
-            if s["entities"]:
-                topic_name = max(s["entities"], key=lambda e: sum(e in a["entities"] for a in s["articles"]))
-            else:
-                topic_name = "General"
-            trends_for_queue.append({
-                "story_id": s["story_id"],
-                "topic": topic_name,
-                "best_article": best,
-                "subtopics": [a['title'] for a in s['articles']]
-            })
+        # Pick best article from cluster based on quality score
+        best = max(s["articles"], key=score_article)
+
+        # Determine main topic: entity mentioned most across all articles in cluster
+        if s["entities"]:
+            topic_name = max(
+                s["entities"],
+                key=lambda e: sum(e in a["entities"] for a in s["articles"])
+            )
+        else:
+            topic_name = "General"
+
+        trends_for_queue.append({
+            "story_id": s["story_id"],
+            "topic": topic_name,
+            "best_article": best,
+            "subtopics": [a["title"] for a in s["articles"]],
+        })
+
     # --------------------------------------------------
     # STEP 7: ADD TO QUEUE (WITH DEDUPLICATION)
     # --------------------------------------------------
