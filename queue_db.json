@@ -253,25 +253,93 @@
             "source": "CNBC TV18",
             "score": 3,
             "added_time": "2026-02-11T16:53:41.879271+00:00"
+        },
+        {
+            "story_id": "9e5a5f2cb4baa1aea85e1c7fb577b560",
+            "topic": "Artificial Intelligence (Ai",
+            "subtopics": [
+                "AI training to boost Tanzania\u2019s border efficiency"
+            ],
+            "title": "AI training to boost Tanzania\u2019s border efficiency",
+            "desc": "DAR ES SALAAM: THE Tanzania Immigration Services Department has launched a new initiative to strengthen the use of Artificial Intelligence (AI) as part of efforts to modernise border management, enhance national security, and improve service delivery efficiency. The initiative includes a specialised training programme designed to equip immigration officers with practical AI skills, enabling smarter",
+            "url": "https://dailynews.co.tz/ai-training-to-boost-tanzanias-border-efficiency/",
+            "image": "https://dailynews.co.tz/wp-content/uploads/2025/05/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg",
+            "source": "dailynews.co.tz",
+            "score": 3,
+            "added_time": "2026-02-11T20:29:33.784436+00:00"
+        },
+        {
+            "story_id": "b08f4669558cf78e34f95c3641a4a694",
+            "topic": "Jsw",
+            "subtopics": [
+                "JSW warns of delay in first car launch over China parts licence, letter shows"
+            ],
+            "title": "JSW warns of delay in first car launch over China parts licence, letter shows.",
+            "desc": "JSW Motors faces a potential delay in its first car launch. The company needs fast-tracked import licenses for essential parts from China. JSW is investing heavily in hybrid and electric vehicles in Maharashtra. The government's quality control rules are causing the hold-up. This could impact the planned second-half launch of their new car.",
+            "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/jsw-warns-of-delay-in-first-car-launch-over-china-parts-licence-letter-shows/articleshow/128195542.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/msid-128195668,width-1200,height-630,imgsize-12738,overlay-economictimes/articleshow.jpg",
+            "source": "The Economic Times",
+            "score": 3,
+            "added_time": "2026-02-11T20:29:34.372271+00:00"
+        },
+        {
+            "story_id": "f14edd54aed14f9feaa7e0175f069faf",
+            "topic": "Hello Nokia",
+            "subtopics": [
+                "Nokia Mini 2026 5G Launch: 50MP Camera, Massive 6500mAh Battery Under \u20b91,499"
+            ],
+            "title": "Nokia Mini 2026 5G Launch: Nokia Mini Mini 2026 5G Launch: Nokia Mini 2026 5G Launch: 50MP Camera, Massive 6500mAh Battery Under 1",
+            "desc": "Hello Nokia fans. A new phone called Nokia Mini 2025 5G is coming soon. This phone brings a 50MP camera, 8GB RAM, and a big 5900mAh battery.",
+            "url": "https://mycampusstore.in/nokia-mini-2026-5g-launch/",
+            "image": "https://mycampusstore.in/wp-content/uploads/2026/02/Untitled-design-2026-02-11T084155.981.jpg",
+            "source": "Mycampus Store -",
+            "score": 4,
+            "added_time": "2026-02-11T20:29:35.435421+00:00"
+        },
+        {
+            "story_id": "3a9d8169f15eeb342c00b197d2b372c5",
+            "topic": "Ipo",
+            "subtopics": [
+                "Fractal Analytics IPO fully subscribed on back of strong QIB demand, booked 1.46 times on Day 3 so far"
+            ],
+            "title": "Fractal Analytics IPO hat voll und ganz auf der Basis starker QIB-Werte eingetragen, hat 1,46 times gebucht.",
+            "desc": "Fractal Analytics IPO allotment is expected on February 12, while share listing is proposed for next week on Monday.",
+            "url": "https://www.moneycontrol.com/news/business/ipo/fractal-analytics-ipo-sees-muted-response-booked-23pc-on-final-day-of-subscription-so-far-gmp-dips-13823258.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/01/20260119032824_IPO-new-moneycontrol-.jpg",
+            "source": "Moneycontrol",
+            "score": 2,
+            "added_time": "2026-02-11T20:29:36.499700+00:00"
+        },
+        {
+            "story_id": "96bde7a2e83578c36245ae7de0ea1aa3",
+            "topic": "Mass Redundancy",
+            "subtopics": [
+                "Telstra to axe up to 650 roles in mass redundancy round, some jobs to be outsourced to India"
+            ],
+            "title": "Telstra to axe up to 650 roles in mass redundancy round, some jobs to be outsourced to India",
+            "desc": "Telstra notifies staff of plans to outsource hundreds of jobs to an India-based technology company.",
+            "url": "https://www.abc.net.au/news/2026-02-11/telstra-axes-600-roles-in-redundancy-round-outsourcing-to-india/106331708",
+            "image": "https://live-production.wcms.abc-cdn.net.au/450f4ab00359f0109c80ab3fef6d1598?impolicy=wcms_watermark_news&cropH=909&cropW=1616&xPos=0&yPos=86&width=862&height=485&imformat=generic",
+            "source": "Australian Broadcasting Corporation",
+            "score": 2,
+            "added_time": "2026-02-11T20:29:37.251490+00:00"
+        },
+        {
+            "story_id": "602984df86b9078a4f79979d4cfe7ad8",
+            "topic": "America",
+            "subtopics": [
+                "America the Fearful"
+            ],
+            "title": "America the Fearful",
+            "desc": "Visions of decline are a self-fulfilling prophecy.",
+            "url": "https://www.foreignaffairs.com/united-states/america-fearful",
+            "image": "https://cdn-live.foreignaffairs.com/sites/default/files/styles/social_share/public/images/2026/02/09/2021-01-18T194917Z_103245204_RC2JAL9FPQPG_RTRMADP_3_USA-TRUMP.jpg?itok=70TOSfYL",
+            "source": "Foreign Affairs",
+            "score": 2,
+            "added_time": "2026-02-11T20:29:37.251527+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "64f817b66c92e05e78273cd2d7a16be9",
-            "topic": "India",
-            "subtopics": [
-                "India-U.S. trade deal LIVE: Industry welcomes deal, sees tariff cuts boosting growth and competitiveness",
-                "US will lower India tariffs to 18% after Modi agrees to stop buying Russian oil, says Trump",
-                "US agrees to drop tariffs after India stops Russian oil purchases"
-            ],
-            "title": "India-U.S. trade deal LIVE: Industry welcomes deal, sees tariff cuts boosting growth and competitiveness",
-            "desc": "India-U.S. trade deal LIVE: PM Modi announced \u201cMade in India\u201d products will now attract a reduced tariff of 18% in the U.S., on February 3, 2026. Follow The Hindu for more updates.",
-            "url": "https://www.thehindu.com/business/Economy/india-us-trade-deal-the-hindu-live-updates-reactions-details-tariffs-trump-modi-february-3-2026/article70585870.ece",
-            "image": "https://th-i.thgim.com/public/incoming/nyikbw/article70585868.ece/alternates/LANDSCAPE_1200/2025-10-03T083313Z_1080850780_RC2FSFAN6I1C_RTRMADP_3_INDIA-TECH-USA.JPG",
-            "source": "The Hindu",
-            "score": 7,
-            "added_time": "2026-02-03T14:50:52.455904+00:00"
-        },
         {
             "story_id": "6cc2ae852c29570040d081f607996784",
             "topic": "China",
@@ -965,11 +1033,23 @@
             "source": "The Hindu",
             "score": 6,
             "added_time": "2026-02-11T16:53:39.721305+00:00"
+        },
+        {
+            "story_id": "b4c37f7a5a52e6034548819f0c2197bc",
+            "topic": "India",
+            "subtopics": [
+                "India cuts takedown window to three hours for YouTube, Meta, X and others"
+            ],
+            "title": "India cuts takedown window to three hours for YouTube, Meta, X and others",
+            "desc": "Critics worry the rules would be a compliance challenge for tech platforms and could expand censorship.",
+            "url": "https://www.bbc.com/news/articles/c2lrn8q2q24o",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/774a/live/d1506e60-070b-11f1-bc0b-fdf72ddbacc3.jpg",
+            "source": "BBC",
+            "score": 5,
+            "added_time": "2026-02-11T20:29:33.784397+00:00"
         }
     ],
     "recent_topics": {
-        "India": "2026-02-10T06:54:29.553896+00:00",
-        "Deeptech": "2026-02-10T07:04:43.483789+00:00",
         "Vikram Misri": "2026-02-10T08:39:25.419196+00:00",
         "Toi": "2026-02-10T10:54:22.816628+00:00",
         "Pwc": "2026-02-10T11:05:52.628898+00:00",
@@ -982,6 +1062,7 @@
         "Cfo": "2026-02-11T05:24:33.854944+00:00",
         "Discover": "2026-02-11T08:36:43.689709+00:00",
         "Budget": "2026-02-11T12:41:33.730592+00:00",
-        "Supreme Court": "2026-02-11T16:53:41.879348+00:00"
+        "Supreme Court": "2026-02-11T16:53:41.879348+00:00",
+        "India": "2026-02-11T20:29:37.251572+00:00"
     }
 }
