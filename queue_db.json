@@ -155,23 +155,107 @@
             "source": "CNA",
             "score": 3,
             "added_time": "2026-02-11T12:41:33.730560+00:00"
+        },
+        {
+            "story_id": "5e5f63956bdbb0915dff409207ad6719",
+            "topic": "Raymond James",
+            "subtopics": [
+                "US wealth manager stocks sink as traders flee next AI casualty"
+            ],
+            "title": "US wealth manager stocks sink as traders flee next AI casualty",
+            "desc": "Wealth management stocks in US experienced a sharp decline Tuesday following the introduction of an AI tool designed for tax strategies. Investors are concerned about the potential impact of automated advice on the industry, mirroring recent selloffs in software, private credit, and insurance brokerage sectors. Major firms like Raymond James, Charles Schwab, and LPL Financial saw significant drops, highlighting widespread investor apprehension.",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wealth-manager-stocks-sink-as-traders-flee-next-ai-casualty/articleshow/128184168.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/msid-128184157,width-1200,height-630,imgsize-91392,overlay-etmarkets/articleshow.jpg",
+            "source": "The Economic Times",
+            "score": 3,
+            "added_time": "2026-02-11T16:53:39.721343+00:00"
+        },
+        {
+            "story_id": "e204db81f13cd5cab50840acccef5405",
+            "topic": "United States",
+            "subtopics": [
+                "Asian Stocks Rise Before Jobs Data, Gold Gains: Markets Wrap"
+            ],
+            "title": "Asian Stocks Rise Before Jobs Data, Gold Gains: Markets Wrap",
+            "desc": "(Bloomberg) -- Asian stocks gained in the run-up to the US jobs data after weak retail sales reinforced bets that the Federal Reserve will cut interest rates later this year.",
+            "url": "https://www.swissinfo.ch/eng/asian-stocks-rise-before-jobs-data%2C-gold-gains%3A-markets-wrap/90923756",
+            "image": "https://www.swissinfo.ch/eng/wp-content/uploads/swissinfo-theme/swi-fallback-featured-image.jpg?ver=1768386618",
+            "source": "SWI swissinfo.ch",
+            "score": 4,
+            "added_time": "2026-02-11T16:53:39.721355+00:00"
+        },
+        {
+            "story_id": "c3d2b9484805a02262af79657ed53fe5",
+            "topic": "White House",
+            "subtopics": [
+                "US trade deal: White House removes pulses from factsheet"
+            ],
+            "title": "US trade deal: White House removes pulses from factsheet",
+            "desc": "India Business News: The United States has revised its factsheet on the recently announced \u201chistoric trade deal\u201d with India, removing a reference to pulses, changing the w.",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/india-us-trade-deal-white-house-removes-pulses-from-fact-sheet-changes-key-text/articleshow/128183966.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128184036,width-1280,height-720,imgsize-70446,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 4,
+            "added_time": "2026-02-11T16:53:39.721365+00:00"
+        },
+        {
+            "story_id": "90959c84921304dfba9eb290132a2c8f",
+            "topic": "India",
+            "subtopics": [
+                "Goldman Sachs' India push bears fruit in crowded Wall Street field"
+            ],
+            "title": "Goldman Sachs' India push bears fruit in crowded Wall Street field",
+            "desc": "Goldman Sachs is significantly increasing its investment in India, shifting from a \"future growth story\" to a present opportunity. This strategic pivot has already boosted its rankings in Indian equity offerings and mergers, demonstrating a commitment to capturing market share in the world's fastest-growing developing economy.",
+            "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/goldman-sachs-india-push-bears-fruit-in-crowded-wall-street-field/articleshow/128182804.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/msid-128183304,width-1200,height-630,imgsize-71766,overlay-economictimes/articleshow.jpg",
+            "source": "The Economic Times",
+            "score": 3,
+            "added_time": "2026-02-11T16:53:39.721384+00:00"
+        },
+        {
+            "story_id": "b50111a9af1a850f22dc6574874805f2",
+            "topic": "United States",
+            "subtopics": [
+                "Asian Stocks Edge Up Before Jobs Data, Gold Rises: Markets Wrap"
+            ],
+            "title": "Asian Stocks Edge Up Before Jobs Data, Gold Rises: Markets Wrap",
+            "desc": "(Bloomberg) -- Asian stocks posted a modest gain at the open as traders braced for US jobs data on Wednesday after weak retail sales reinforced bets that the Federal Reserve will cut interest rates later this year.",
+            "url": "https://www.swissinfo.ch/eng/asian-stocks-edge-up-before-jobs-data%2C-gold-rises%3A-markets-wrap/90923756",
+            "image": "https://www.swissinfo.ch/eng/wp-content/uploads/swissinfo-theme/swi-fallback-featured-image.jpg?ver=1768386618",
+            "source": "SWI swissinfo.ch",
+            "score": 4,
+            "added_time": "2026-02-11T16:53:39.721393+00:00"
+        },
+        {
+            "story_id": "8da34d46f3013509aee9a280682ae213",
+            "topic": "India",
+            "subtopics": [
+                "'Owned by', not just 'made in' India: MoD looks to reset defence buying"
+            ],
+            "title": "MoD looks to reset defence buying: 'Owned by', not just'made in' India: MoD looks to reset defence buying.",
+            "desc": "Draft Defence Acquisition Procedure 2026 released for stakeholder comments; focus on force modernisation, faster acquisition, and scaled-up production",
+            "url": "https://www.business-standard.com/external-affairs-defence-security/news/owned-by-not-just-made-in-india-mod-looks-to-reset-defence-buying-126021100073_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-02/28/thumb/featurecrop/1200X630/1740749689-2217.jpg",
+            "source": "Business Standard",
+            "score": 4,
+            "added_time": "2026-02-11T16:53:40.830734+00:00"
+        },
+        {
+            "story_id": "ed284f1923c82ab0b8895b4f06a8b190",
+            "topic": "Worli",
+            "subtopics": [
+                "Mumbai Coastal Road to become India\u2019s first musical road, playing \u2018Jai Ho\u2019 for motorists"
+            ],
+            "title": "Mumbai Coastal Road to become India\u2019s first musical road, playing \u2018Jai Ho\u2019 for motorists, playing \u2018Jai Ho\u2019 for motorists.",
+            "desc": "A section of the Mumbai Coastal Road will become India\u2019s first musical road, with vehicles traveling from Nariman Point to Worli hearing the song \u2018Jai Ho\u2019 from Slumdog Millionaire when passing over specially installed musical strips at a minimum speed of 60 kmph.",
+            "url": "https://www.cnbctv18.com/india/mumbai-coastal-road-to-become-indias-first-musical-road-playing-jai-ho-for-motorists-19847154.htm",
+            "image": "https://images.cnbctv18.com/uploads/2026/02/mumbai-coastal-road-2026-02-4da4f3681c60e9fba73ed25613da73d8.jpeg?im=FitAndFill,width=500,height=300",
+            "source": "CNBC TV18",
+            "score": 3,
+            "added_time": "2026-02-11T16:53:41.879271+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "9440dae363d22b0871ddcc96baa1065f",
-            "topic": "Ip",
-            "subtopics": [
-                "'Sholay' Studio Sippy Films Repositions as Character IP Company"
-            ],
-            "title": "'Sholay' Studio Sippy Films Repositions as Character IP Company",
-            "desc": "Sippy Films, the Indian production house behind 'Sholay,' is restructuring as a character IP-led studio with backing from Kuberans.",
-            "url": "https://variety.com/2026/film/news/sholay-studio-sippy-films-character-ip-company-1236649380/",
-            "image": "https://variety.com/wp-content/uploads/2025/06/Sholay.jpg?w=1000&h=563&crop=1",
-            "source": "Variety",
-            "score": 3,
-            "added_time": "2026-02-02T23:34:33.103640+00:00"
-        },
         {
             "story_id": "64f817b66c92e05e78273cd2d7a16be9",
             "topic": "India",
@@ -867,6 +951,20 @@
             "source": "PCQuest",
             "score": 4,
             "added_time": "2026-02-11T01:27:19.224799+00:00"
+        },
+        {
+            "story_id": "13abb6349c868a412a3741dc35cdd5c9",
+            "topic": "Supreme Court",
+            "subtopics": [
+                "Parliament Budget Session Day 11 LIVE updates: Why drag matters till Supreme Court, Sitharaman asks Trinamool"
+            ],
+            "title": "\u00dcberschrift: Parlament Budget Session Day 11 LIVE updates: Why drag matters till Supreme Court, Sitharaman asks Trinamool",
+            "desc": "Parliament Budget Session 2026 Day 11 Live Updates: Follow The Hindu for more updates.",
+            "url": "https://www.thehindu.com/news/national/parliament-budget-session-lok-sabha-rajya-sabha-live-updates-february-11-2026/article70618224.ece",
+            "image": "https://th-i.thgim.com/public/incoming/435k4m/article70620305.ece/alternates/LANDSCAPE_1200/PTI02_11_2026_000317B.jpg",
+            "source": "The Hindu",
+            "score": 6,
+            "added_time": "2026-02-11T16:53:39.721305+00:00"
         }
     ],
     "recent_topics": {
@@ -883,6 +981,7 @@
         "Anatoliy Polyanker": "2026-02-11T01:27:20.271374+00:00",
         "Cfo": "2026-02-11T05:24:33.854944+00:00",
         "Discover": "2026-02-11T08:36:43.689709+00:00",
-        "Budget": "2026-02-11T12:41:33.730592+00:00"
+        "Budget": "2026-02-11T12:41:33.730592+00:00",
+        "Supreme Court": "2026-02-11T16:53:41.879348+00:00"
     }
 }
