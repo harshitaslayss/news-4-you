@@ -1,20 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "20e1d820872ecc40c322e9662dcec0b3",
-            "topic": "Insights Daily Current Affairs Insights Daily Current Affairs",
-            "subtopics": [
-                "INSIGHTS Daily Current Affairs"
-            ],
-            "title": "INSIGHTS Daily Current Affairs",
-            "desc": "INSIGHTS Daily Current Affairs for 9 February 2026 covering GS I\u2013IV topics including social media ban, NbS, AI Summit, Project Tiger, KFD, trade, and mapping.",
-            "url": "https://www.insightsonindia.com/2026/02/09/upsc-current-affairs-9-february-2026/",
-            "image": "https://www.insightsonindia.com/wp-content/uploads/2026/02/Social-Media-Ban.jpg",
-            "source": "INSIGHTS IAS",
-            "score": 3,
-            "added_time": "2026-02-10T08:39:25.419163+00:00"
-        },
-        {
             "story_id": "e41fd2e07483ee61d1dd7f254b1a527e",
             "topic": "Ai",
             "subtopics": [
@@ -101,20 +87,6 @@
             "added_time": "2026-02-11T01:27:16.614413+00:00"
         },
         {
-            "story_id": "57a22ef88fd934dc042c3e9f8cc8ea18",
-            "topic": "Budget",
-            "subtopics": [
-                "Valentine\u2019s Day smartphone offers: Budget, mid-range and premium picks"
-            ],
-            "title": ": Valentine\u2019s Day smartphone offers: Budget, mid-range and premium picks: Budget, mid-range and premium picks.",
-            "desc": "Looking for the perfect Valentine\u2019s Day gift? Discover the best smartphone deals in India with huge discounts on budget, mid-range and premium mobiles across top online stores.\nsmartphones",
-            "url": "https://www.pcquest.com/smartphones/valentines-day-smartphone-offers-budget-mid-range-and-premium-picks-11091399",
-            "image": "https://img-cdn.publive.online/fit-in/1200x675/pcq/media/media_files/2026/02/10/valentines-day-smartphone-offers-budget-mid-range-and-premium-picks-2026-02-10-09-32-38.jpg",
-            "source": "PCQuest",
-            "score": 4,
-            "added_time": "2026-02-11T01:27:19.224799+00:00"
-        },
-        {
             "story_id": "b49db52dee9f6c6ff31e217d834888be",
             "topic": "Rezum Water",
             "subtopics": [
@@ -169,23 +141,23 @@
             "source": "moneycontrol.com",
             "score": 3,
             "added_time": "2026-02-11T08:36:43.689655+00:00"
+        },
+        {
+            "story_id": "2fbc1413c4eb3369b071b4c25cc9e85f",
+            "topic": "Bloomberg Opinion",
+            "subtopics": [
+                "Commentary: \u2018King Dollar\u2019 risks losing its crown to an Asian mutiny"
+            ],
+            "title": "Commentary: \u2018King Dollar\u2019 risks losing its crown to an Asian mutiny",
+            "desc": "Markets are already questioning the dollar\u2019s exceptionalism, says Andy Mukherjee for Bloomberg Opinion.",
+            "url": "https://www.channelnewsasia.com/commentary/us-dollar-china-yuan-digital-currency-challenge-5920071",
+            "image": "https://dam.mediacorp.sg/image/upload/s---55hS95w--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/v1/one-cms/core/china_slumping_yuan_44817.jpg?itok=4e-JlGsM",
+            "source": "CNA",
+            "score": 3,
+            "added_time": "2026-02-11T12:41:33.730560+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "d593c82c2e139e323d0fda5b1d162766",
-            "topic": "Uzbekistan",
-            "subtopics": [
-                "Market Strategy and Competitive Advantage in Uzbekistan\u2019s Renewable Energy Sector"
-            ],
-            "title": "Market Strategy and Competitive Advantage in Uzbekistan\u2019s Renewable Energy Sector",
-            "desc": "This study examines how international renewable energy firms design and execute non-market strategies to achieve competitive advantage in Uzbekistan\u2019s state-led energy transition. Through a qualitative multiple-case study analysis of leading developers operating under Uzbekistan\u2019s distinctive \u201cUzbek Model\u201d of reverse auctions and centralized procurement, the research identifies three core strategic domains: proactive institutional creation, pragmatic mitigation of institutional voids, and the management of paradoxical relationships with both the state and competitors. The findings introduce and develop the concept of orchestration strategy a firm-level dynamic capability to simultaneously compete within a state-defined arena while collaborating to build its institutional and operational foundations. The study contributes to non-market strategy and institutional theory by bridging macro-transition pathways with micro-level strategic action, and offers practical insights for firms and policymakers navigating similar state-orchestrated green energy transitions.",
-            "url": "https://www.scirp.org/journal/paperinformation?paperid=149298",
-            "image": "https://file.scirp.org/image/ojapps2016042115203396.jpg",
-            "source": "SCIRP Open Access",
-            "score": 3,
-            "added_time": "2026-02-02T15:41:40.873467+00:00"
-        },
         {
             "story_id": "9440dae363d22b0871ddcc96baa1065f",
             "topic": "Ip",
@@ -881,6 +853,20 @@
             "source": "thehindu.com",
             "score": 4,
             "added_time": "2026-02-10T20:35:53.944650+00:00"
+        },
+        {
+            "story_id": "57a22ef88fd934dc042c3e9f8cc8ea18",
+            "topic": "Budget",
+            "subtopics": [
+                "Valentine\u2019s Day smartphone offers: Budget, mid-range and premium picks"
+            ],
+            "title": ": Valentine\u2019s Day smartphone offers: Budget, mid-range and premium picks: Budget, mid-range and premium picks.",
+            "desc": "Looking for the perfect Valentine\u2019s Day gift? Discover the best smartphone deals in India with huge discounts on budget, mid-range and premium mobiles across top online stores.\nsmartphones",
+            "url": "https://www.pcquest.com/smartphones/valentines-day-smartphone-offers-budget-mid-range-and-premium-picks-11091399",
+            "image": "https://img-cdn.publive.online/fit-in/1200x675/pcq/media/media_files/2026/02/10/valentines-day-smartphone-offers-budget-mid-range-and-premium-picks-2026-02-10-09-32-38.jpg",
+            "source": "PCQuest",
+            "score": 4,
+            "added_time": "2026-02-11T01:27:19.224799+00:00"
         }
     ],
     "recent_topics": {
@@ -896,6 +882,7 @@
         "Ncdex, Metropolitan Stock Exchange": "2026-02-10T20:35:55.533062+00:00",
         "Anatoliy Polyanker": "2026-02-11T01:27:20.271374+00:00",
         "Cfo": "2026-02-11T05:24:33.854944+00:00",
-        "Discover": "2026-02-11T08:36:43.689709+00:00"
+        "Discover": "2026-02-11T08:36:43.689709+00:00",
+        "Budget": "2026-02-11T12:41:33.730592+00:00"
     }
 }
