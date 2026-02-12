@@ -1,20 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "2fbc1413c4eb3369b071b4c25cc9e85f",
-            "topic": "Bloomberg Opinion",
-            "subtopics": [
-                "Commentary: \u2018King Dollar\u2019 risks losing its crown to an Asian mutiny"
-            ],
-            "title": "Commentary: \u2018King Dollar\u2019 risks losing its crown to an Asian mutiny",
-            "desc": "Markets are already questioning the dollar\u2019s exceptionalism, says Andy Mukherjee for Bloomberg Opinion.",
-            "url": "https://www.channelnewsasia.com/commentary/us-dollar-china-yuan-digital-currency-challenge-5920071",
-            "image": "https://dam.mediacorp.sg/image/upload/s---55hS95w--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/v1/one-cms/core/china_slumping_yuan_44817.jpg?itok=4e-JlGsM",
-            "source": "CNA",
-            "score": 3,
-            "added_time": "2026-02-11T12:41:33.730560+00:00"
-        },
-        {
             "story_id": "5e5f63956bdbb0915dff409207ad6719",
             "topic": "Raymond James",
             "subtopics": [
@@ -41,20 +27,6 @@
             "source": "The Economic Times",
             "score": 3,
             "added_time": "2026-02-11T16:53:39.721384+00:00"
-        },
-        {
-            "story_id": "8da34d46f3013509aee9a280682ae213",
-            "topic": "India",
-            "subtopics": [
-                "'Owned by', not just 'made in' India: MoD looks to reset defence buying"
-            ],
-            "title": "MoD looks to reset defence buying: 'Owned by', not just'made in' India: MoD looks to reset defence buying.",
-            "desc": "Draft Defence Acquisition Procedure 2026 released for stakeholder comments; focus on force modernisation, faster acquisition, and scaled-up production",
-            "url": "https://www.business-standard.com/external-affairs-defence-security/news/owned-by-not-just-made-in-india-mod-looks-to-reset-defence-buying-126021100073_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-02/28/thumb/featurecrop/1200X630/1740749689-2217.jpg",
-            "source": "Business Standard",
-            "score": 4,
-            "added_time": "2026-02-11T16:53:40.830734+00:00"
         },
         {
             "story_id": "ed284f1923c82ab0b8895b4f06a8b190",
@@ -364,23 +336,65 @@
             "source": "CNN",
             "score": 3,
             "added_time": "2026-02-12T12:38:24.476494+00:00"
+        },
+        {
+            "story_id": "d089530ca4bce8cf9999d51f739ebe08",
+            "topic": "Tcs",
+            "subtopics": [
+                "HCL Tech, TCS, Infosys: IT stocks in deep red; NIFTY IT index tanks over 10% in 2026; what you need to know"
+            ],
+            "title": "IT stocks in deep red; NIFTY IT index tanks over 10% in 2026; what you need know: HCL Tech, TCS, Infosys: IT stocks in deep",
+            "desc": "IT stocks: The latest round of sell-off in the Indian IT stocks is being witnessed following a sell-off in global tech and software stocks due to the fresh concern about the disruption AI start-ups will have on established companies.",
+            "url": "https://upstox.com/news/market-news/stocks/hcl-tech-tcs-infosys-it-stocks-in-the-deep-red-nifty-it-index-tanks-10-in-2026-what-you-need-to-know/article-189322/",
+            "image": "https://assets.upstox.com/content/assets/images/news/it-stocks-feb-12-2026.webp",
+            "source": "Upstox",
+            "score": 4,
+            "added_time": "2026-02-12T16:46:32.209426+00:00"
+        },
+        {
+            "story_id": "307073046dffe146f6c0bd0f1bac31c2",
+            "topic": "Sabah",
+            "subtopics": [
+                "India's decision to open consulate in Sabah receives mixed reaction"
+            ],
+            "title": "India's decision to open consulate in Sabah receives mixed reaction",
+            "desc": "KOTA KINABALU: The government of India's decision to open a consulate of India here has stirred up a mix of positive and negative reactions among Sabahans.",
+            "url": "https://www.thestar.com.my/news/nation/2026/02/12/india039s-decision-to-open-consulate-in-sabah-receives-mixed-reaction",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/02/12/3766876.jpg",
+            "source": "The Star | Malaysia",
+            "score": 3,
+            "added_time": "2026-02-12T16:46:32.209465+00:00"
+        },
+        {
+            "story_id": "b085b432020bb258c89bdc4073a9a3d2",
+            "topic": "India",
+            "subtopics": [
+                "Adani Power steps into nuclear energy sector with new atomic unit"
+            ],
+            "title": "Adani Power steps into nuclear energy sector with new atomic unit",
+            "desc": "Adani Power has established Adani Atomic Energy Limited, a wholly owned subsidiary, to generate, transmit, and distribute nuclear power. This move follows the recent passage of the SHANTI Bill, allowing private sector participation in India's nuclear energy sector. The company plans to replace its entire thermal capacity with nuclear power in the coming years.",
+            "url": "https://economictimes.indiatimes.com/industry/energy/power/gautam-adani-power-to-ramp-up-nuclear-energy-production-under-new-atomic-unit/articleshow/128234442.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/msid-128234609,width-1200,height-630,imgsize-1431922,overlay-economictimes/articleshow.jpg",
+            "source": "The Economic Times",
+            "score": 3,
+            "added_time": "2026-02-12T16:46:32.209487+00:00"
+        },
+        {
+            "story_id": "391a129876ce90d087f82577c3a897b8",
+            "topic": "General",
+            "subtopics": [
+                "Instagram and X have an impossible deepfake detection deadline"
+            ],
+            "title": "Instagram and X have an impossible deepfake detection deadline",
+            "desc": "The best methods we currently have for detecting and labelling deepfakes online are about to get a stress test.",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/877206/youtube-instagram-x-india-deepfake-detection-deadline",
+            "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK419_DEEPFAKE_3_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+            "source": "The Verge",
+            "score": 2,
+            "added_time": "2026-02-12T16:46:32.209501+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "4ebc39773a2c6cc1ef2f4ab2dd3a779f",
-            "topic": "India",
-            "subtopics": [
-                "2027: Semiconductors, Manufacturing, and Tax Reforms"
-            ],
-            "title": "2027: Semiconductors, Manufacturing, and Tax Reforms",
-            "desc": "The India budget highlights ISM 2.0, deeper electronics localization, tax and customs reforms, and infrastructure spending to support long-term manufacturing growth.",
-            "url": "https://www.eetimes.com/india-budget-2026-2027-semiconductors-manufacturing-and-tax-reforms/",
-            "image": "https://www.eetimes.com/wp-content/uploads/AdobeStock_1394952095.jpeg?fit=2816%2C1536",
-            "source": "EE Times",
-            "score": 4,
-            "added_time": "2026-02-03T14:50:52.455929+00:00"
-        },
         {
             "story_id": "0233ede946105c6984c2185ea71ee297",
             "topic": "The Interface: Integrating Electronics",
@@ -1074,15 +1088,28 @@
             "source": "SWI swissinfo.ch",
             "score": 4,
             "added_time": "2026-02-11T16:53:39.721393+00:00"
+        },
+        {
+            "story_id": "8da34d46f3013509aee9a280682ae213",
+            "topic": "India",
+            "subtopics": [
+                "'Owned by', not just 'made in' India: MoD looks to reset defence buying"
+            ],
+            "title": "MoD looks to reset defence buying: 'Owned by', not just'made in' India: MoD looks to reset defence buying.",
+            "desc": "Draft Defence Acquisition Procedure 2026 released for stakeholder comments; focus on force modernisation, faster acquisition, and scaled-up production",
+            "url": "https://www.business-standard.com/external-affairs-defence-security/news/owned-by-not-just-made-in-india-mod-looks-to-reset-defence-buying-126021100073_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-02/28/thumb/featurecrop/1200X630/1740749689-2217.jpg",
+            "source": "Business Standard",
+            "score": 4,
+            "added_time": "2026-02-11T16:53:40.830734+00:00"
         }
     ],
     "recent_topics": {
-        "Anatoliy Polyanker": "2026-02-11T01:27:20.271374+00:00",
         "Cfo": "2026-02-11T05:24:33.854944+00:00",
         "Discover": "2026-02-11T08:36:43.689709+00:00",
         "Budget": "2026-02-11T12:41:33.730592+00:00",
         "Supreme Court": "2026-02-11T16:53:41.879348+00:00",
-        "India": "2026-02-12T05:22:18.502365+00:00",
+        "India": "2026-02-12T16:46:32.209547+00:00",
         "United States": "2026-02-12T12:38:24.476567+00:00",
         "White House": "2026-02-12T08:34:59.836698+00:00"
     }
