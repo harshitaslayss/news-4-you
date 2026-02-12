@@ -1,20 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "ff81c6da330d7ce203bf2f5523be0025",
-            "topic": "General",
-            "subtopics": [
-                "Basic habits that may block your weight loss despite regular workout"
-            ],
-            "title": "Basic habits that may block your weight loss despite regular workout",
-            "desc": "Working out regularly but still seeing the same number on the weighing scale? It may be time to dig a little deeper and take a closer look at your everyday habits.",
-            "url": "https://www.indiatoday.in/lifestyle/wellness/story/basic-habits-that-may-block-your-weight-loss-despite-regular-workout-2865999-2026-02-10",
-            "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202602/the-answer-to-why-you-are-unable-to-lose-weight-may-lie-in-your-daily-habits--photo-pexelsketut-s-103147609-16x9_0.png?VersionId=tl7KSpOiPzRdPmdBXbQUwtXo8wH3i5YD",
-            "source": "India Today",
-            "score": 3,
-            "added_time": "2026-02-11T05:24:33.854907+00:00"
-        },
-        {
             "story_id": "6b6f64136ee5318c69913387add570da",
             "topic": "India Cooperation Across Trade",
             "subtopics": [
@@ -69,20 +55,6 @@
             "source": "The Economic Times",
             "score": 3,
             "added_time": "2026-02-11T16:53:39.721343+00:00"
-        },
-        {
-            "story_id": "c3d2b9484805a02262af79657ed53fe5",
-            "topic": "White House",
-            "subtopics": [
-                "US trade deal: White House removes pulses from factsheet"
-            ],
-            "title": "US trade deal: White House removes pulses from factsheet",
-            "desc": "India Business News: The United States has revised its factsheet on the recently announced \u201chistoric trade deal\u201d with India, removing a reference to pulses, changing the w.",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/india-us-trade-deal-white-house-removes-pulses-from-fact-sheet-changes-key-text/articleshow/128183966.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128184036,width-1280,height-720,imgsize-70446,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "Times of India",
-            "score": 4,
-            "added_time": "2026-02-11T16:53:39.721365+00:00"
         },
         {
             "story_id": "90959c84921304dfba9eb290132a2c8f",
@@ -363,23 +335,51 @@
             "source": "Business Wire",
             "score": 3,
             "added_time": "2026-02-12T05:22:18.502298+00:00"
+        },
+        {
+            "story_id": "b9be93337de8040f9b9011276ab88a65",
+            "topic": "Samsung Exhibition Celebrates Innovative",
+            "subtopics": [
+                "Samsung Exhibition Celebrates Innovative Spirit of Winning Solve For Tomorrow Ambassadors"
+            ],
+            "title": "Samsung Exhibition Celebrates Innovative Spirit of Winning Solve For Tomorrow Ambassadors: Samsung Exhibition Celebrates Innovative Spirit of Winning Solve For Tomorrow Ambassadors",
+            "desc": "Attendees were able to experience Solve for Tomorrow winning solutions firsthand in designated Experience zones",
+            "url": "https://news.samsung.com/us/samsung-exhibition-celebrates-innovative-spirit-winning-solve-for-tomorrow-ambassadors/",
+            "image": "https://img.us.news.samsung.com/us/wp-content/uploads/2026/02/11142924/Samsung-CSR-Samsung-Solve-For-Tomorrow-Ambassadors-Milano-Cortina-2026-SFT-Ambassadors-Exhibition_main1F.jpg",
+            "source": "samsung.com",
+            "score": 2,
+            "added_time": "2026-02-12T08:34:59.836594+00:00"
+        },
+        {
+            "story_id": "f6fd12bcac80ce02bbdc4aad3bfab7d8",
+            "topic": "Davis",
+            "subtopics": [
+                "Letter to Merck CEO Robert M. Davis on Global Access to MK"
+            ],
+            "title": "Letter to Merck CEO Robert M. Davis on Global Access to MK",
+            "desc": "Robert M. DavisChairman and Chief Executive OfficerMerck & Co., Inc.126 East Lincoln AvenueRahway, NJ 07065United States(tambi\u00e9n disponible en espa\u00f1ol aqu\u00ed)Re: Ensuring Equitable Global Access to MK-8527 for HIV PreventionDear Mr. Davis,We, the undersigned, write to you as mem",
+            "url": "https://healthgap.org/letter-to-merck-ceo-robert-m-davis-on-global-access-to-mk-8527/",
+            "image": "https://healthgap.org/wp-content/uploads/2017/01/favicon_2.jpg",
+            "source": "Health GAP",
+            "score": 3,
+            "added_time": "2026-02-12T08:34:59.836638+00:00"
+        },
+        {
+            "story_id": "1debfb65c62fb7401ad1c9ca41374880",
+            "topic": "Cabinet",
+            "subtopics": [
+                "State of the Nation in the shadow of the water tanker"
+            ],
+            "title": "State of the Nation in the shadow of the water tanker",
+            "desc": "A year after bold promises, Cyril Ramaphosa\u2019s weak spots are clear: taps and safety. The rest of the Cabinet tells a better story.",
+            "url": "https://www.dailymaverick.co.za/article/2026-02-11-state-of-the-nation-in-the-shadow-of-the-water-tanker/",
+            "image": "https://cdn.dailymaverick.co.za/i/2SFhAQ43V7sS2ePsvGducSotHC4=/800x0/smart/filters:strip_exif()/file/attachments/orphans/Ferial-SONA_CyrilTanker_891247.jpg",
+            "source": "Daily Maverick",
+            "score": 3,
+            "added_time": "2026-02-12T08:34:59.836653+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "df133433e09ec37087d6328d592d46bb",
-            "topic": "Esg",
-            "subtopics": [
-                "ESG ratings - are they still relevant?"
-            ],
-            "title": "ESG ratings - are they still relevant?",
-            "desc": "Over the laste decade the ESG landscape has continue to advance. We explore the role of ESG ratings and if they are still relevant for the future.",
-            "url": "https://www.allianzgi.com/en/insights/outlook-and-commentary/sustainable-investing-esg-ratings-are-they-still-relevant",
-            "image": "https://www.allianzgi.com/-/media/allianzgi/globalagi/editorial/2026/sustainable-investing-esg-ratings-are-they-still-relevant/1920x980-sustainable-investing-esg-ratings-are-they-still-relevant.png?rev=183e732938e94e9ea4014d65834bd8f6&extension=webp%2cavif&hash=77A74DA26643DE29022FA114D79C28C2",
-            "source": "allianzgi.com",
-            "score": 3,
-            "added_time": "2026-02-03T02:37:49.791326+00:00"
-        },
         {
             "story_id": "8d08d03c5ff66c237ac8bb3c2ed851a4",
             "topic": "Meta",
@@ -1073,6 +1073,20 @@
             "source": "The Hindu",
             "score": 6,
             "added_time": "2026-02-12T05:22:17.476608+00:00"
+        },
+        {
+            "story_id": "c3d2b9484805a02262af79657ed53fe5",
+            "topic": "White House",
+            "subtopics": [
+                "US trade deal: White House removes pulses from factsheet"
+            ],
+            "title": "US trade deal: White House removes pulses from factsheet",
+            "desc": "India Business News: The United States has revised its factsheet on the recently announced \u201chistoric trade deal\u201d with India, removing a reference to pulses, changing the w.",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/india-us-trade-deal-white-house-removes-pulses-from-fact-sheet-changes-key-text/articleshow/128183966.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128184036,width-1280,height-720,imgsize-70446,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 4,
+            "added_time": "2026-02-11T16:53:39.721365+00:00"
         }
     ],
     "recent_topics": {
@@ -1083,6 +1097,7 @@
         "Budget": "2026-02-11T12:41:33.730592+00:00",
         "Supreme Court": "2026-02-11T16:53:41.879348+00:00",
         "India": "2026-02-12T05:22:18.502365+00:00",
-        "United States": "2026-02-12T01:07:36.107492+00:00"
+        "United States": "2026-02-12T01:07:36.107492+00:00",
+        "White House": "2026-02-12T08:34:59.836698+00:00"
     }
 }
