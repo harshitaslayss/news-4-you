@@ -1,76 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "e41fd2e07483ee61d1dd7f254b1a527e",
-            "topic": "Ai",
-            "subtopics": [
-                "Telstra to axe more than 200 jobs amid AI rollout"
-            ],
-            "title": "Telstra to axe more than 200 jobs amid AI rollout",
-            "desc": "Some jobs will be moved offshore in wake of telco\u2019s $700m joint venture with tech consultancy Accenture",
-            "url": "https://www.theguardian.com/business/2026/feb/10/telstra-ai-job-cuts-offshore-workforce",
-            "image": "https://i.guim.co.uk/img/media/18f1e2d8bf1c992ff57d47f06323278cf9b04575/497_0_4974_3980/master/4974.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=80a290829cbf66263e61b0322fe8a9a2",
-            "source": "The Guardian",
-            "score": 2,
-            "added_time": "2026-02-10T20:35:52.384890+00:00"
-        },
-        {
-            "story_id": "a91002a984257706af8d994b3f8a3431",
-            "topic": "Opv",
-            "subtopics": [
-                "Improved immunisation key to tackling variant poliovirus strains"
-            ],
-            "title": "Improved immunisation key to tackling variant poliovirus strains",
-            "desc": "In areas with persistently poor vaccine coverage, variant strains can emerge, primarily through viral recombination events between OPV strains and other enteroviruses.",
-            "url": "https://www.tribuneindia.com/news/health/improved-immunisation-key-to-tackling-variant-poliovirus-strains/",
-            "image": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTU5MjlkZjMwLTA2NTEtMTFmMS04MzhhLTdiNTZlMzViOTYwMC5qcGc=",
-            "source": "Tribune India",
-            "score": 3,
-            "added_time": "2026-02-10T20:35:53.456667+00:00"
-        },
-        {
-            "story_id": "778704d4a376cdfff946a0a0cb43e9e8",
-            "topic": "The Ministry Of Home Affairs",
-            "subtopics": [
-                "Digital Arrests | MHA Proposes SOP Before Supreme Court, RBI To Consider Staff Accountability & Liability Framework"
-            ],
-            "title": "Supreme Court, RBI To Consider Staff Accountability & Liability Framework, RBI To Consider Staff Accountability & Responsability & Liability Framework, RBI To Consider Staff Accountability",
-            "desc": "In the suo motu case taken up by the Supreme Court over \\\"digital arrest scams\\\", the Ministry of Home Affairs has filed a status report proposing a Standard Operating Procedure to strengthen...",
-            "url": "https://www.livelaw.in/top-stories/supreme-court-digital-arrest-scam-suo-motu-mha-status-report-sop-rbi-cbi-dot-meity-victim-compensation-liability-framework-522549",
-            "image": "https://www.livelaw.in/h-upload/2025/10/17/626542-digital-arrest.jpg",
-            "source": "Live Law",
-            "score": 3,
-            "added_time": "2026-02-10T20:35:55.017506+00:00"
-        },
-        {
-            "story_id": "539e59f8bee7eddabcfca31e25dda732",
-            "topic": "Nothing Phone 4A",
-            "subtopics": [
-                "Nothing Phone 4a series new colour options teased ahead of March 2026 launch"
-            ],
-            "title": "Nothing Phone 4a series new colour options teased ahead of March 2026 launch",
-            "desc": "Nothing Phone 4a series smartphones are set to make their debut soon in India and other global markets.\u00a0| Technology News",
-            "url": "https://www.hindustantimes.com/technology/nothing-phone-4a-series-new-colour-options-teased-ahead-of-march-2026-launch-101770706035192.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/10/550x309/Nothing_Phone_4a_series_1770706424760_1770706424987.jpg",
-            "source": "Hindustan Times",
-            "score": 3,
-            "added_time": "2026-02-10T20:35:55.533000+00:00"
-        },
-        {
-            "story_id": "90261b00c266ba8f67efe472d44cfd88",
-            "topic": "The United States",
-            "subtopics": [
-                "US and Bangladesh strike new trade deal - key terms of the agreement"
-            ],
-            "title": "US and Bangladesh strike new trade deal - key terms of the agreement",
-            "desc": "International Business News: The United States and Bangladesh on Monday finalised the United States\u2013Bangladesh Agreement on Reciprocal Trade, wrapping up negotiations as both coun.",
-            "url": "https://timesofindia.indiatimes.com/business/international-business/us-and-bangladesh-strike-new-trade-deal-key-terms-of-the-agreement/articleshow/128138647.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128138700,width-1280,height-720,imgsize-2953622,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "The Times of India",
-            "score": 3,
-            "added_time": "2026-02-10T20:35:55.533033+00:00"
-        },
-        {
             "story_id": "b8bebed16c65cbde4f68bfbc3f537457",
             "topic": "Ai",
             "subtopics": [
@@ -169,20 +99,6 @@
             "source": "The Economic Times",
             "score": 3,
             "added_time": "2026-02-11T16:53:39.721343+00:00"
-        },
-        {
-            "story_id": "e204db81f13cd5cab50840acccef5405",
-            "topic": "United States",
-            "subtopics": [
-                "Asian Stocks Rise Before Jobs Data, Gold Gains: Markets Wrap"
-            ],
-            "title": "Asian Stocks Rise Before Jobs Data, Gold Gains: Markets Wrap",
-            "desc": "(Bloomberg) -- Asian stocks gained in the run-up to the US jobs data after weak retail sales reinforced bets that the Federal Reserve will cut interest rates later this year.",
-            "url": "https://www.swissinfo.ch/eng/asian-stocks-rise-before-jobs-data%2C-gold-gains%3A-markets-wrap/90923756",
-            "image": "https://www.swissinfo.ch/eng/wp-content/uploads/swissinfo-theme/swi-fallback-featured-image.jpg?ver=1768386618",
-            "source": "SWI swissinfo.ch",
-            "score": 4,
-            "added_time": "2026-02-11T16:53:39.721355+00:00"
         },
         {
             "story_id": "c3d2b9484805a02262af79657ed53fe5",
@@ -337,23 +253,135 @@
             "source": "Foreign Affairs",
             "score": 2,
             "added_time": "2026-02-11T20:29:37.251527+00:00"
+        },
+        {
+            "story_id": "565412c60c582006f7bff6bf767bb3fa",
+            "topic": "The Biological Computing Co.",
+            "subtopics": [
+                "Two neurosurgeons just raised $25 million betting brain cells can (someday) outcompute silicon"
+            ],
+            "title": "2 neurosurgeons just raised $25 million, betting brain cells can (someday) outcompute silicon.",
+            "desc": "The Biological Computing Co. (TBC) has raised $25 million in seed funding, Fortune has learned.",
+            "url": "https://fortune.com/2026/02/11/two-neurosurgeons-raised-25-million-betting-brain-cells-can-someday-outcompute-silicon/",
+            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/02/Combined_Founder_headshots_176f59.png?resize=1200,600",
+            "source": "Fortune",
+            "score": 2,
+            "added_time": "2026-02-12T01:07:31.142732+00:00"
+        },
+        {
+            "story_id": "e9657b97a26f98069913016e99dcc3c1",
+            "topic": "Sbi",
+            "subtopics": [
+                "SBI overtakes TCS to become India's fourth largest company as Q3 rally triggers market cap leap"
+            ],
+            "title": "SBI overtakes TCS to become India's fourth largest company as Q3 rally triggers market cap leap.",
+            "desc": "State Bank of India has surpassed TCS to become the fourth-largest listed firm by market capitalisation after a sharp rally driven by strong quarterly earnings. Robust profit growth, stable margins, improving asset quality and bullish brokerage views boosted investor sentiment.",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-overtakes-tcs-to-become-indias-fourth-largest-company-as-q3-rally-triggers-market-cap-leap/articleshow/128207023.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/msid-128207034,width-1200,height-630,imgsize-14074,overlay-etmarkets/articleshow.jpg",
+            "source": "The Economic Times",
+            "score": 3,
+            "added_time": "2026-02-12T01:07:32.400937+00:00"
+        },
+        {
+            "story_id": "fff7f0dadff6866158305bfdd538b634",
+            "topic": "Shree Bhavya Fabrics",
+            "subtopics": [
+                "Q3 Results 11th Feb Highlights: Ashok Leyland, M&M, SJVN, Lenskart Q3 profit rise, Divi\u2019s Lab Q3 profit flat, LG Electronics, Godrej, Patanjali Foods, AstraZeneca to announce Q3 results"
+            ],
+            "title": "Q3 results 11th Feb Highlights: Ashok Leyland, M&M, SJVN, Lenskart Q3 profit rise, Divi\u2019s Lab Q3 profit flat,",
+            "desc": "Q3 Results Today, 11th Feb 2026 Highlights: Find all the latest Q3 results 2026 updates of Mahindra and Mahindra, Divi\u2019s Laboratories, Ashok Leyland, LG Electronics India, Lenskart Solutions, Max Financial Services, Patanjali Foods, Godrej Industries, SJVN, AstraZeneca Pharma, Bayer CropScience, Kirloskar Oil Engines, TBO Tek, Amara Raja Energy & Mobility, Elgi Equipments, Avanti Feeds, IRCON International, Concord Biotech, Jupiter Wagons, Black Box, Amagi Media Labs, Orkla India, Mrs. Bectors Food Specialities, Valor Estate, Garware Technical Fibres, FIEM Industries, Juniper Hotels, Surya Roshni, Technocraft Industries (India), Sri Adhikari Brothers Television, Man Infraconstruction, CARE Ratings, JTEKT India, MSTC, Orchid Pharma, Neogen Chemicals, Sandhar Technologies, Carraro India, KDDL, Network People Services Technologies, Ramco Industries, Marine Electricals India, Protean eGov Technologies, The Bombay Dyeing Company, NOCIL, Hind Rectifiers, IOL Chemicals and Pharmaceuticals, Hikal, Yatra Online, GE Power India, Shringar House of Mangalsutra, Panacea Biotec, Capacite Infraprojects, Shankara Buildpro, Wonder Electricals, Sika Interplant Systems, Mobavenue AI Tech, Shalby, S P Apparels, Dollar Industries, Talbros Automotive Components, Advait Energy Transitions, Precision Camshafts, Himatsingka Seide, GOCL Corporation, KMC Speciality Hospitals, Igarashi Motors, BL Kashyap & Sons, Mirc Electronics, Ultramarine and Pigments, Bhartiya International, IZMO, Ecos India Mobility & Hospitality, Madras Fertilizers, Salzer Electronics, Apex Frozen Foods, Shree Pushkar Chemicals and Fertilisers, Master Trust, IG Petrochemicals, Andrew Yule and Company, AVT Natural Products, GKW, Electrotherm (India), AB Cotspin India, Borosil Scientific, Dhunseri Ventures, Heranba Industries, Bajaj Steel Industries, Morganite Crucible (India), Synergy Green Industries, NR Agarwal Industries, RSWM, Nisus Finance Services Co, State Trading Corporation of India, Linc, Dwarikesh Sugar Industries, Kilitch Drugs (India), IIRM Holdings India, Dhunseri Investments, Kirloskar Electric Company, Empire Industries, Niyogin Fintech, Aptech, Veljan Denison, TPL Plastech, Radiant Cash Management Services, Indogulf Cropsciences, Global Education, Batliboi, Orient Paper and Industries, Pasupati Acrylon, Mazda, Cybertech Systems and Software, Hindustan Motors, Everest Organics, Albert David, Haleos Labs, Parsvnath Developers, ZIM Laboratories, Majestic Auto, Valiant Laboratories, Ginni Filaments, Exato Technologies, Emami Realty, GTT Data Solutions, Adcounty Media India, Bafna Pharmaceuticals, Sahyadri Industries, The Byke Hospitality, Pavna Industries, KCP Sugar and Industries Corporation, Quest Capital Markets, Almondz Global Securities, Ludlow Jute & Specialities, Alankit, A2Z Infra Engineering, Lotus Eye Care Hospital, Aion-Tech Solutions, Phoenix Township, Affordable Robotic & Automation, BDH Industries, Kalyani Forge, Raj Television Network, ARCL Organics, ATV Projects India, Leading Leasing Finance and Investment Company, Aarey Drugs and Pharmaceuticals, Tainwala Chemicals and Plastics (India), Century Extrusions, Kanishk Steel Industries, Coromandel Engineering Company, Blue Water Logistics, Alpa Laboratories, Bright Brothers, Suryalata Spinning Mills, Premco Global, Indian Card Clothing, Metroglobal, Alphageo (India), Pioneer Investcorp, Dhoot Industrial Finance, Airo Lam, Hindustan Tin Works, Loyal Textiles Mills, Prima Plastics, Ganges Securities, Latteys Industries, Cressanda Railway Solutions, KG Petrochem, Beardsell, Suryalakshmi Cotton Mills, Indian Infotech and Software, Rajnandini Metal, Rungta Irrigation, Bal Pharma, CG-Vak Software and Exports, Saumya Consultants, Reliance Chemotex Industries, Rajshree Sugars and Chemicals, Softrak Venture Investment, Ansal Buildwell, Shri Vasuprada Plantations, TruCap Finance, AMD Industries, Vibrant Global Capital, Odyssey Technologies, APM Industries, Titan Intech, Star Housing Finance, Bonlon Industries, Chowgule Steamships, Ashnoor Textile Mills, Rapicut Carbides, Raj Oil Mills, Biogen Pharmachem Industries, Deep Diamond India, Amarjothi Spinning Mills, Archies, Tarapur Transformers, Perfectpac, Malu Paper Mills, Anjani Foods, Universal Starch Chem Allied, Unique Organics, Gowra Leasing & Finance, ABM International, Baba Arts, Simplex Realty, Shalimar Productions, Eforu Entertainment, Diligent Media Corporation, Artefact Projects, Super Spinning Mills, SVC Superchem, Lakshmi Finance and Industrial Corporation, HP Cotton Textiles, Kshitij Polyline, Nagreeka Capital and Infrastructure, Ansal Housing, Gini Silk Mills, Silver Oak (India), STL Global, Madhav Marbles and Granites, Kovilpatti Lakshmi Roller Flour Mills, Chennai Meenakshi Multispeciality Hospital, Medi-Caps, Rollatainers, Haryana Leather Chemicals, Amit Securities, Prismx Global Ventures, Ravalagaon Sugar Farm, JMJ Fintech, Megri Soft, Ind Cement Cap, Saffron Industries, Maris Spinners, Shahi Shipping, Enbee Trade & Finance, Viceroy Hotels, Shree Bhavya Fabrics, Maruti Securities, GACM Technologies, E-Land Apparel, Prime Urban Development India, KJMC Corporate Advisors (India), CIL Securities, Greencrest Financial Services, Nivaka Fashions, Panabyte Technologies, RTCL, Niraj Ispat Industries, S.M. Gold, Shyamkamal Investments, Uniroyal Industries, UR Sugar Industries, Jackson Investments, United Interactive, Neil Industries, Muller and Phipps (India), Emmessar Biotech and Nutrition, Globale Tessile, Indo Euro Indchem, VK Global Industries, Indo-City Trades and Finance, First Custodian Fund (India), MT Educare, Amforge Industries, V B Industries, Sarthak Global, Universal Office Automation, Jayabharat Credit, Retro Green Revolution, Kairosoft AI Solutions, Dharani Finance.",
+            "url": "https://www.thehindubusinessline.com/markets/stock-markets/q3-results-today-live-updates-mahindra-amp-mahindra-divis-lab-lg-electronics-godrej-ind-patanjali-foods-astrazeneca-pharma-lenskart-ashok-leyland-titan-grasim-results-11-feb-2026/article70615238.ece",
+            "image": "https://bl-i.thgim.com/public/incoming/3zs84v/article70618177.ece/alternates/LANDSCAPE_1200/iStock-506147556.jpg",
+            "source": "BusinessLine",
+            "score": 4,
+            "added_time": "2026-02-12T01:07:33.689103+00:00"
+        },
+        {
+            "story_id": "280eadfcfccb9260b48178acf8024cf2",
+            "topic": "Mil",
+            "subtopics": [
+                "itel A100 Launched In India With Military Grade Certification, IR Blaster And DTS-Powered Sound Technology At Just\u2026"
+            ],
+            "title": "Itel A100 Launched In India With Military Grade Certification, IR Blaster And DTS-Powered Sound Technology At Just",
+            "desc": "itel has launched the A100 in India with MIL-STD-810H durability, Ultralink calling without network, a 6.6-inch 90Hz display, 5000mAh battery, and Android 15 Go, priced at Rs 6,799 onwards.",
+            "url": "https://www.newsx.com/tech-and-auto/itel-a100-launched-in-india-with-military-grade-certification-ir-blaster-and-dts-powered-sound-technology-at-just-165269/",
+            "image": "https://www.newsx.com/wp-content/uploads/2026/02/itel-a100.png",
+            "source": "NewsX",
+            "score": 3,
+            "added_time": "2026-02-12T01:07:34.776056+00:00"
+        },
+        {
+            "story_id": "915483b1253dd9b4ea9c5621a769a502",
+            "topic": "General",
+            "subtopics": [
+                "New Research: How AI Transforms $400 Billion Of Corporate Learning"
+            ],
+            "title": "New Research: How AI Transforms $400 Billion Of Corporate Learning",
+            "desc": "AI is now poised to reinvent the $400 Billion corporate training market, and it's happening faster than you imagined.",
+            "url": "https://joshbersin.com/2026/02/new-research-how-ai-transforms-400-billion-of-corporate-learning/",
+            "image": "https://joshbersin.com/wp-content/uploads/2026/02/rocket-scaled.jpg",
+            "source": "Josh Bersin",
+            "score": 3,
+            "added_time": "2026-02-12T01:07:34.776109+00:00"
+        },
+        {
+            "story_id": "f8a437258959f193738b6211e444675e",
+            "topic": "Israel",
+            "subtopics": [
+                "Stability for Africa\u2019s agenda 2063 and Israel"
+            ],
+            "title": "Stability for Africa\u2019s agenda 2063 and Israel",
+            "desc": "\u201cThe attack was repelled through the joint efforts of the Russian Ministry of Defence\u2019s African Corps and the\u2026",
+            "url": "https://www.thecable.ng/stability-for-africas-agenda-2063-and-israel/",
+            "image": "https://www.thecable.ng/wp-content/uploads/2026/02/agenda2063.jpg",
+            "source": "TheCable",
+            "score": 2,
+            "added_time": "2026-02-12T01:07:34.776123+00:00"
+        },
+        {
+            "story_id": "9beb89f8566cff6818dfb532e45e3f42",
+            "topic": "United States",
+            "subtopics": [
+                "Yet another bill introduced in US House to end the H"
+            ],
+            "title": "Yet another bill introduced in US House to end the H",
+            "desc": "US News: Florida\u2019s Republican Congressman, Greg Steube, has introduced a bill in the US House of Representatives seeking to eliminate the H-1B visa program by .",
+            "url": "https://timesofindia.indiatimes.com/world/us/yet-another-bill-introduced-in-us-house-to-end-the-h-1b-program/articleshow/128199689.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128199922,width-1280,height-720,imgsize-443789,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 3,
+            "added_time": "2026-02-12T01:07:34.776134+00:00"
+        },
+        {
+            "story_id": "02cdd0a3f6562403f905f006666ce4a4",
+            "topic": "Anthropic\u2019S Dario",
+            "subtopics": [
+                "From Pichai to Dario, everyone is coming to India AI Summit but why? Because dhandho"
+            ],
+            "title": "De Pichai to Dario, everyone is coming to India AI Summit but why? Because dhandho, dhandho, dhandho, d",
+            "desc": "Next week Delhi will see arguably the biggest gathering of tech leaders ever seen. From Google\u2019s Sundar Pichai to Anthropic\u2019s Dario, everyone is coming for the India AI Impact Summit. But why? It\u2019s all about dhandho aka business.",
+            "url": "https://www.indiatoday.in/technology/features/story/from-pichai-to-dario-everyone-is-coming-for-india-ai-summit-but-why-because-dhandho-2866562-2026-02-11",
+            "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202602/india-ai-impact-summit-2026-from-february-16-to-february-20-photo-made-by-ai-110604279-16x9_0.jpeg?VersionId=BuEA5LbmKvw.ztF9LpovaohoeeKNAfzi",
+            "source": "India Today",
+            "score": 3,
+            "added_time": "2026-02-12T01:07:35.995085+00:00"
+        },
+        {
+            "story_id": "4cd76fde76b8ba6253e759a302336fcd",
+            "topic": "Motorola",
+            "subtopics": [
+                "Huge new Motorola Edge 70 Fusion leak leaves (almost) no question unanswered"
+            ],
+            "title": "Schlag",
+            "desc": "One of Motorola's most interesting 2026 mid-rangers holds virtually no secrets ahead of its undoubtedly impending launch.",
+            "url": "https://www.phonearena.com/news/motorola-edge-70-fusion-huge-new-leak-almost-no-question-unanswered_id178112",
+            "image": "https://m-cdn.phonearena.com/images/article/178112-wide-two_1200/Huge-new-Motorola-Edge-70-Fusion-leak-leaves-almost-no-question-unanswered.jpg",
+            "source": "PhoneArena",
+            "score": 3,
+            "added_time": "2026-02-12T01:07:36.107428+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "6cc2ae852c29570040d081f607996784",
-            "topic": "China",
-            "subtopics": [
-                "Strategies for Enhancing the Competitiveness of L Seed Company from an Innovation Perspective"
-            ],
-            "title": "Strategies for Enhancing the Competitiveness of L Seed Company from an Innovation Perspective",
-            "desc": "Innovation has become a key driver for seed enterprises to build core competitiveness. Taking L Seed Company as a case study, this paper constructs a three-dimensional analytical framework\u2014\u201ctechnological innovation-variety innovation-model innovation\u201d\u2014based on innovation theory. It delves into core issues within the enterprise regarding innovation resource allocation, innovation outcome transformation, and innovation collaboration mechanisms. The study proposes targeted and feasible strategies for enhancing competitiveness, offering practical pathways for China\u2019s seed industry to achieve innovation-driven high-quality development.",
-            "url": "https://www.scirp.org/journal/paperinformation?paperid=149325",
-            "image": "https://file.scirp.org/image/jss2015012714222187.jpg",
-            "source": "SCIRP Open Access",
-            "score": 3,
-            "added_time": "2026-02-02T23:34:33.103649+00:00"
-        },
         {
             "story_id": "05e46305f6747450926d03e997f8d531",
             "topic": "Ibam",
@@ -1047,15 +1075,23 @@
             "source": "BBC",
             "score": 5,
             "added_time": "2026-02-11T20:29:33.784397+00:00"
+        },
+        {
+            "story_id": "e204db81f13cd5cab50840acccef5405",
+            "topic": "United States",
+            "subtopics": [
+                "Asian Stocks Rise Before Jobs Data, Gold Gains: Markets Wrap"
+            ],
+            "title": "Asian Stocks Rise Before Jobs Data, Gold Gains: Markets Wrap",
+            "desc": "(Bloomberg) -- Asian stocks gained in the run-up to the US jobs data after weak retail sales reinforced bets that the Federal Reserve will cut interest rates later this year.",
+            "url": "https://www.swissinfo.ch/eng/asian-stocks-rise-before-jobs-data%2C-gold-gains%3A-markets-wrap/90923756",
+            "image": "https://www.swissinfo.ch/eng/wp-content/uploads/swissinfo-theme/swi-fallback-featured-image.jpg?ver=1768386618",
+            "source": "SWI swissinfo.ch",
+            "score": 4,
+            "added_time": "2026-02-11T16:53:39.721355+00:00"
         }
     ],
     "recent_topics": {
-        "Vikram Misri": "2026-02-10T08:39:25.419196+00:00",
-        "Toi": "2026-02-10T10:54:22.816628+00:00",
-        "Pwc": "2026-02-10T11:05:52.628898+00:00",
-        "Roberts": "2026-02-10T11:40:05.197683+00:00",
-        "Hpv": "2026-02-10T12:02:06.111948+00:00",
-        "Sustainable Development Goals": "2026-02-10T12:46:09.798995+00:00",
         "Invensense": "2026-02-10T16:53:37.184287+00:00",
         "Ncdex, Metropolitan Stock Exchange": "2026-02-10T20:35:55.533062+00:00",
         "Anatoliy Polyanker": "2026-02-11T01:27:20.271374+00:00",
@@ -1063,6 +1099,7 @@
         "Discover": "2026-02-11T08:36:43.689709+00:00",
         "Budget": "2026-02-11T12:41:33.730592+00:00",
         "Supreme Court": "2026-02-11T16:53:41.879348+00:00",
-        "India": "2026-02-11T20:29:37.251572+00:00"
+        "India": "2026-02-11T20:29:37.251572+00:00",
+        "United States": "2026-02-12T01:07:36.107492+00:00"
     }
 }
