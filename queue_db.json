@@ -1,48 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "b9be93337de8040f9b9011276ab88a65",
-            "topic": "Samsung Exhibition Celebrates Innovative",
-            "subtopics": [
-                "Samsung Exhibition Celebrates Innovative Spirit of Winning Solve For Tomorrow Ambassadors"
-            ],
-            "title": "Samsung Exhibition Celebrates Innovative Spirit of Winning Solve For Tomorrow Ambassadors: Samsung Exhibition Celebrates Innovative Spirit of Winning Solve For Tomorrow Ambassadors",
-            "desc": "Attendees were able to experience Solve for Tomorrow winning solutions firsthand in designated Experience zones",
-            "url": "https://news.samsung.com/us/samsung-exhibition-celebrates-innovative-spirit-winning-solve-for-tomorrow-ambassadors/",
-            "image": "https://img.us.news.samsung.com/us/wp-content/uploads/2026/02/11142924/Samsung-CSR-Samsung-Solve-For-Tomorrow-Ambassadors-Milano-Cortina-2026-SFT-Ambassadors-Exhibition_main1F.jpg",
-            "source": "samsung.com",
-            "score": 2,
-            "added_time": "2026-02-12T08:34:59.836594+00:00"
-        },
-        {
-            "story_id": "f6fd12bcac80ce02bbdc4aad3bfab7d8",
-            "topic": "Davis",
-            "subtopics": [
-                "Letter to Merck CEO Robert M. Davis on Global Access to MK"
-            ],
-            "title": "Letter to Merck CEO Robert M. Davis on Global Access to MK",
-            "desc": "Robert M. DavisChairman and Chief Executive OfficerMerck & Co., Inc.126 East Lincoln AvenueRahway, NJ 07065United States(tambi\u00e9n disponible en espa\u00f1ol aqu\u00ed)Re: Ensuring Equitable Global Access to MK-8527 for HIV PreventionDear Mr. Davis,We, the undersigned, write to you as mem",
-            "url": "https://healthgap.org/letter-to-merck-ceo-robert-m-davis-on-global-access-to-mk-8527/",
-            "image": "https://healthgap.org/wp-content/uploads/2017/01/favicon_2.jpg",
-            "source": "Health GAP",
-            "score": 3,
-            "added_time": "2026-02-12T08:34:59.836638+00:00"
-        },
-        {
-            "story_id": "1debfb65c62fb7401ad1c9ca41374880",
-            "topic": "Cabinet",
-            "subtopics": [
-                "State of the Nation in the shadow of the water tanker"
-            ],
-            "title": "State of the Nation in the shadow of the water tanker",
-            "desc": "A year after bold promises, Cyril Ramaphosa\u2019s weak spots are clear: taps and safety. The rest of the Cabinet tells a better story.",
-            "url": "https://www.dailymaverick.co.za/article/2026-02-11-state-of-the-nation-in-the-shadow-of-the-water-tanker/",
-            "image": "https://cdn.dailymaverick.co.za/i/2SFhAQ43V7sS2ePsvGducSotHC4=/800x0/smart/filters:strip_exif()/file/attachments/orphans/Ferial-SONA_CyrilTanker_891247.jpg",
-            "source": "Daily Maverick",
-            "score": 3,
-            "added_time": "2026-02-12T08:34:59.836653+00:00"
-        },
-        {
             "story_id": "28af82d4d60eaecbdc2411906fa84d90",
             "topic": "Gavin Mcpaul",
             "subtopics": [
@@ -224,23 +182,37 @@
             "source": "Moneycontrol",
             "score": 3,
             "added_time": "2026-02-13T05:18:37.824447+00:00"
+        },
+        {
+            "story_id": "52f17149e3bbfe1df93cafa0d6a3508d",
+            "topic": "Npi",
+            "subtopics": [
+                "Customer-Specific AI in the Automotive Ecosystem"
+            ],
+            "title": "Customer-Specific AI in the Automotive Ecosystem",
+            "desc": "Customer-specific AI in the automotive industry embeds intelligent agents into NPI and service parts planning. Read to learn more.",
+            "url": "https://news.sap.com/2026/02/customer-specific-ai-next-era-automotive-ecosystem/",
+            "image": "https://news.sap.com/wp-content/blogs.dir/1/files/2026/02/06/287517_GettyImages-898172236_medium_jpg_uncropped_F-1024x683.jpg",
+            "source": "SAP News Center",
+            "score": 3,
+            "added_time": "2026-02-13T12:38:03.879329+00:00"
+        },
+        {
+            "story_id": "0e5d0159e9d26669b6455f2217c242e8",
+            "topic": "Google Deepmind'S",
+            "subtopics": [
+                "Google DeepMind's Pushmeet Kohli explains why India is in perfect position to leverage AI"
+            ],
+            "title": "Pushmeet Kohli, Google DeepMind's Pushmeet Kohli, explains why India is in perfect position to leverage AI.",
+            "desc": "AI's biggest potential is in the democratization of science, says Kohli",
+            "url": "https://www.moneycontrol.com/artificial-intelligence/google-deepmind-s-pushmeet-kohli-explains-why-india-is-in-perfect-position-to-leverage-ai-read-full-q-a-article-13824954.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260212070736_Pushmeet-Kohli-Nalin-Mehta1.jpg",
+            "source": "Moneycontrol",
+            "score": 2,
+            "added_time": "2026-02-13T12:38:04.944575+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "11e67ac487c30ec4e43f535bd65134d6",
-            "topic": "Salman Khan",
-            "subtopics": [
-                "'Dhurandhar 2' Fact Check: Is Salman Khan playing Bade Sahab in the Ranveer Singh starrer? Viral pictures spark speculation"
-            ],
-            "title": "'Dhurandhar 2' Fact Check: Is Salman Khan playing Bade Sahab in the Ranveer Singh starrer? Viral pictures spark speculation",
-            "desc": "The buzz around Aditya Dhar's 'Dhurandhar 2' is massive. While it is set to arrive in March this year, the makers are currently shooting a few additio.",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/dhurandhar-2-fact-check-is-salman-khan-playing-bade-sahab-in-the-ranveer-singh-starrer-viral-pictures-spark-speculation/articleshow/127899219.cms",
-            "image": "https://static.toiimg.com/thumb/msid-127899219,width-1280,height-720,imgsize-33002,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "Times of India",
-            "score": 4,
-            "added_time": "2026-02-04T16:32:29.488950+00:00"
-        },
         {
             "story_id": "05d555add01dc8bb1458ad0aa2545156",
             "topic": "United States",
@@ -934,6 +906,20 @@
             "source": "BusinessLine",
             "score": 4,
             "added_time": "2026-02-13T01:11:14.160878+00:00"
+        },
+        {
+            "story_id": "eece1f12eecbae08bbf326fc8dd49c68",
+            "topic": "James Clerk Maxwell Telescope",
+            "subtopics": [
+                "Mapping the galaxy's magnetic web: new insights into star formation"
+            ],
+            "title": "Mapping the galaxy's magnetic web: new insights into star formation",
+            "desc": "Astronomers have discovered that strong magnetic fields in the neighbourhood of the LDN 328 cloud act as a cosmic brake, providing enough pressure to prevent gravity from immediately collapsing gas into new stars. | Pondicherry University,Indian Institute of Astrophysics,University College London,Korea Astronomy and Space Science Institute,James Clerk Maxwell Telescope | Latest science and technology news, research breakthroughs, and innovations from India\u2019s top institutions. Recent stories and articles on advancements in science, engineering, technology, ecology, humanities, social sciences, and policy. Discover cutting-edge developments and expert insights on Research Matters, your trusted source for comprehensive science and research news.",
+            "url": "https://researchmatters.in/news/mapping-galaxys-magnetic-web-new-insights-star-formation",
+            "image": "https://researchmatters.in/sites/researchmatters/files/February_Aishwarya%20%281%29_0.jpg",
+            "source": "Research Matters",
+            "score": 4,
+            "added_time": "2026-02-13T12:38:03.879306+00:00"
         }
     ],
     "recent_topics": {
@@ -943,6 +929,7 @@
         "Files Notice": "2026-02-12T20:24:31.878208+00:00",
         "Tcs": "2026-02-13T01:11:14.919060+00:00",
         "Japan": "2026-02-13T05:18:37.824507+00:00",
-        "Ajcon Global": "2026-02-13T08:32:21.789297+00:00"
+        "Ajcon Global": "2026-02-13T08:32:21.789297+00:00",
+        "James Clerk Maxwell Telescope": "2026-02-13T12:38:04.944629+00:00"
     }
 }
