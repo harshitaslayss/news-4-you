@@ -156,20 +156,6 @@
             "added_time": "2026-02-12T20:24:29.877206+00:00"
         },
         {
-            "story_id": "d717e05a94dc1e4993a051904d387cfc",
-            "topic": "Japan",
-            "subtopics": [
-                "Japan\u2019s Strategic Pivot: Popular Leadership, Public Signalling And The China Question"
-            ],
-            "title": ": Japan\u2019s Strategic Pivot: Popular Leadership, Public Signalling And The China Question: Japan\u2019s Strategic Pivot: Popular Leadership, Public Signalling And The China Question:",
-            "desc": "PM Sanae Takaichi, often described by commentators as charismatic and media-savvy, represents a departure from the restrained leadership archetype long associated with Japan",
-            "url": "https://www.news18.com/explainers/japans-strategic-pivot-popular-leadership-public-signalling-and-the-china-question-shil-ws-l-9897490.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/02/japan-pm-2026-02-85f1f2a8d554d81261cdfb77eb5fe504-16x9.jpg",
-            "source": "News18",
-            "score": 4,
-            "added_time": "2026-02-12T20:24:31.878131+00:00"
-        },
-        {
             "story_id": "70af5039f56a934186792b845f2ba0e1",
             "topic": "Gogoro Inc.",
             "subtopics": [
@@ -210,23 +196,65 @@
             "source": "Moneycontrol",
             "score": 3,
             "added_time": "2026-02-13T01:11:14.919004+00:00"
+        },
+        {
+            "story_id": "8ef409f0746c445085cd1edc87ee3bd5",
+            "topic": "The European Union",
+            "subtopics": [
+                "Europe and monetary sovereignty"
+            ],
+            "title": "Europe and monetary sovereignty",
+            "desc": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+            "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260212~9fabe9baaa.en.html",
+            "image": "https://www.ecb.europa.eu/press/key/shared/img/socialmedia/social-default.jpg?0dbb2de262f4f1fcaeae410be132177a",
+            "source": "European Central Bank",
+            "score": 3,
+            "added_time": "2026-02-13T05:18:35.602469+00:00"
+        },
+        {
+            "story_id": "c38aedec5bd33c6eaf3ed7d0b1c90b32",
+            "topic": "Ai",
+            "subtopics": [
+                "\"Malicious AI Swarms\" Could Hijack Democracy-And May Even Go Unnoticed, Experts Say"
+            ],
+            "title": ": \"Malicious AI Swarms\" Could Hijack Democracy-And May Even Go Unnoticed, Experts Say, Experts Say.",
+            "desc": "A new breed of AI-controlled personas could pose an unprecedented threat to democratic societies, experts have recently warned.",
+            "url": "https://thedebrief.org/malicious-ai-swarms-could-hijack-democracy-and-may-even-go-unnoticed-experts-say/",
+            "image": "https://thedebrief.b-cdn.net/wp-content/uploads/2026/02/robot.jpg",
+            "source": "The Debrief",
+            "score": 3,
+            "added_time": "2026-02-13T05:18:36.706729+00:00"
+        },
+        {
+            "story_id": "495e742e8a3603d3df94d198046c7d0a",
+            "topic": "General",
+            "subtopics": [
+                "From war zones to outer space, radio remains essential"
+            ],
+            "title": "From war zones to outer space, radio remains essential",
+            "desc": "Even as the world fixates on ever\u2011brighter screens and sprawling digital feeds, radio endures with a quiet resilience, shaping how we share experience and understand one another. Its waves travel where sight cannot, pairing with cutting\u2011edge innovation in some places and acting as a lone, indispensable lifeline in others when technology fails to keep pace.",
+            "url": "https://news.un.org/en/story/2026/02/1166947",
+            "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/15-05-2020-UNICEF-Rwanda.jpg/image770x420cropped.jpg",
+            "source": "UN News",
+            "score": 3,
+            "added_time": "2026-02-13T05:18:36.706763+00:00"
+        },
+        {
+            "story_id": "83fac6b51f54657b959187880334a81e",
+            "topic": "Softbank",
+            "subtopics": [
+                "SoftBank bags $7.4 billion from India exits; portfolio value stands at $13.7 billion"
+            ],
+            "title": "; portfolio value stands at $13.7 billion; portfolio value stands at $13.7 billion; portfolio value stands at $13.7 billion; portfolio value stands at $13.7 billion; portfolio value stands at $13.7",
+            "desc": "The Japanese investment major has made 24 investments in India through its Vision Funds, with eight portfolio companies listing on public markets and four full exits",
+            "url": "https://www.moneycontrol.com/news/business/startup/softbank-bags-7-4-billion-from-india-exits-portfolio-value-stands-at-13-7-billion-13825494.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2017/08/SoftBank.jpg",
+            "source": "Moneycontrol",
+            "score": 3,
+            "added_time": "2026-02-13T05:18:37.824447+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "54da9b804331a8b817b7d976214e1959",
-            "topic": "New Delhi'S",
-            "subtopics": [
-                "India US Trade Deal LIVE Updates: Kremlin reacts to Donald Trump's claim on New Delhi's Russian oil purchase"
-            ],
-            "title": "India US Trade Deal LIVE Updates: Kremlin reacts to Donald Trump's claim on New Delhi's Russian oil purchase",
-            "desc": "India US Trade Deal LIVE Updates: Day after India and the US reached a trade agreement and Trump claimed that India has agreed to stop purchasing Russian oil, Moody's said, \u201cIndia is unlikely to cease all purchases immediately which could be disruptive to India\u2019s economic growth\u201d.| India News",
-            "url": "https://www.hindustantimes.com/india-news/india-us-trade-deal-live-updates-pm-modi-donald-trump-tariffs-sergio-gor-stock-market-february-3-latest-news-101770083023496.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/03/550x309/Trump_Modi_1739543006952_1770100210547.jpg",
-            "source": "Hindustan Times",
-            "score": 4,
-            "added_time": "2026-02-04T01:00:22.127253+00:00"
-        },
         {
             "story_id": "cf5c8f5de91862b2ca83a23bb4a94bf3",
             "topic": "Amr",
@@ -920,14 +948,28 @@
             "source": "Upstox",
             "score": 4,
             "added_time": "2026-02-12T16:46:32.209426+00:00"
+        },
+        {
+            "story_id": "d717e05a94dc1e4993a051904d387cfc",
+            "topic": "Japan",
+            "subtopics": [
+                "Japan\u2019s Strategic Pivot: Popular Leadership, Public Signalling And The China Question"
+            ],
+            "title": ": Japan\u2019s Strategic Pivot: Popular Leadership, Public Signalling And The China Question: Japan\u2019s Strategic Pivot: Popular Leadership, Public Signalling And The China Question:",
+            "desc": "PM Sanae Takaichi, often described by commentators as charismatic and media-savvy, represents a departure from the restrained leadership archetype long associated with Japan",
+            "url": "https://www.news18.com/explainers/japans-strategic-pivot-popular-leadership-public-signalling-and-the-china-question-shil-ws-l-9897490.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/02/japan-pm-2026-02-85f1f2a8d554d81261cdfb77eb5fe504-16x9.jpg",
+            "source": "News18",
+            "score": 4,
+            "added_time": "2026-02-12T20:24:31.878131+00:00"
         }
     ],
     "recent_topics": {
-        "Supreme Court": "2026-02-11T16:53:41.879348+00:00",
         "India": "2026-02-12T16:46:32.209547+00:00",
         "United States": "2026-02-12T12:38:24.476567+00:00",
         "White House": "2026-02-12T08:34:59.836698+00:00",
         "Files Notice": "2026-02-12T20:24:31.878208+00:00",
-        "Tcs": "2026-02-13T01:11:14.919060+00:00"
+        "Tcs": "2026-02-13T01:11:14.919060+00:00",
+        "Japan": "2026-02-13T05:18:37.824507+00:00"
     }
 }
