@@ -141,20 +141,6 @@
             "added_time": "2026-02-13T16:33:26.936500+00:00"
         },
         {
-            "story_id": "415ab1ccd3bb53b438be4460a4c69af9",
-            "topic": "Krishana Phoschem",
-            "subtopics": [
-                "Stock market today: Trade setup for Nifty 50, gold, silver rate, FII-DII data to USD vs INR - 8 stocks to buy or sell"
-            ],
-            "title": "Stock market today: Trade setup for Nifty 50, gold, silver rate, FII-DII data to USD vs INR - 8 stocks to buy or sell ",
-            "desc": "Stock market today: Experts have recommended these eight stocks to buy today \u2014 Honasa Consumer, Krishana Phoschem, Delhivery, BDL, Oberoi Realty, Cummins India, LT Foods, Sharda Cropchem",
-            "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-trade-setup-for-nifty-50-gold-silver-rate-fii-dii-data-to-usd-vs-inr-8-stocks-to-buy-or-sell-11770946936566.html",
-            "image": "https://www.livemint.com/lm-img/img/2026/02/13/1600x900/logo/Stock_market_today_Silver_Rate_Today_FII-DII_data_1770952897789_1770952897993.JPG",
-            "source": "Mint",
-            "score": 4,
-            "added_time": "2026-02-13T16:33:28.033288+00:00"
-        },
-        {
             "story_id": "78e0b4c5f65c3ae3b47f28d084f3a5fe",
             "topic": "United States",
             "subtopics": [
@@ -181,23 +167,37 @@
             "source": "The Indian Practitioner",
             "score": 3,
             "added_time": "2026-02-13T20:26:05.545481+00:00"
+        },
+        {
+            "story_id": "bcab89b0b1b02d457366305312f1a2f3",
+            "topic": "China",
+            "subtopics": [
+                "After China, India & Japan, Indonesia Set to Become 4th Asian Country With Aircraft Carrier: Gamble or Good Bet?"
+            ],
+            "title": "After China, India & Japan, Indonesia Set to Become 4th Asian Country With Aircraft Carrier: Gamble or Good Bet?",
+            "desc": "Currently, only a few Navies worldwide operate aircraft carriers, which are widely recognized symbols of a country\u2019s military might and its ability to project power far beyond its borders.\u00a0 The three countries in the Asian continent that operate aircraft carriers are India, which currently operates two carriers, INS Vikrant and INS Vikramaditya; China, which has [\u2026]",
+            "url": "https://www.eurasiantimes.com/after-china-india-japan-indonesia-set-to-become-4th-asian-country-with-aircraft-carrier-gamble-or-good-bet/",
+            "image": "https://www.eurasiantimes.com/wp-content/uploads/2025/03/ITS_Giuseppe_Garibaldi_C_551.jpg",
+            "source": "EurAsian Times",
+            "score": 4,
+            "added_time": "2026-02-14T01:04:32.493564+00:00"
+        },
+        {
+            "story_id": "81e131fe16fb20d883c70f7fc70007ec",
+            "topic": "Tcs",
+            "subtopics": [
+                "Plumbers of the tech world! JP Morgan hunts deep value in India's IT bloodbath as stocks hit multi-year lows"
+            ],
+            "title": ": Plumbers of the tech world! JP Morgan hunts deep value in India's IT bloodbath as stocks hit multi-year lows.",
+            "desc": "Indian IT stocks have seen significant drops, losing Rs 5.7 lakh crore. JP Morgan believes these firms are essential \"plumbers\" for technology. They are now offering deep value opportunities. Dividend yields are at crisis-level highs. JP Morgan recommends buying Infosys and TCS, seeing limited downside and potential upside.",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/lumbers-of-the-tech-world-jp-morgan-hunts-deep-value-in-indias-it-bloodbath-as-stocks-hit-multi-year-lows/articleshow/128291085.cms?from=mdr",
+            "image": "https://img.etimg.com/thumb/msid-128291373,width-1200,height-630,imgsize-3199149,overlay-etmarkets/articleshow.jpg",
+            "source": "The Economic Times",
+            "score": 3,
+            "added_time": "2026-02-14T01:04:33.605830+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "b99ba9ca638155a1682139131d5aba61",
-            "topic": "Dixon",
-            "subtopics": [
-                "Budget boosts long-term outlook for Dixon, Kaynes Tech, other EMS stocks, say brokerages"
-            ],
-            "title": "Budget boosts long-term outlook for Dixon, Kaynes Tech, other EMS stocks, say brokerages",
-            "desc": "Finance Minister Nirmala Sitharaman announced a sharp increase in the allocation for the Electronics Component Manufacturing Scheme (ECMS) to Rs 40,000 crore.",
-            "url": "https://www.moneycontrol.com/news/business/markets/budget-boosts-long-term-outlook-for-dixon-kaynes-tech-other-ems-stocks-say-brokerages-13806099.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260202111043_EMS-stocks.jpg",
-            "source": "Moneycontrol",
-            "score": 3,
-            "added_time": "2026-02-03T02:37:49.791358+00:00"
-        },
         {
             "story_id": "fe43ccbeb4f5838f3fbbfd383928825a",
             "topic": "Soul",
@@ -890,18 +890,31 @@
             "source": "PR Newswire",
             "score": 6,
             "added_time": "2026-02-13T16:33:29.116566+00:00"
+        },
+        {
+            "story_id": "415ab1ccd3bb53b438be4460a4c69af9",
+            "topic": "Krishana Phoschem",
+            "subtopics": [
+                "Stock market today: Trade setup for Nifty 50, gold, silver rate, FII-DII data to USD vs INR - 8 stocks to buy or sell"
+            ],
+            "title": "Stock market today: Trade setup for Nifty 50, gold, silver rate, FII-DII data to USD vs INR - 8 stocks to buy or sell ",
+            "desc": "Stock market today: Experts have recommended these eight stocks to buy today \u2014 Honasa Consumer, Krishana Phoschem, Delhivery, BDL, Oberoi Realty, Cummins India, LT Foods, Sharda Cropchem",
+            "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-trade-setup-for-nifty-50-gold-silver-rate-fii-dii-data-to-usd-vs-inr-8-stocks-to-buy-or-sell-11770946936566.html",
+            "image": "https://www.livemint.com/lm-img/img/2026/02/13/1600x900/logo/Stock_market_today_Silver_Rate_Today_FII-DII_data_1770952897789_1770952897993.JPG",
+            "source": "Mint",
+            "score": 4,
+            "added_time": "2026-02-13T16:33:28.033288+00:00"
         }
     ],
     "recent_topics": {
         "India": "2026-02-12T16:46:32.209547+00:00",
-        "United States": "2026-02-12T12:38:24.476567+00:00",
-        "White House": "2026-02-12T08:34:59.836698+00:00",
         "Files Notice": "2026-02-12T20:24:31.878208+00:00",
         "Tcs": "2026-02-13T01:11:14.919060+00:00",
         "Japan": "2026-02-13T05:18:37.824507+00:00",
         "Ajcon Global": "2026-02-13T08:32:21.789297+00:00",
         "James Clerk Maxwell Telescope": "2026-02-13T12:38:04.944629+00:00",
         "Niti Aayog'S": "2026-02-13T16:33:30.948726+00:00",
-        "Pova": "2026-02-13T20:26:05.545516+00:00"
+        "Pova": "2026-02-13T20:26:05.545516+00:00",
+        "Krishana Phoschem": "2026-02-14T01:04:33.605885+00:00"
     }
 }
