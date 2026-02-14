@@ -1,34 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "a71386cc5dcc3b0e027ae15715caad7e",
-            "topic": "Artificial Intelligence",
-            "subtopics": [
-                "Friday the 13th effect? D-St investors suffer Rs 7 lakh crore shock as Sensex sinks over 1,000 points"
-            ],
-            "title": ": Friday the 13th effect? D-St investors suffer Rs 7 lakh crore shock as Sensex sinks over 1,000 points as Sensex sinks over 1,000 points.",
-            "desc": "Indian stock markets ended sharply lower on Friday. The Sensex and Nifty saw significant drops. This decline was driven by a major selloff in IT stocks. Investor sentiment was rattled by fears of Artificial Intelligence disruption. Major IT companies experienced substantial losses. This led to a significant erosion of investor wealth on the BSE. The Nifty IT index slumped considerably.",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-stock-market-falling-friday-the-13th-effect-d-street-investors-suffer-over-rs-4-lakh-crore-shock-as-sensex-nifty-fall-1/articleshow/128287282.cms?from=mdr",
-            "image": "https://img.etimg.com/thumb/msid-128287572,width-1200,height-630,imgsize-2538731,overlay-etmarkets/articleshow.jpg",
-            "source": "The Economic Times",
-            "score": 3,
-            "added_time": "2026-02-13T16:33:25.825626+00:00"
-        },
-        {
-            "story_id": "e5ff80fc029b284400eaf2147a137cc0",
-            "topic": "Pova",
-            "subtopics": [
-                "TECNO unveils POVA Curve 2 5G with 8000mAh battery and curved AMOLED display"
-            ],
-            "title": "TECNO unveils POVA Curve 2 5G with 8000mAh battery and curved AMOLED display.",
-            "desc": "TECNO has introduced the POVA Curve 2 5G, the latest addition to its POVA smartphone series. The device combines an ultra-slim design with what the company",
-            "url": "https://walastech.com/news/tecno-unveils-pova-curve-2-5g-with-8000mah-battery-and-curved-amoled-display/",
-            "image": "https://walastech.com/wp-content/uploads/2026/02/image_5003493_31138921.jpg",
-            "source": "WalasTech",
-            "score": 3,
-            "added_time": "2026-02-13T16:33:26.936500+00:00"
-        },
-        {
             "story_id": "43dd0352d6914ae771dbcb6d19771c0e",
             "topic": "Biological E. Secures Phase Ii Who Pre Biological E. Limited",
             "subtopics": [
@@ -69,20 +41,6 @@
             "source": "The Nation (Pakistan )",
             "score": 3,
             "added_time": "2026-02-14T08:19:57.689938+00:00"
-        },
-        {
-            "story_id": "b52d3bd5502e0e3a954996139e4c9db6",
-            "topic": "Ai Summit India News",
-            "subtopics": [
-                "Heads of 20 nations, delegations from 45 countries: Who is attending India's mega AI Summit"
-            ],
-            "title": "Heads of 20 nations, delegations from 45 countries: Who is attending India's mega AI Summit?",
-            "desc": "India News: NEW DELHI: The Ministry of External Affairs (MEA) on Friday released the list of countries whose leaders will attend the India\u2013AI Impact Summit 2026, .",
-            "url": "https://timesofindia.indiatimes.com/india/heads-of-20-nations-delegations-from-45-countries-who-is-attending-indias-mega-ai-summit/articleshow/128309896.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128310069,width-1280,height-720,imgsize-1581091,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "Times of India",
-            "score": 4,
-            "added_time": "2026-02-14T08:19:58.166708+00:00"
         },
         {
             "story_id": "cd0aed05cb5fc334e8c20a908c601580",
@@ -167,24 +125,65 @@
             "source": "Times of India",
             "score": 4,
             "added_time": "2026-02-14T16:17:52.992307+00:00"
+        },
+        {
+            "story_id": "3169933c2a757abd3b014816c91f681e",
+            "topic": "India Expands Berlinal Footprint With Six Films",
+            "subtopics": [
+                "India Expands Berlinal Footprint With Six Films, Strategic Market Push"
+            ],
+            "title": ": India Expands Berlinal Footprint With Six Films, Strategic Market Push: India Expands Berlinal Footprint With Six Films, Strategic Market Push:",
+            "desc": "India is mounting its most comprehensive presence at the Berlinale in recent years, with six films screening across the festival's strands.",
+            "url": "https://variety.com/2026/film/markets-festivals/india-berlin-film-festival-1236653518/",
+            "image": "https://variety.com/wp-content/uploads/2026/02/Not-a-Hero.jpg?w=1000&h=563&crop=1",
+            "source": "Variety",
+            "score": 3,
+            "added_time": "2026-02-14T20:15:12.531796+00:00"
+        },
+        {
+            "story_id": "03243362ab080d1086ce59b4ba22bab5",
+            "topic": "Nothing",
+            "subtopics": [
+                "Gen Z's Obsession or Brands' Marketing Strategy?"
+            ],
+            "title": "Gen Z's Obsession or Brands' Marketing Strategy?",
+            "desc": "Bengaluru witnessed an unusual phenomenon on Valentine's Day morning. Youngsters swarmed before Nothing's flagship retail store in the city. Usually, such",
+            "url": "https://www.gulte.com/trends/396108/gen-zs-obsession-or-brands-marketing-strategy",
+            "image": "https://cdn.gulte.com/wp-content/uploads/2026/02/nothing-craze.jpg",
+            "source": "Gulte",
+            "score": 3,
+            "added_time": "2026-02-14T20:15:12.531829+00:00"
+        },
+        {
+            "story_id": "839aa7f66e5d47050e6d9c9f20678d0a",
+            "topic": "The United Nations Industrial Development",
+            "subtopics": [
+                "BRICS+ Series: Industrial Cooperation and the BRICS Centre for Industrial Competencies"
+            ],
+            "title": "\u00dcberschrift: BRICS+ Series: Industrial Cooperation and the BRICS Centre for Industrial Competencies",
+            "desc": "The BRICS Centre for Industrial Competencies (BCIC), which was launched in April 2025 in partnership with the United Nations Industrial Development...",
+            "url": "http://www.businessghana.com/site/news/business/343375/BRICS+-Series:-Industrial-Cooperation-and-the-BRICS-Centre-for-Industrial-Competencies",
+            "image": "http://www.businessghana.com/site/img/../../cms/img/news/2026-02-13-160606002.jpg",
+            "source": "BusinessGhana",
+            "score": 4,
+            "added_time": "2026-02-14T20:15:13.167144+00:00"
+        },
+        {
+            "story_id": "839aa7f66e5d47050e6d9c9f20678d0a",
+            "topic": "The United Nations Industrial Development",
+            "subtopics": [
+                "BRICS+ Series: Industrial Cooperation and the BRICS Centre for Industrial Competencies"
+            ],
+            "title": "\u00dcberschrift: BRICS+ Series: Industrial Cooperation and the BRICS Centre for Industrial Competencies",
+            "desc": "The BRICS Centre for Industrial Competencies (BCIC), which was launched in April 2025 in partnership with the United Nations Industrial Development...",
+            "url": "http://www.businessghana.com/site/news/business/343375/The-BRICS-Centre-for-Industrial-Competencies-",
+            "image": "http://www.businessghana.com/site/img/../../cms/img/news/2026-02-13-160606002.jpg",
+            "source": "BusinessGhana",
+            "score": 4,
+            "added_time": "2026-02-14T20:15:13.801036+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "90a44faa5c5ef1127483b05e078f458a",
-            "topic": "Iihm",
-            "subtopics": [
-                "IIHM's Young Chef Olympiad 2026 Opens in Bengaluru with Spectacle, Soul, and a Shared Heart for Food",
-                "IIHM's Young Chef Olympiad 2026 Opens in Bengaluru with Spectacle, Soul, and a Shared Heart for Food"
-            ],
-            "title": "IIHM's Young Chef Olympiad 2026 Opens in Bengaluru with Spectacle, Soul, and a Shared Heart for Food",
-            "desc": "An arena of nations, a shared oath, and a single language\u2014food\u2014as YCO 2026 begins its global journey in India. BENGALURU, India, Feb. 2, 2026 /PRNewswire/ -- The 12th IIHM International Young Chef Olympiad (YCO) 2026 opened in Bengaluru with the...",
-            "url": "https://www.tribuneindia.com/news/business/iihms-young-chef-olympiad-2026-opens-in-bengaluru-with-spectacle-soul-and-a-shared-heart-for-food-2-2/",
-            "image": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTc4OWIxODIwLTAwY2EtMTFmMS05ZTU3LWE1YjYwZTQ0ZTg4ZS5qcGc=",
-            "source": "Tribune India",
-            "score": 3,
-            "added_time": "2026-02-03T20:23:32.987347+00:00"
-        },
         {
             "story_id": "487151a6afe08fa84d38151222adc6b4",
             "topic": "Future Secured",
@@ -880,10 +879,23 @@
             "source": "Times of India",
             "score": 4,
             "added_time": "2026-02-14T05:05:37.640727+00:00"
+        },
+        {
+            "story_id": "b52d3bd5502e0e3a954996139e4c9db6",
+            "topic": "Ai Summit India News",
+            "subtopics": [
+                "Heads of 20 nations, delegations from 45 countries: Who is attending India's mega AI Summit"
+            ],
+            "title": "Heads of 20 nations, delegations from 45 countries: Who is attending India's mega AI Summit?",
+            "desc": "India News: NEW DELHI: The Ministry of External Affairs (MEA) on Friday released the list of countries whose leaders will attend the India\u2013AI Impact Summit 2026, .",
+            "url": "https://timesofindia.indiatimes.com/india/heads-of-20-nations-delegations-from-45-countries-who-is-attending-indias-mega-ai-summit/articleshow/128309896.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128310069,width-1280,height-720,imgsize-1581091,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 4,
+            "added_time": "2026-02-14T08:19:58.166708+00:00"
         }
     ],
     "recent_topics": {
-        "Japan": "2026-02-13T05:18:37.824507+00:00",
         "Ajcon Global": "2026-02-13T08:32:21.789297+00:00",
         "James Clerk Maxwell Telescope": "2026-02-13T12:38:04.944629+00:00",
         "Niti Aayog'S": "2026-02-13T16:33:30.948726+00:00",
@@ -892,6 +904,7 @@
         "United States": "2026-02-14T05:05:37.640786+00:00",
         "China": "2026-02-14T08:19:58.909728+00:00",
         "The Ai Impact Summit": "2026-02-14T12:24:00.508558+00:00",
-        "India": "2026-02-14T16:17:52.992377+00:00"
+        "India": "2026-02-14T16:17:52.992377+00:00",
+        "Ai Summit India News": "2026-02-14T20:15:13.801090+00:00"
     }
 }
