@@ -1,34 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "52f17149e3bbfe1df93cafa0d6a3508d",
-            "topic": "Npi",
-            "subtopics": [
-                "Customer-Specific AI in the Automotive Ecosystem"
-            ],
-            "title": "Customer-Specific AI in the Automotive Ecosystem",
-            "desc": "Customer-specific AI in the automotive industry embeds intelligent agents into NPI and service parts planning. Read to learn more.",
-            "url": "https://news.sap.com/2026/02/customer-specific-ai-next-era-automotive-ecosystem/",
-            "image": "https://news.sap.com/wp-content/blogs.dir/1/files/2026/02/06/287517_GettyImages-898172236_medium_jpg_uncropped_F-1024x683.jpg",
-            "source": "SAP News Center",
-            "score": 3,
-            "added_time": "2026-02-13T12:38:03.879329+00:00"
-        },
-        {
-            "story_id": "0e5d0159e9d26669b6455f2217c242e8",
-            "topic": "Google Deepmind'S",
-            "subtopics": [
-                "Google DeepMind's Pushmeet Kohli explains why India is in perfect position to leverage AI"
-            ],
-            "title": "Pushmeet Kohli, Google DeepMind's Pushmeet Kohli, explains why India is in perfect position to leverage AI.",
-            "desc": "AI's biggest potential is in the democratization of science, says Kohli",
-            "url": "https://www.moneycontrol.com/artificial-intelligence/google-deepmind-s-pushmeet-kohli-explains-why-india-is-in-perfect-position-to-leverage-ai-read-full-q-a-article-13824954.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260212070736_Pushmeet-Kohli-Nalin-Mehta1.jpg",
-            "source": "Moneycontrol",
-            "score": 2,
-            "added_time": "2026-02-13T12:38:04.944575+00:00"
-        },
-        {
             "story_id": "a71386cc5dcc3b0e027ae15715caad7e",
             "topic": "Artificial Intelligence",
             "subtopics": [
@@ -83,25 +55,6 @@
             "source": "The Economic Times",
             "score": 3,
             "added_time": "2026-02-14T01:04:33.605830+00:00"
-        },
-        {
-            "story_id": "821b7859e6b0870aa78c7f5a50b3324f",
-            "topic": "India",
-            "subtopics": [
-                "Stock market crash: Investors lose Rs 9.5 lakh crore in just two days! What\u2019s the outlook for Nifty, Sensex?",
-                "Heads of 20 nations, delegations from 45 countries: Who is attending India's mega AI Summit",
-                "After China, India & Japan, Indonesia Set to Become 4th Asian Country With Aircraft Carrier: Gamble or Good Bet?",
-                "Plumbers of the tech world! JP Morgan hunts deep value in India's IT bloodbath as stocks hit multi-year lows",
-                "Friday the 13th effect? D-St investors suffer Rs 7 lakh crore shock as Sensex sinks over 1,000 points",
-                "Stock market today: Trade setup for Nifty 50, gold, silver rate, FII-DII data to USD vs INR - 8 stocks to buy or sell"
-            ],
-            "title": ": Stock market crash: Investors lose Rs 9,5 lakh crore in just two days!",
-            "desc": "India Business News: Stock market crash: Nifty and Sensex saw a week of extremely volatile trade, with both benchmark indices giving up initial gains amidst the IT sector .",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-crash-investors-lose-rs-9-5-lakh-crore-in-just-two-days-whats-the-outlook-for-nifty-sensex/articleshow/128312323.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128312355,width-1280,height-720,imgsize-128926,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "Times of India",
-            "score": 4,
-            "added_time": "2026-02-14T05:05:37.640727+00:00"
         },
         {
             "story_id": "cb40378704698e28522a0bf96ca47857",
@@ -186,24 +139,37 @@
             "source": "Entrackr",
             "score": 3,
             "added_time": "2026-02-14T12:24:00.508503+00:00"
+        },
+        {
+            "story_id": "338ad661e793067b12ac96eeebe9d3c1",
+            "topic": "India",
+            "subtopics": [
+                "FTAs show increased global confidence in India: PM Modi"
+            ],
+            "title": "FTAs show increased global confidence in India: PM Modi",
+            "desc": "India News: NEW DELHI: Prime Minister Narendra Modi on Friday rejected the criticism over the recent free trade agreements, asserting that few countries were will.",
+            "url": "https://timesofindia.indiatimes.com/india/ftas-show-increased-global-confidence-in-india-pm-modi/articleshow/128327925.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128327983,width-1280,height-720,imgsize-57778,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 4,
+            "added_time": "2026-02-14T16:17:52.493484+00:00"
+        },
+        {
+            "story_id": "19d97a5ebcdb65c0cc6fe7eaa714eff8",
+            "topic": "India Business News",
+            "subtopics": [
+                "\u2018Plumbers of the tech world\u2019: Why Indian IT sector shouldn\u2019t worry about AI impact"
+            ],
+            "title": "Warum Indian IT sector shouldn\u2019t worry about AI impact on AI?",
+            "desc": "India Business News: India\u2019s IT sector is witnessing an unprecedented rout with stocks tanking on fears of artificial intelligence making the main roles at technology sect.",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/plumbers-of-the-tech-world-why-indian-it-sector-shouldnt-worry-about-ai-impact-jpmorgan-explains-new-areas-of-work/articleshow/128295728.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128296356,width-1280,height-720,imgsize-135748,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 4,
+            "added_time": "2026-02-14T16:17:52.992307+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "0847102c15d1c9aa3d87ae045b1e8f6a",
-            "topic": "Rsv",
-            "subtopics": [
-                "SK bioscience Licenses RSV Monoclonal Antibody from Gates MRI for Global Development",
-                "SK bioscience In-Licenses RSV Preventive mAb Candidate from Gates Medical Research Institute"
-            ],
-            "title": "SK bioscience Licenses RSV Monoclonal Antibody from Gates MRI for Global Development",
-            "desc": "SK bioscience announced on February 3 that it will advance a novel respiratory syncytial virus (RSV) monoclonal antibody program under a license agreement with the Gates Medical Research Institute (Gates MRI).Under the agreement, SK bioscience has obtained rights to develop and commercialize a clini",
-            "url": "https://www.koreaittimes.com/news/articleView.html?idxno=150523",
-            "image": "https://www.koreaittimes.com/news/thumbnail/202602/150523_99938_3412_v150.jpg",
-            "source": "Korea IT Times",
-            "score": 3,
-            "added_time": "2026-02-03T20:23:32.987322+00:00"
-        },
         {
             "story_id": "90a44faa5c5ef1127483b05e078f458a",
             "topic": "Iihm",
@@ -895,10 +861,28 @@
             "source": "The Hindu",
             "score": 6,
             "added_time": "2026-02-14T12:23:58.333352+00:00"
+        },
+        {
+            "story_id": "821b7859e6b0870aa78c7f5a50b3324f",
+            "topic": "India",
+            "subtopics": [
+                "Stock market crash: Investors lose Rs 9.5 lakh crore in just two days! What\u2019s the outlook for Nifty, Sensex?",
+                "Heads of 20 nations, delegations from 45 countries: Who is attending India's mega AI Summit",
+                "After China, India & Japan, Indonesia Set to Become 4th Asian Country With Aircraft Carrier: Gamble or Good Bet?",
+                "Plumbers of the tech world! JP Morgan hunts deep value in India's IT bloodbath as stocks hit multi-year lows",
+                "Friday the 13th effect? D-St investors suffer Rs 7 lakh crore shock as Sensex sinks over 1,000 points",
+                "Stock market today: Trade setup for Nifty 50, gold, silver rate, FII-DII data to USD vs INR - 8 stocks to buy or sell"
+            ],
+            "title": ": Stock market crash: Investors lose Rs 9,5 lakh crore in just two days!",
+            "desc": "India Business News: Stock market crash: Nifty and Sensex saw a week of extremely volatile trade, with both benchmark indices giving up initial gains amidst the IT sector .",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-crash-investors-lose-rs-9-5-lakh-crore-in-just-two-days-whats-the-outlook-for-nifty-sensex/articleshow/128312323.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128312355,width-1280,height-720,imgsize-128926,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 4,
+            "added_time": "2026-02-14T05:05:37.640727+00:00"
         }
     ],
     "recent_topics": {
-        "Tcs": "2026-02-13T01:11:14.919060+00:00",
         "Japan": "2026-02-13T05:18:37.824507+00:00",
         "Ajcon Global": "2026-02-13T08:32:21.789297+00:00",
         "James Clerk Maxwell Telescope": "2026-02-13T12:38:04.944629+00:00",
@@ -907,6 +891,7 @@
         "Krishana Phoschem": "2026-02-14T01:04:33.605885+00:00",
         "United States": "2026-02-14T05:05:37.640786+00:00",
         "China": "2026-02-14T08:19:58.909728+00:00",
-        "The Ai Impact Summit": "2026-02-14T12:24:00.508558+00:00"
+        "The Ai Impact Summit": "2026-02-14T12:24:00.508558+00:00",
+        "India": "2026-02-14T16:17:52.992377+00:00"
     }
 }
