@@ -1,34 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "cb40378704698e28522a0bf96ca47857",
-            "topic": "Karachi",
-            "subtopics": [
-                "KU seminar emphasises linking research with social issues"
-            ],
-            "title": "KU seminar emphasises linking research with social issues",
-            "desc": "KARACHI\u00a0 \u00a0-\u00a0 \u00a0Artificial Intelligence (AI) is not merely a technology of the future but has already become an unavoidable reality of the present,",
-            "url": "https://www.nation.com.pk/14-Feb-2026/ku-seminar-emphasises-linking-research-social-issues",
-            "image": "https://www.nation.com.pk/assets/thenation_202006/images/no-image-large.jpg",
-            "source": "The Nation (Pakistan )",
-            "score": 3,
-            "added_time": "2026-02-14T08:19:57.689938+00:00"
-        },
-        {
-            "story_id": "cd0aed05cb5fc334e8c20a908c601580",
-            "topic": "Slim",
-            "subtopics": [
-                "POVA Curve 2 Goes Official with Massive Battery Power in a Slim, Futuristic Design"
-            ],
-            "title": "POVA Curve 2 Goes Official with Massive Battery Power in a Slim, Futuristic Design: POVA Curve 2 Goes Official with Massive Battery Power in ",
-            "desc": "New Delhi [India], February 13: POVA has always treated the smartphone as a badge of identity, specifically crafted for the bold Indian spirit. While the original POVA Curve broke the mold with its innovative aesthetics, the POVA Curve 2 takes a quantum leap forward. Inspired by the sleek precision of spacecraft engineering, it evolves the 'cool' factor into something sharper and more sophisticated, a launchpad-ready design built to stand out in a crowd.",
-            "url": "https://www.aninews.in/news/business/pova-curve-2-goes-official-with-massive-battery-power-in-a-slim-futuristic-design20260213130531/",
-            "image": "https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20260213073509.jpg",
-            "source": "ANI News",
-            "score": 3,
-            "added_time": "2026-02-14T08:19:58.909677+00:00"
-        },
-        {
             "story_id": "6906a70bbad04d8c3bbf6c78a9a700b8",
             "topic": "Apk",
             "subtopics": [
@@ -69,20 +41,6 @@
             "source": "Entrackr",
             "score": 3,
             "added_time": "2026-02-14T12:24:00.508503+00:00"
-        },
-        {
-            "story_id": "19d97a5ebcdb65c0cc6fe7eaa714eff8",
-            "topic": "India Business News",
-            "subtopics": [
-                "\u2018Plumbers of the tech world\u2019: Why Indian IT sector shouldn\u2019t worry about AI impact"
-            ],
-            "title": "Warum Indian IT sector shouldn\u2019t worry about AI impact on AI?",
-            "desc": "India Business News: India\u2019s IT sector is witnessing an unprecedented rout with stocks tanking on fears of artificial intelligence making the main roles at technology sect.",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/plumbers-of-the-tech-world-why-indian-it-sector-shouldnt-worry-about-ai-impact-jpmorgan-explains-new-areas-of-work/articleshow/128295728.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128296356,width-1280,height-720,imgsize-135748,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "Times of India",
-            "score": 4,
-            "added_time": "2026-02-14T16:17:52.992307+00:00"
         },
         {
             "story_id": "3169933c2a757abd3b014816c91f681e",
@@ -184,20 +142,6 @@
         }
     ],
     "posted": [
-        {
-            "story_id": "551d36c77c6db29daea345fbc02b0232",
-            "topic": "Ai",
-            "subtopics": [
-                "George Clooney as Amitabh Bachchan, Meryl Streep into Jaya Bachchan's shoes, Tom Cruise as Shah Rukh Khan: AI reimagines 'K3G' cast, Karan Johar reacts"
-            ],
-            "title": "George Clooney as Amitabh Bachchan, Meryl Streep into Jaya Bachchan's shoes, Tom Cruise as Shah Rukh Khan: AI reimagines 'K3G' cast, Karan Johar reacts",
-            "desc": "Filmmaker Karan Johar recently shared his reaction to an AI-generated video that recasts Hollywood stars as characters from his landmark film 'Kabhi K.",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/george-clooney-as-amitabh-bachchan-meryl-streep-into-jaya-bachchans-shoes-tom-cruise-as-shah-rukh-khan-ai-reimagines-k3g-cast-karan-johar-reacts/articleshow/127908275.cms",
-            "image": "https://static.toiimg.com/thumb/msid-127908452,width-1280,height-720,imgsize-63868,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "Times of India",
-            "score": 4,
-            "added_time": "2026-02-05T01:02:18.135545+00:00"
-        },
         {
             "story_id": "888b3efb535675fabfc150b4a721f81b",
             "topic": "Bse",
@@ -892,6 +836,20 @@
             "source": "Times of India",
             "score": 4,
             "added_time": "2026-02-14T16:17:52.493484+00:00"
+        },
+        {
+            "story_id": "19d97a5ebcdb65c0cc6fe7eaa714eff8",
+            "topic": "India Business News",
+            "subtopics": [
+                "\u2018Plumbers of the tech world\u2019: Why Indian IT sector shouldn\u2019t worry about AI impact"
+            ],
+            "title": "Warum Indian IT sector shouldn\u2019t worry about AI impact on AI?",
+            "desc": "India Business News: India\u2019s IT sector is witnessing an unprecedented rout with stocks tanking on fears of artificial intelligence making the main roles at technology sect.",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/plumbers-of-the-tech-world-why-indian-it-sector-shouldnt-worry-about-ai-impact-jpmorgan-explains-new-areas-of-work/articleshow/128295728.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128296356,width-1280,height-720,imgsize-135748,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "Times of India",
+            "score": 4,
+            "added_time": "2026-02-14T16:17:52.992307+00:00"
         }
     ],
     "recent_topics": {
@@ -902,6 +860,7 @@
         "The Ai Impact Summit": "2026-02-14T12:24:00.508558+00:00",
         "India": "2026-02-15T05:17:02.389539+00:00",
         "Ai Summit India News": "2026-02-14T20:15:13.801090+00:00",
-        "Nirmala Sitharaman": "2026-02-15T01:09:27.367157+00:00"
+        "Nirmala Sitharaman": "2026-02-15T01:09:27.367157+00:00",
+        "India Business News": "2026-02-15T08:22:03.376632+00:00"
     }
 }
