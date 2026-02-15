@@ -1,34 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "43dd0352d6914ae771dbcb6d19771c0e",
-            "topic": "Biological E. Secures Phase Ii Who Pre Biological E. Limited",
-            "subtopics": [
-                "Biological E. Secures Phase II WHO Pre"
-            ],
-            "title": "Biological E. Secures Phase II WHO Pre",
-            "desc": "Biological E. Limited (BE) has reached a significant milestone in the global fight against polio. The World Health Organization (WHO) has granted Phase II Pre-Qualification (PQ) for BE\u2019s Novel Oral [\u2026]",
-            "url": "https://theindianpractitioner.com/biological-e-secures-phase-ii-who-pre-qualification-for-nopv2/",
-            "image": "https://theindianpractitioner.com/wp-content/uploads/2026/02/Biological-E.-Secures-Phase-II-WHO-Pre-Qualification-for-nOPV2.jpeg",
-            "source": "The Indian Practitioner",
-            "score": 3,
-            "added_time": "2026-02-13T20:26:05.545481+00:00"
-        },
-        {
-            "story_id": "81e131fe16fb20d883c70f7fc70007ec",
-            "topic": "Tcs",
-            "subtopics": [
-                "Plumbers of the tech world! JP Morgan hunts deep value in India's IT bloodbath as stocks hit multi-year lows"
-            ],
-            "title": ": Plumbers of the tech world! JP Morgan hunts deep value in India's IT bloodbath as stocks hit multi-year lows.",
-            "desc": "Indian IT stocks have seen significant drops, losing Rs 5.7 lakh crore. JP Morgan believes these firms are essential \"plumbers\" for technology. They are now offering deep value opportunities. Dividend yields are at crisis-level highs. JP Morgan recommends buying Infosys and TCS, seeing limited downside and potential upside.",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/lumbers-of-the-tech-world-jp-morgan-hunts-deep-value-in-indias-it-bloodbath-as-stocks-hit-multi-year-lows/articleshow/128291085.cms?from=mdr",
-            "image": "https://img.etimg.com/thumb/msid-128291373,width-1200,height-630,imgsize-3199149,overlay-etmarkets/articleshow.jpg",
-            "source": "The Economic Times",
-            "score": 3,
-            "added_time": "2026-02-14T01:04:33.605830+00:00"
-        },
-        {
             "story_id": "cb40378704698e28522a0bf96ca47857",
             "topic": "Karachi",
             "subtopics": [
@@ -181,23 +153,37 @@
             "source": "BusinessGhana",
             "score": 4,
             "added_time": "2026-02-14T20:15:13.801036+00:00"
+        },
+        {
+            "story_id": "e1d18a083a842331ebb6f8ae6cbbf48e",
+            "topic": "The India Ai Summit",
+            "subtopics": [
+                "Nvidia CEO Jensen Huang to skip India AI Summit next week, company confirms"
+            ],
+            "title": "Nvidia CEO Jensen Huang to skip India AI Summit next week, company confirms.",
+            "desc": "Nvidia CEO Jensen Huang will not be attending the India AI Summit next week, the company said, citing unforeseen circumstances. Here is the full story.",
+            "url": "https://www.indiatoday.in/technology/story/nvidia-ceo-jensen-huang-wont-attend-india-ai-summit-next-week-says-company-2868292-2026-02-14",
+            "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202602/nvidia-4-trillion-dollar-first-firm-102753481-16x9.jpg?VersionId=EVrOVE57fN_sk5clFU5APOxL7Mr4ulP7",
+            "source": "India Today",
+            "score": 3,
+            "added_time": "2026-02-15T01:09:27.367068+00:00"
+        },
+        {
+            "story_id": "0c4ce8c191a384369dda2a3c47ffe3f3",
+            "topic": "East Africa",
+            "subtopics": [
+                "Mahama Hosts Accra Reset Summit in Addis Ababa Today"
+            ],
+            "title": "Mahama Hosts Accra Reset Summit in Addis Ababa Today",
+            "desc": "President John Dramani Mahama will convene a high level Accra Reset side event in Addis Ababa today, Saturday, February 14, 2026, ahead of the official opening of the 39th Assembly of Heads of State and Government of the African Union (AU). The breakfast meeting, scheduled for 7:30 am East Africa\u2026",
+            "url": "https://www.newsghana.com.gh/mahama-hosts-accra-reset-summit-in-addis-ababa-today/",
+            "image": "https://www.newsghana.com.gh/wp-content/uploads/2024/08/logo-newsghana.png",
+            "source": "News Ghana",
+            "score": 3,
+            "added_time": "2026-02-15T01:09:27.367112+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "487151a6afe08fa84d38151222adc6b4",
-            "topic": "Future Secured",
-            "subtopics": [
-                "India\u2019s S-400, Su-57 Future Secured! Russia Kills China Threat Theory with 'Critical' Domestic Chip Production"
-            ],
-            "title": "India\u2019s S-400, Su-57 Future Secured! Russia Kills China Threat Theory with 'Critical' Domestic Chip Production",
-            "desc": "Microwave microchips for the Su-57 fighter and the S-500 Prometheus air-defence system are expected to be manufactured in Russia by the end of 2027. The governor of Sverdlovsk Oblast, Denis Pasler, recently announced that an enterprise has begun designing and constructing the country\u2019s first factory capable of serial production of microwave microchips across the full [\u2026]",
-            "url": "https://www.eurasiantimes.com/indias-s-400-su-57-future-defended-russia-kills-china/",
-            "image": "https://www.eurasiantimes.com/wp-content/uploads/2026/02/SU-57-2.jpg",
-            "source": "EurAsian Times",
-            "score": 3,
-            "added_time": "2026-02-03T20:23:32.987373+00:00"
-        },
         {
             "story_id": "cef95e6c1f9ddc86d9fea95c6a932cc3",
             "topic": "India",
@@ -893,11 +879,23 @@
             "source": "Times of India",
             "score": 4,
             "added_time": "2026-02-14T08:19:58.166708+00:00"
+        },
+        {
+            "story_id": "182a2a799e950ce8d053c39d1712e535",
+            "topic": "Nirmala Sitharaman",
+            "subtopics": [
+                "In Munich, Nirmala Sitharaman stresses on differentiated climate action responsibilities"
+            ],
+            "title": "Nirmala Sitharaman: In Munich, Nirmala Sitharaman insists on differentiated climate action responsibilities.",
+            "desc": "Nirmala Sitharaman advocates for differentiated climate action responsibilities and technology sharing at a Munich panel discussion.",
+            "url": "https://www.thehindu.com/news/international/india-munich-security-dialogue-nirmala-sitharaman-climate-action/article70632066.ece",
+            "image": "https://th-i.thgim.com/public/incoming/enggoa/article70632172.ece/alternates/LANDSCAPE_1200/nirmala%20sitharaman%203.jpg",
+            "source": "The Hindu",
+            "score": 6,
+            "added_time": "2026-02-15T01:09:26.182651+00:00"
         }
     ],
     "recent_topics": {
-        "Ajcon Global": "2026-02-13T08:32:21.789297+00:00",
-        "James Clerk Maxwell Telescope": "2026-02-13T12:38:04.944629+00:00",
         "Niti Aayog'S": "2026-02-13T16:33:30.948726+00:00",
         "Pova": "2026-02-13T20:26:05.545516+00:00",
         "Krishana Phoschem": "2026-02-14T01:04:33.605885+00:00",
@@ -905,6 +903,7 @@
         "China": "2026-02-14T08:19:58.909728+00:00",
         "The Ai Impact Summit": "2026-02-14T12:24:00.508558+00:00",
         "India": "2026-02-14T16:17:52.992377+00:00",
-        "Ai Summit India News": "2026-02-14T20:15:13.801090+00:00"
+        "Ai Summit India News": "2026-02-14T20:15:13.801090+00:00",
+        "Nirmala Sitharaman": "2026-02-15T01:09:27.367157+00:00"
     }
 }
