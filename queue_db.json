@@ -83,23 +83,39 @@
             "source": "The Economic Times",
             "score": 3,
             "added_time": "2026-02-15T05:17:02.389472+00:00"
+        },
+        {
+            "story_id": "0c5a7d12a33e4bb226bc14deb0bd3d51",
+            "topic": "East India Company",
+            "subtopics": [
+                "Here\u2019s why Zoho\u2019s Sridhar Vembu says Big Tech is the new 'East India Company'",
+                "Sridhar Vembu doubles down on East India Company comparison for Big Tech, says \u2018bigger than most sovereign nations'",
+                "India seeks to broker consensus on global \u2018AI commons\u2019"
+            ],
+            "title": ": Here\u2019s why Zoho\u2019s Sridhar Vembu says Big Tech is the new 'East India Company' Big Tech is the new 'East India Company'",
+            "desc": "Zoho\u2019s Sridhar Vembu says Big Tech is 'bigger than most sovereign nations,' reviving his East India Company analogy after Alphabet\u2019s $32 billion raise.",
+            "url": "https://www.moneycontrol.com/news/business/here-s-why-zoho-s-sridhar-vembu-says-big-tech-is-the-new-east-india-company-13828634.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/10/20251013125921_Sridhar-Vembu.jpg",
+            "source": "Moneycontrol",
+            "score": 3,
+            "added_time": "2026-02-15T16:17:33.646674+00:00"
+        },
+        {
+            "story_id": "2453bae93d6d6dbcb1f4b380d319e09b",
+            "topic": "General",
+            "subtopics": [
+                "Startup valuations cross $4b, outpacing peers"
+            ],
+            "title": "Startup valuations cross $4b, outpacing peers",
+            "desc": "Report flags capital bottleneck as ecosystem grows to 170 VC-backed firms without a unicorn",
+            "url": "https://tribune.com.pk/story/2592639/startup-valuations-cross-4b-outpacing-peers",
+            "image": "https://i.tribune.com.pk/media/images/start1771118742-0/start1771118742-0-640x480.webp",
+            "source": "The Express Tribune",
+            "score": 2,
+            "added_time": "2026-02-15T16:17:33.646709+00:00"
         }
     ],
     "posted": [
-        {
-            "story_id": "9538e1d343a8e74582b63458d6a9985e",
-            "topic": "General",
-            "subtopics": [
-                "Stock Market Today: All You Need To Know Going Into Trade On Feb. 5"
-            ],
-            "title": "Stock Market Today: All You Need To Know Going Into Trade On Feb. 5",
-            "desc": "Stocks in the news, big brokerage calls of the day, complete trade setup and much more!",
-            "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-feb-5-10948019",
-            "image": "https://c.ndtvimg.com/2026-02/4eai4upo_stock-market-hero_625x300_04_February_26.jpg?im=FitAndFill,algorithm=dnn,width=1080,height=607",
-            "source": "NDTV Profit",
-            "score": 6,
-            "added_time": "2026-02-05T16:32:50.366696+00:00"
-        },
         {
             "story_id": "bd88ca5c109c4fe8be749cc5dd33a127",
             "topic": "Ai",
@@ -794,10 +810,27 @@
             "source": "BusinessGhana",
             "score": 4,
             "added_time": "2026-02-14T20:15:13.167144+00:00"
+        },
+        {
+            "story_id": "ac067d476dba7e36f71dfb915f361b9e",
+            "topic": "Rbi",
+            "subtopics": [
+                "Can Sensex, Nifty snap 2-day fall on Monday? 7 factors that could decide market mood this week",
+                "RBI gives nod to Manappuram Finance for BC Asia Investments. Details here",
+                "Stocks to buy or sell: Dharmesh Shah of ICICI Sec suggests buying BEL shares on February 16",
+                "RBI grants approval to Bain Capital for acquiring up to 41.7% stake in Manappuram Finance",
+                "Nvidia CEO Jensen Huang to skip India AI Summit next week, company confirms"
+            ],
+            "title": "Stocks to buy or sell: Stocks to buy or sell: Dharmesh Shah of ICICI Sec suggests buying BEL shares on February 16 February.",
+            "desc": "Benchmark indices Sensex and Nifty 50 dropped over 1% due to a selloff in metal, IT, and commodity sectors amid weak global markets. Disappointing earnings and AI disruption fears added to the negative sentiment, with the Sensex closing at 82,626.76 and Nifty 50 at 25,471.10.",
+            "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-or-sell-dharmesh-shah-of-icici-sec-suggests-buying-bel-shares-on-february-16-11771091470231.html",
+            "image": "https://www.livemint.com/lm-img/img/2026/02/14/1600x900/logo/Dharmesh_Shah_2022_03_1708927453301_1771093016360.jpg",
+            "source": "Mint",
+            "score": 4,
+            "added_time": "2026-02-15T16:17:32.434479+00:00"
         }
     ],
     "recent_topics": {
-        "Krishana Phoschem": "2026-02-14T01:04:33.605885+00:00",
         "United States": "2026-02-14T05:05:37.640786+00:00",
         "China": "2026-02-14T08:19:58.909728+00:00",
         "The Ai Impact Summit": "2026-02-14T12:24:00.508558+00:00",
@@ -805,6 +838,7 @@
         "Ai Summit India News": "2026-02-14T20:15:13.801090+00:00",
         "Nirmala Sitharaman": "2026-02-15T01:09:27.367157+00:00",
         "India Business News": "2026-02-15T08:22:03.376632+00:00",
-        "The United Nations Industrial Development": "2026-02-15T12:25:24.455002+00:00"
+        "The United Nations Industrial Development": "2026-02-15T12:25:24.455002+00:00",
+        "Rbi": "2026-02-15T16:17:33.646746+00:00"
     }
 }
