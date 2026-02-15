@@ -1,48 +1,6 @@
 {
     "queue": [
         {
-            "story_id": "6906a70bbad04d8c3bbf6c78a9a700b8",
-            "topic": "Apk",
-            "subtopics": [
-                "Phishing on the Edge of the Web and Mobile Using QR Codes"
-            ],
-            "title": "Phishing on the Edge of the Web and Mobile Using QR Codes",
-            "desc": "We discuss the extensive use of malicious QR codes using URL shorteners, in-app deep links and direct APK downloads to bypass mobile security.",
-            "url": "https://unit42.paloaltonetworks.com/qr-codes-as-attack-vector/",
-            "image": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/02/01_Vulnerabilities_1920x900.jpg",
-            "source": "Unit 42",
-            "score": 3,
-            "added_time": "2026-02-14T12:23:58.333387+00:00"
-        },
-        {
-            "story_id": "b7501dedfcc13872951b7db989f1c1ee",
-            "topic": "Sulu",
-            "subtopics": [
-                "Asia\u2019s real masters of the sea, from Indonesia\u2019s forgotten kingdom to Vietnam\u2019s ancient empire"
-            ],
-            "title": ": Asia\u2019s real masters of the sea, from Indonesia\u2019s forgotten kingdom to Vietnam\u2019s ancient empire.",
-            "desc": "The Mark Of Empire follows the traces of Asia\u2019s maritime civilisations, from Srivijaya to Sulu, exploring how they continue to shape faith, identity and craft today. Here\u2019s why the series will grab you.",
-            "url": "https://www.channelnewsasia.com/cna-insider/asia-sea-kingdoms-mark-empire-indonesia-vietnam-ancient-history-5923636",
-            "image": "https://dam.mediacorp.sg/image/upload/s--bOhuiMd6--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/02/12/13.jpg?itok=QmG9noqU",
-            "source": "CNA",
-            "score": 3,
-            "added_time": "2026-02-14T12:23:59.419430+00:00"
-        },
-        {
-            "story_id": "b74aa9b264a87cba0308abb36ada26ff",
-            "topic": "Spain",
-            "subtopics": [
-                "ixigo to acquire 60% stake in Spain\u2019s Trenes for Rs 125 Cr, enters Europe"
-            ],
-            "title": "ixigo to acquire 60% stake in Spain\u2019s Trenes for Rs 125 Cr, enters Europe to acquire 60% stake in Spain\u2019s Trenes for Rs 125 Cr, enter",
-            "desc": "ixigo has approved the acquisition of a majority stake in Spain-based online train ticketing platform Trenes for a total investment of around Rs 125 crore.",
-            "url": "https://entrackr.com/news/ixigo-to-acquire-60-stake-in-spains-trenes-for-rs-125-cr-enters-europe-11104761",
-            "image": "https://img-cdn.publive.online/fit-in/1200x675/entrackr/media/media_files/2026/02/13/ixigo-trenes-2026-02-13-22-29-10.png",
-            "source": "Entrackr",
-            "score": 3,
-            "added_time": "2026-02-14T12:24:00.508503+00:00"
-        },
-        {
             "story_id": "3169933c2a757abd3b014816c91f681e",
             "topic": "India Expands Berlinal Footprint With Six Films",
             "subtopics": [
@@ -69,20 +27,6 @@
             "source": "Gulte",
             "score": 3,
             "added_time": "2026-02-14T20:15:12.531829+00:00"
-        },
-        {
-            "story_id": "839aa7f66e5d47050e6d9c9f20678d0a",
-            "topic": "The United Nations Industrial Development",
-            "subtopics": [
-                "BRICS+ Series: Industrial Cooperation and the BRICS Centre for Industrial Competencies"
-            ],
-            "title": "\u00dcberschrift: BRICS+ Series: Industrial Cooperation and the BRICS Centre for Industrial Competencies",
-            "desc": "The BRICS Centre for Industrial Competencies (BCIC), which was launched in April 2025 in partnership with the United Nations Industrial Development...",
-            "url": "http://www.businessghana.com/site/news/business/343375/BRICS+-Series:-Industrial-Cooperation-and-the-BRICS-Centre-for-Industrial-Competencies",
-            "image": "http://www.businessghana.com/site/img/../../cms/img/news/2026-02-13-160606002.jpg",
-            "source": "BusinessGhana",
-            "score": 4,
-            "added_time": "2026-02-14T20:15:13.167144+00:00"
         },
         {
             "story_id": "839aa7f66e5d47050e6d9c9f20678d0a",
@@ -142,20 +86,6 @@
         }
     ],
     "posted": [
-        {
-            "story_id": "888b3efb535675fabfc150b4a721f81b",
-            "topic": "Bse",
-            "subtopics": [
-                "Fractal Analytics IPO GMP rises to 21% as AI solutions provider announces price band"
-            ],
-            "title": "Fractal Analytics IPO GMP rises to 21% as AI solutions provider announces price band",
-            "desc": "Fractal Analytics IPO shares are scheduled to be listed on February 16 on both NSE and BSE.",
-            "url": "https://www.moneycontrol.com/news/business/ipo/fractal-analytics-ipo-gmp-rises-to-21-as-ai-solutions-provider-announces-price-band-13810550.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260204100622_Fractal-Analytics.jpg",
-            "source": "Moneycontrol",
-            "score": 4,
-            "added_time": "2026-02-05T01:02:18.135560+00:00"
-        },
         {
             "story_id": "9538e1d343a8e74582b63458d6a9985e",
             "topic": "General",
@@ -850,10 +780,23 @@
             "source": "Times of India",
             "score": 4,
             "added_time": "2026-02-14T16:17:52.992307+00:00"
+        },
+        {
+            "story_id": "839aa7f66e5d47050e6d9c9f20678d0a",
+            "topic": "The United Nations Industrial Development",
+            "subtopics": [
+                "BRICS+ Series: Industrial Cooperation and the BRICS Centre for Industrial Competencies"
+            ],
+            "title": "\u00dcberschrift: BRICS+ Series: Industrial Cooperation and the BRICS Centre for Industrial Competencies",
+            "desc": "The BRICS Centre for Industrial Competencies (BCIC), which was launched in April 2025 in partnership with the United Nations Industrial Development...",
+            "url": "http://www.businessghana.com/site/news/business/343375/BRICS+-Series:-Industrial-Cooperation-and-the-BRICS-Centre-for-Industrial-Competencies",
+            "image": "http://www.businessghana.com/site/img/../../cms/img/news/2026-02-13-160606002.jpg",
+            "source": "BusinessGhana",
+            "score": 4,
+            "added_time": "2026-02-14T20:15:13.167144+00:00"
         }
     ],
     "recent_topics": {
-        "Pova": "2026-02-13T20:26:05.545516+00:00",
         "Krishana Phoschem": "2026-02-14T01:04:33.605885+00:00",
         "United States": "2026-02-14T05:05:37.640786+00:00",
         "China": "2026-02-14T08:19:58.909728+00:00",
@@ -861,6 +804,7 @@
         "India": "2026-02-15T05:17:02.389539+00:00",
         "Ai Summit India News": "2026-02-14T20:15:13.801090+00:00",
         "Nirmala Sitharaman": "2026-02-15T01:09:27.367157+00:00",
-        "India Business News": "2026-02-15T08:22:03.376632+00:00"
+        "India Business News": "2026-02-15T08:22:03.376632+00:00",
+        "The United Nations Industrial Development": "2026-02-15T12:25:24.455002+00:00"
     }
 }
